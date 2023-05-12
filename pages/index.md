@@ -1,5 +1,6 @@
 ---
-title: Welcome
+permalink: /
+title: Key there!
 cover:  true
 ---
 # Hey there!
