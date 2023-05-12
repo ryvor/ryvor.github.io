@@ -51,14 +51,7 @@ hydejack:
   hide_last_modified:  false
 
   image:
-    path:              /assets/img/projects/hyde-v2.jpg
-
-  dark_mode:
-    always:            true
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
-    icon:              true
+    path:              /assets/img/logo.png
 
   offline:
     enabled:           true
