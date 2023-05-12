@@ -3,7 +3,7 @@ destination:           ./_site
 include:               [_pages]
 
 lang:                  en
-title:                 '@zevyr'
+title:                 '@ryvor'
 description:           'Software developer'
 copyright:             © 2021. All rights reserved.
 
