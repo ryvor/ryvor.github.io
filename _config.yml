@@ -18,10 +18,11 @@ font-code:             ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI M
 
 plugins:
   - jekyll-avatar
-github_username:       zevyr
+github_username:       ryvor
 author:
   social:
-    github:            zevyr
+    github:            ryvor
+    twitter:           _ryvor
 
 hydejack:
   post_addons:         [about, newsletter, related, random, comments]
