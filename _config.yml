@@ -19,6 +19,9 @@ font-code:             ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI M
 plugins:
   - jekyll-avatar
 github_username:       zevyr
+author:
+  social:
+    github:            zevyr
 
 hydejack:
   post_addons:         [about, newsletter, related, random, comments]
