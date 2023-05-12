@@ -3,7 +3,7 @@ layout: home
 title: Hey there!
 #description: 
 permalink: /
-cover:  true
+cover: true
 ---
 
 I'm Robert, also known as @ryvor. I specialize in building websites and management software, and I'm passionate about creating solutions that make people's lives easier.
