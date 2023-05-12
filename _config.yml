@@ -8,7 +8,7 @@ title:                 '@ryvor'
 description:           'Software developer'
 copyright:             © 2023. All rights reserved.
 
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/ryvor.png
 #accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(50, 50, 56)
 theme_color:           rgb(25,55,71)
