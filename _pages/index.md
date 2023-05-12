@@ -1,6 +1,8 @@
 ---
+layout: home
+title: Hey there!
+description: Description
 permalink: /
-title: Key there!
 cover:  true
 ---
 # Hey there!

@@ -28,7 +28,6 @@ redirect_from:
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
 ```html
 <form>
   <div class="form-group">
@@ -81,7 +80,6 @@ redirect_from:
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-group">
@@ -122,7 +120,6 @@ redirect_from:
     <input type="file" class="form-control-file" id="exampleFormControlFile1">
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-group">
@@ -162,7 +159,6 @@ redirect_from:
     <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-group">
@@ -210,8 +206,6 @@ redirect_from:
     </div>
   </div>
 </form>
-
-
 ```html
 <form>
   <div class="form-group row">
@@ -241,7 +235,6 @@ redirect_from:
   </div>
   <button type="submit" class="btn btn-primary">Confirm identity</button>
 </form>
-
 ```html
 <form class="form-inline">
   <div class="form-group">
@@ -271,7 +264,6 @@ redirect_from:
     </label>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-check">
@@ -310,7 +302,6 @@ redirect_from:
     </label>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-check">
@@ -352,7 +343,6 @@ redirect_from:
     </label>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-check form-check-inline">
@@ -391,7 +381,6 @@ redirect_from:
     </label>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-check form-check-inline">
@@ -423,7 +412,6 @@ redirect_from:
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-group">
@@ -448,7 +436,6 @@ redirect_from:
     </div>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-row">
@@ -505,7 +492,6 @@ redirect_from:
   </div>
   <button type="submit" class="btn btn-primary">Sign in</button>
 </form>
-
 ```html
 <form>
   <div class="form-row">
@@ -565,7 +551,6 @@ redirect_from:
     </div>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-row">
@@ -608,7 +593,6 @@ redirect_from:
     </div>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-row align-items-center">
@@ -663,7 +647,6 @@ redirect_from:
     </div>
   </div>
 </form>
-
 ```html
 <form>
   <div class="form-row align-items-center">
@@ -696,39 +679,32 @@ redirect_from:
 <form class="form-inline">
   <label class="sr-only" for="inlineFormInputName2">Name</label>
   <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInputName2" placeholder="Jane Doe">
-
   <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
   <div class="input-group mb-2 mr-sm-2 mb-sm-0">
     <div class="input-group-addon">@</div>
     <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
   </div>
-
   <div class="form-check mb-2 mr-sm-2 mb-sm-0">
     <label class="form-check-label">
       <input class="form-check-input" type="checkbox"> Remember me
     </label>
   </div>
-
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
 ```html
 <form class="form-inline">
   <label class="sr-only" for="inlineFormInputName2">Name</label>
   <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInputName2" placeholder="Jane Doe">
-
   <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
   <div class="input-group mb-2 mr-sm-2 mb-sm-0">
     <div class="input-group-addon">@</div>
     <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
   </div>
-
   <div class="form-check mb-2 mr-sm-2 mb-sm-0">
     <label class="form-check-label">
       <input class="form-check-input" type="checkbox"> Remember me
     </label>
   </div>
-
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 ```
@@ -743,7 +719,6 @@ redirect_from:
     </small>
   </div>
 </form>
-
 ```html
 <form class="form-inline">
   <div class="form-group">
@@ -777,7 +752,6 @@ redirect_from:
     <button type="submit" class="btn btn-primary">Submit</button>
   </fieldset>
 </form>
-
 ```html
 <form>
   <fieldset disabled>
