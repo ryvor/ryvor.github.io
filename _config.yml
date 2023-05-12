@@ -45,14 +45,15 @@ hydejack:
 
   use_lsi:             true
   cookies_banner:      true
-  advertise:           true
+  advertise:           false
   hide_dates:          false
   hide_last_modified:  false
+
   image:
     path:              /assets/img/projects/hyde-v2.jpg
 
   dark_mode:
-    always:            false
+    always:            true
     dynamic:           true
     sunrise:           6
     sunset:            18
