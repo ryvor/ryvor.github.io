@@ -1,8 +1,9 @@
 source:                .
 destination:           ./_site
+include:               [_pages]
 
 lang:                  en
-title:                 @zevyr
+title:                 \@zevyr
 copyright:             © 2021. All rights reserved.
 
 accent_image:          /assets/img/sidebar-bg.jpg
