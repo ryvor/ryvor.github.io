@@ -44,7 +44,7 @@ hydejack:
     icon:              true
 
   offline:
-    enabled:           false
+    enabled:           true
     cache_version:     1
     precache_assets:
       - /assets/img/swipe.svg
@@ -72,6 +72,7 @@ compress_html:
 
 sass:
   style:               compressed
+
 menu:
   - title: Blog
     url:   /blog/
