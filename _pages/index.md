@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Hey there!
-description: Description
+#description: 
 permalink: /
 cover:  true
 ---
