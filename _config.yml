@@ -1,4 +1,4 @@
-source:                ./_site
+destination:           ./_site
 lang:                  en
 title:                 Zevyr
 copyright:             © 2021. All rights reserved.
