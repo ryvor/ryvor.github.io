@@ -1,6 +1,6 @@
 source:                .
 destination:           ./_site
-include:               [./pages]
+include:               [_pages]
 
 lang:                  en
 title:                 @zevyr
