@@ -1,6 +1,6 @@
 destination:           ./_site
-include:
-  - _pages
+include:               [_pages]
+
 lang:                  en
 title:                 Zevyr
 copyright:             © 2021. All rights reserved.
