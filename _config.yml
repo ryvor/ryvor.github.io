@@ -1,5 +1,6 @@
 source:                .
 destination:           ./_site
+include:               [./pages]
 
 lang:                  en
 title:                 Zevyr
