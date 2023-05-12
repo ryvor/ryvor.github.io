@@ -4,6 +4,7 @@ include:               [_pages]
 
 lang:                  en
 title:                 '@zevyr'
+description:           'Software developer'
 copyright:             © 2021. All rights reserved.
 
 accent_image:          /assets/img/sidebar-bg.jpg
