@@ -32,12 +32,12 @@ if (hasFeatures(BASELINE)) {
   import(/* webpackMode: "eager" */ './upgrades');
 
   if (!window._noNavbar) import(/* webpackChunkName: "navbar" */ './navbar');
-  // if (!window._noSearch) import(/* webpackChunkName: "search" */ './pro/search');
+  if (!window._noSearch) import(/* webpackChunkName: "search" */ './pro/search');
 
-  // if (hasFeatures(DARK_MODE_FEATURES)) {
-  //   import(/* webpackMode: "eager" */ './pro/cookies-banner');
-  //   import(/* webpackMode: "eager" */ './pro/dark-mode');
-  // }
+  if (hasFeatures(DARK_MODE_FEATURES)) {
+	import(/* webpackMode: "eager" */ './pro/cookies-banner');
+    import(/* webpackMode: "eager" */ './pro/dark-mode');
+  }
 
   if (window._clapButton && hasFeatures(CLAP_BUTTON_FEATURES)) {
     import(/* webpackChunkName: "clap-button" */ './clap-button');
