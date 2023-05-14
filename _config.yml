@@ -6,7 +6,8 @@
 # ---------------------------------------------------------------------------------------
 source:                .
 destination:           ./_site
-incude:                ./_pages
+incude:                
+  - ./_pages
 lang:                  en-US
 title:                 "@ryvor"
 timezone:              Europe/London
@@ -276,7 +277,6 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
-
 menu:
   - title: Posts
     url:   /Posts/
