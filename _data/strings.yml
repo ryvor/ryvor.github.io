@@ -40,12 +40,10 @@ search_placeholder:    Type something…
 loading:               Loading…
 redirecting:           Redirecting…
 
-continue_reading:      >
-  Continue reading <!--post_title-->
+continue_reading:      Continue reading <!--post_title-->
 
 cookies_banner:
-  text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
+  text:                This site uses cookies. [Cookies Policy](/cookies-policy/).
   okay:                Okay
 
 not_found:
