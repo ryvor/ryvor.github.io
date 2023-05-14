@@ -1,5 +1,5 @@
 ---
 layout:   post
 title:    "Multi Domain X"
-category: projects
+category: _projects
 ---
