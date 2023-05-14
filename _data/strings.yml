@@ -29,7 +29,7 @@ forward:               Forward
 back:                  Back
 permalink:             Permalink
 permalink_icon:        'content-hash'
-templates:             Templates (for web app)
+templates:             Templates
 present:               present
 toc:                   Table of Contents
 note:                  Note
