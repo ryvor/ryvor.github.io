@@ -26,6 +26,11 @@ author:                # This should be the same author as first entry in `_data
     github:            ryvor
     twitter:           _ryvor
     email:             RSmith_20@outlook.com
+menu:
+  - title: Posts
+    url:   /Posts/
+  - title: Projects
+    url:   /Projects/
 
 legal:                  # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 #  - title:             LICENSES
@@ -259,8 +264,3 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
-menu:
-  - title: Posts
-    url:   /Posts/
-  - title: Projects
-    url:   /Projects/
