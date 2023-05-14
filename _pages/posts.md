@@ -3,6 +3,7 @@ layout: default
 title: Posts
 permalink: /Posts/
 ---
+
 <div class="posts">
 	{% for post in paginator.posts %}
 		{% if post._pages == null %}

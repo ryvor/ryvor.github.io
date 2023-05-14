@@ -4,9 +4,10 @@ title: Projects
 category: _projects
 permalink: /Projects/
 ---
+
 <div class="posts">
 	{% for post in paginator.posts %}
-		{% if post._pages == null %}
+		{% if post._projects != null %}
 			<div class="post">
 				<h1 class="post-title">
 					<a href="{{ post.url }}">
