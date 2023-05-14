@@ -7,7 +7,7 @@ more_posts: ./posts.md
 
 ## Hello, World!
 
-Hi, I'm **DRobert Smith**, *a.k.a.* **ryvor**.<br>
+Hi, I'm **Robert Smith**, *a.k.a.* [**@ryvor**]().<br>
 
 Pleaseh check my [resume] if you wish to know more about me.
 
