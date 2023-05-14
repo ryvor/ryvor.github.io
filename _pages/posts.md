@@ -6,7 +6,7 @@ permalink: /Posts/
 
 <div class="posts">
 	{% for post in paginator.posts %}
-		{% if post._pages != null %}
+		{% if post.general != null %}
 		{% else %}
 			<div class="post">
 				<h1 class="post-title">
