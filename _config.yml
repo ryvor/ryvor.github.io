@@ -6,11 +6,12 @@
 # ---------------------------------------------------------------------------------------
 source:                .
 destination:           ./_site
-incude:                
-  - ./_pages
+incude:
+  - _pages
+
 lang:                  en-US
-title:                 "@ryvor"
 timezone:              Europe/London
+title:                 "@ryvor"
 description:           "Software Developer"
 tagline:               "Take it easy, but make it count."
 keywords:              ["", "", "", ""]
@@ -32,6 +33,7 @@ menu:
   - title: Projects
     url:   /Projects/
 
+copyright:             © 2023. All rights reserved.
 legal:                  # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 #  - title:             LICENSES
 #    url:               /licenses/
@@ -41,7 +43,6 @@ legal:                  # Add links to the footer. Typically you'll want to link
 #     url:               /NOTICE/
 #   - title:             CHANGELOG
 #     url:               /CHANGELOG/
-copyright:             © 2023. All rights reserved.
 
 paginate:              10
 paginate_path:         /page-:num/
