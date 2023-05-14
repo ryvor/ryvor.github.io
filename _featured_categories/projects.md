@@ -1,9 +1,9 @@
 ---
 layout: list
 type: category
-title: Review
-slug: review
+title: Projects
+slug: Projects
 sidebar: true
-order: 4
+order: 1
 description: Reviews on hardware/software
 ---
