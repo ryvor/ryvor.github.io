@@ -1,9 +1,6 @@
 ---
-layout: projects
-title: Projects
-show_collection: projects
-description: "All the projects I've done so far."
-no_groups: true
-sidebar: true
-order: 1
+layout:      projects
+title:       Projects
+description: All the projects I've done so far.
+permalink:   /Projects/
 ---

@@ -1,8 +1,9 @@
 ---
-layout: welcome
-title: About
-permalink: /about/
-more_posts: ./posts.md
+layout:      welcome
+title:       About
+description: A little about myself.
+permalink:   /About/
+more_posts:  /posts.md
 ---
 
 ## Hello, World!

@@ -1,6 +1,7 @@
 ---
-layout:    page
-title:     Home
-permalink: /
-cover:     true
+layout:      page
+title:       Home
+description: Welcome
+permalink:   /
+cover:       true
 ---

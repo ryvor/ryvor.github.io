@@ -1,5 +1,7 @@
 ---
-layout: offline
-permalink: offline.html
-sitemap: false
+layout:      offline
+title:       Offline
+description: Offline page
+permalink:   offline.html
+sitemap:     false
 ---
