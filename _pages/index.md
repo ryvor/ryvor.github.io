@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Home
-description: >
-  DaeIn Lee's blog. Work Hard to be Lazy.
+layout:    page
+title:     Home
+permalink: /
+cover:     true
 ---
