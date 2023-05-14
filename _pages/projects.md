@@ -1,20 +1,13 @@
----
+--
 layout: default
-title: Projects
-permalink: /Projects/
+title: My Projects
 ---
 
-<div class="posts">
-	{% for post in paginator.posts %}
-		{%= post.projects %}
-		<div class="post">
-			<h1 class="post-title">
-				<a href="{{ post.url }}">
-					{{ post.title }}
-				</a>
-			</h1>
-			<span class="post-date">{{ post.date | date_to_string }}</span>
-			{{ post.content }}
-		</div>
-	{% endfor %}
-</div>
+<h1>My Projects</h1>
+
+{% for project in site.projects %}
+  <article>
+    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    {{ project.excerpt }}
+  </article>
+{% endfor %}

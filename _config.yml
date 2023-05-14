@@ -58,6 +58,14 @@ hydejack:
     precache_assets:
       - /assets/img/swipe.svg
 
+collections:
+  projects:
+    output: true
+    permalink: /Projects/:title/
+  general:
+    output: true
+    permalink: /Posts/:title/
+
 optional_front_matter:
   remove_originals:    true
 
