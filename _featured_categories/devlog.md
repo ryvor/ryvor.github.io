@@ -5,5 +5,5 @@ title: Dev. Log
 slug: devlog
 sidebar: true
 order: 2
-description: Anything about development
+description: Anything about development ex
 ---
