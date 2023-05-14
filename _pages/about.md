@@ -2,17 +2,13 @@
 layout: welcome
 title: About
 permalink: /about/
-more_posts: posts.md
-sidebar: true
-order: 1
+more_posts: ./posts.md
 ---
 
 ## Hello, World!
 
-Hi, I'm **DaeIn Lee**, *a.k.a.* **Lazy Ren**.<br>
-I'm currently working at **[SAP Labs Korea]**, and previsouly was CSE student of **[Hanyang University]**.<br>
-I like to solve brain teasing problems in field of CSE (probably the reason I liked multi-core programming / OS courses).<br>
-And I'm also a [heavy gamer]!<br>
+Hi, I'm **DRobert Smith**, *a.k.a.* **ryvor**.<br>
+
 Pleaseh check my [resume] if you wish to know more about me.
 
 ***
@@ -56,7 +52,7 @@ Did you lose anything?
 
 ***
 
-Blog created by DaeIn Lee on July 19. 2018 in Vancouver,<br>
+Blog created by Robert Smith on May 14. 2023,<br>
 based on the jekyll theme [Hydejack].
 
 ***
@@ -64,9 +60,5 @@ based on the jekyll theme [Hydejack].
 <!--author-->
 
 <!-- Links -->
-[SAP Labs Korea]: https://www.sap.com/korea/about/labs-korea.html
-[Hanyang University]: https://www.hanyang.ac.kr/
-[heavy gamer]: https://steamcommunity.com/id/lazyren
 [resume]: /resume/
-[original post]: http://blog.vivekmahbubani.com/2007/03/work-hard-to-be-lazy.html
 [Hydejack]: https://hydejack.com

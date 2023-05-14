@@ -111,7 +111,6 @@ kramdown:
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
-
 hydejack:
   post_addons:         [about, comments]        # [about, newsletter, related, random, comments]
   project_addons:      [about, other, comments] # [about, newsletter, other, comments]
@@ -138,12 +137,7 @@ hydejack:
     always:            false                    # Set to `true` to always use the dark theme.
     dynamic:           true                     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
     icon:              true                     # Set to `true` to allow visitors to switch between light and dark mode.
-
-  # ⚡️ DANGER ZONE ⚡️
-  # ----------------
-  # This is an _experimental_ feature.
-  # Only use if you know what Service Workers are and how they can impact your site!
-  offline:
+  offline:                                      # This is an _experimental_ feature. Only use if you know what Service Workers are and how they can impact your site!
     enabled:           true
     cache_version:     13
     precache_assets:
@@ -152,14 +146,11 @@ hydejack:
 
 # Collections
 # ----------------------------------------------------------------------------------------
-
 collections:
-
-
+  
 
 # Plugins
 # ----------------------------------------------------------------------------------------
-
 plugins:
   - jekyll-default-layout
   - jekyll-feed
@@ -175,29 +166,25 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
 
-
 # SEO Tag
 # ---------------------------------------------------------------------------------------
 
-# Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: ""
+
+# google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
 #   bing:                <verification-id>
 #   alexa:               <verification-id>
 #   yandex:              <verification-id>
-
 # Used for twitter cards
 # twitter:
 #   username:            <username>
-
 # Used for facebook open graph
 # facebook:
 #   app_id:              <id>
 #   publisher:           <id>
 #   admins:              <id>
-
 # Used on index and about sites
 # social:
 #   name:                <firstname> <lastname>
@@ -205,38 +192,29 @@ plugins:
 #     - https://twitter.com/<username>
 #     - https://github.com/<username>
 
-
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
-
 optional_front_matter:
   remove_originals:    true
-
 readme_index:
   remove_originals:    true
   with_frontmatter:    true
-
 relative_links:
   collections:         true
-
 titles_from_headings:
   strip_title:         true
   collections:         true
-
 compress_html:
   comments:            ["<!-- ", " -->"]
   clippings:           all
   endings:             all
   ignore:
     envs:              [development]
-
 sass:
   style:               compressed
 
-
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
-
 jekyll_compose:
   default_front_matter:
     drafts:
