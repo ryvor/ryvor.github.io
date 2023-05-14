@@ -3,13 +3,10 @@ basics:
   label: "Software Developer"
   picture: /assets/img/ryvor.png
   email: "RSmith_20@outlook.com"
-  # phone: "(+82) 10-6273-3127"
+  phone: "(+44) 746 599 3448"
   website: "https://ryvor.github.io/"
   summary: >
     Hello, I'm Robert Smith.<br>
-    I like to solve brain teasing problems in the field of CSE.<br>
-    I'd like to describe myself as a fast learner;<br>
-    I am confident that I can satisfy expectations of coworkers.
   location:
     address: "20 Northview Road"
     postalCode: "LU5 5AH"
@@ -21,8 +18,12 @@ basics:
       username: "ryvor"
       url: "https://github.com/ryvor"
     - network: "Twitter"
-      username: "ryvor"
+      username: "_ryvor"
       url: "https://twitter.com/_ryvor/"
+    - network: "Email"
+      username: "RSmith_20@outlook.com"
+      url: "mailto:RSmith_20@outlook.com"
+
 work:
   - company: "SAP Labs Korea"
     position: "HANA Core Developer"
