@@ -114,17 +114,17 @@ kramdown:
 hydejack:
   post_addons:         [about, comments]        # [about, newsletter, related, random, comments]
   project_addons:      [about, other, comments] # [about, newsletter, other, comments]
-  no_mark_external:    true                     # Set to `true` if you don't want to show an icon indicating external links
+  no_mark_external:    false                    # Set to `true` if you don't want to show an icon indicating external links
   no_push_state:       false                    # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_drawer:           false                    # Set to `true` if you want to disable the drawer
   no_navbar:           false                    # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   no_search:           false                    # Set to true to disable the built-in search functionality.
   no_inline_css:       false                    # Set to `true` if you do not want parts of the css inlined in <head/>
-  no_page_style:       true                     # Set to `true` if you don't intend on changing the accent color on a per-page basis.
+  no_page_style:       false                    # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   no_break_layout:     true                     # Code blocks and tables "break" the layout by spanning the full available width.
   no_toc:              false                    # Set to `true` to disable the dynamic Table of Contents on large screens.
   no_third_column:     false                    # When set to `true`, will not extend the content in the "third column" on large screens.
-  no_large_headings:   true                     # Set to `true` if you don't like oversized headlines on large screens.
+  no_large_headings:   false                    # Set to `true` if you don't like oversized headlines on large screens.
   no_structured_data:  false                    # Set to `true` if you do not want to expose your resume and projects in machine-readable formats.
   no_theme_color:      false                    # You can set this to `true` if you don't want to set the `theme-color` meta tag
   no_breadcrumbs:      false                    # Disable the breadcrumbs above the title
