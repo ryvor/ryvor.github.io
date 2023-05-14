@@ -1,8 +1,9 @@
 source:                .
 destination:           ./_site
-include:               
+include:
+  - _pages          
   - _posts
-  - _pages
+  - _projects
 
 lang:                  en
 title:                 '@ryvor'
