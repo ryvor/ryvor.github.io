@@ -2,8 +2,7 @@ source:                .
 destination:           ./_site
 include:               
   - _posts
-  - _projects
-  - _blogs
+  - _pages
 
 lang:                  en
 title:                 '@ryvor'
