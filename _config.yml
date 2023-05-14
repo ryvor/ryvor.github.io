@@ -6,7 +6,17 @@
 # ---------------------------------------------------------------------------------------
 source:                .
 destination:           ./_site
-incude:
+exclude:
+  - .jekyll-cache
+  - .sass-cache
+  - '*.toml'
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+include:
+  - .well-known
+  - LICENSE.md
   - _pages
 
 lang:                  en-US
@@ -20,7 +30,7 @@ logo:                  /assets/img/ryvor.png
 author:                # This should be the same author as first entry in `_data/authors.yml`.
   name:                Robert Smith
   email:               RSmith_20@oulook.com
-  about:               ""
+  about:               "Software Developer"
   picture:
     path:              /assets/img/ryver.png
   social:
@@ -145,21 +155,6 @@ hydejack:
 
 collections:
 
-
-# File inclusion/exclusion
-# ----------------------------------------------------------------------------------------
-
-exclude:
-  - .jekyll-cache
-  - .sass-cache
-  - '*.toml'
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-include:
-  - .well-known
-  - LICENSE.md
 
 
 # Plugins
