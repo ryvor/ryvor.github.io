@@ -1,12 +1,9 @@
 ---
-layout: resume
-title: Resume
-permalink: /resume/
-description: >
-  Hi, I'm DaeIn Lee, SW engineer at Samsung Research.
-hide_description: true
-sidebar: true
-order: 5
+layout:            resume
+title:             Resume
+permalink:         /resume/
+description:       Hi, I'm DaeIn Lee, SW engineer at Samsung Research.
+hide_description:  true
 left_column:
  - work
  - education
@@ -20,9 +17,9 @@ right_column:
  - skills
  - interests
 no_language_icons: false
-no_skill_icons: false
+no_skill_icons:    false
 buttons:
-  print: false
-  pdf: /assets/Resume.pdf
-  json: /assets/resume.json
+  print:           false
+  pdf:             /assets/Resume.pdf
+  json:            /assets/resume.json
 ---
