@@ -1,6 +1,7 @@
 --
-layout: default
-title: My Projects
+layout:    default
+title:     "My Projects"
+permalink: /Projects/
 ---
 
 <h1>My Projects</h1>
