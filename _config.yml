@@ -44,7 +44,7 @@ excerpt_separator:     <!--more-->
 # ----------------------------------------------------------------------------------------
 
 accent_image:          # Sidebar image and theme color of the site.
-  background:          center / cover url(/assets/img/sidebar-bg.gif)
+  background:          center / cover url(/assets/img/sidebar-bg.jpg)
   overlay:             false
 accent_color:          rgb(50, 50, 56)
 theme_color:           rgb(31,55,75)
