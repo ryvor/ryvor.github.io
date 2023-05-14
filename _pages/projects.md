@@ -6,7 +6,6 @@ permalink: /Projects/
 
 <div class="posts">
 	{% for post in paginator.posts %}
-		{%= post %}
 		{%= post.projects %}
 		<div class="post">
 			<h1 class="post-title">
