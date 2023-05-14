@@ -25,14 +25,14 @@ basics:
 work:
   - company:     "Carpetright, St Neots"
     position:    "Store Manager"
-    website:     "https://www.carpetright.co.uk/"
+    website:     "https://www.carpetright.co.uk/store/st-neots/"
     startDate:   "2022-11-16"
     endDate:     "2023-02-28"
     summary:     ""
     highlights:
   - company:     "Carpetright, Dunstable"
     position:    "Store Deputy Manager"
-    website:     "https://www.carpetright.co.uk/"
+    website:     "https://www.carpetright.co.uk/store/dunstable/"
     startDate:   "2021-12-27"
     endDate:     ""
     summary:     ""
@@ -53,7 +53,7 @@ work:
     highlights:
   - company:     "Carpetright, Dunstable"
     position:    "Part time sales assistant"
-    website:     "https://carpetright.co.uk/"
+    website:     "https://carpetright.co.uk/store/dunstable/"
     startDate:   "2017-12-14"
     endDate:     "2022-01-04"
     summary:     ""
@@ -73,7 +73,7 @@ projects:
     startDate:   "2018-08-01"
     endDate:     "2019-10-31"
     summary:     ""
-    url:         "https://lazyren.github.io/tag-multidomainx/"
+    url:         "https://ryvor.github.io/tag-multidomainx/"
     highlights:
 awards:
 skills:
