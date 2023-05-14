@@ -22,4 +22,6 @@ buttons:
   print:           false
   pdf:             /assets/Resume.pdf
   json:            /assets/resume.json
+sidebar: true
+order: 3
 ---
