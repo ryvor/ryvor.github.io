@@ -1,12 +1,8 @@
 ---
-layout:    default
-title:     "My Projects"
-permalink: /Projects/
+layout: projects
+title: Projects
+show_collection: projects
+description: >
+  All the projects I've done so far.
+no_groups: true
 ---
-
-{% for project in site.projects %}
-  <article>
-    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-    {{ project.excerpt }}
-  </article>
-{% endfor %}

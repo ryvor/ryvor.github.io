@@ -1,12 +1,7 @@
 ---
-layout:    default
-title:     "Posts"
-permalink: /Posts/
+layout: list
+title: Posts
+description: >
+  All the posts in blog.
+grouped: true
 ---
-
-{% for project in site.posts %}
-  <article>
-    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-    {{ project.excerpt }}
-  </article>
-{% endfor %}
