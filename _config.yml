@@ -62,7 +62,7 @@ collections:
   projects:
     output: true
     permalink: /Projects/:title/
-  general:
+  posts:
     output: true
     permalink: /Posts/:title/
 
