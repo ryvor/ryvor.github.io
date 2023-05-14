@@ -1,4 +1,4 @@
---
+---
 layout:    default
 title:     "My Projects"
 permalink: /Projects/
