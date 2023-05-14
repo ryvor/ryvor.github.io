@@ -1,7 +1,8 @@
 source:                .
 destination:           ./_site
 include:               
-  - _pages
+  - _posts
+  - _projects
   - _blogs
 
 lang:                  en
