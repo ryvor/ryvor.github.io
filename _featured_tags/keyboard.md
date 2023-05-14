@@ -5,6 +5,5 @@ title: Keyboard
 slug: keyboard
 category: review
 sidebar: false
-description: >
-   Keyboard related posts
+description: Keyboard related posts
 ---

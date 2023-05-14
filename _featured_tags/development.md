@@ -5,6 +5,5 @@ title: Development
 slug: development
 category: devlog
 sidebar: true
-description: >
-   Development Tips & Settings
+description: Development Tips & Settings
 ---

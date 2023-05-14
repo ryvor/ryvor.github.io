@@ -5,6 +5,5 @@ title: Github Pages
 slug: github-pages
 category: devlog
 sidebar: false
-description: >
-   Website hosted via github.
+description: Website hosted via github.
 ---

@@ -5,6 +5,5 @@ title: LEGO
 slug: lego
 category: review
 sidebar: false
-description: >
-   LEGO Reviews
+description: LEGO Reviews
 ---

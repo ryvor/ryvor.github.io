@@ -5,6 +5,5 @@ title: Windows
 slug: windows
 category: devlog
 sidebar: false
-description: >
-   Windows related articles
+description: Windows related articles
 ---

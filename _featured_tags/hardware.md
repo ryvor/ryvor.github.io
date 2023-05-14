@@ -5,6 +5,5 @@ title: Hardware
 slug: hardware
 category: review
 sidebar: false
-description: >
-   Hardware reviews
+description: Hardware reviews
 ---

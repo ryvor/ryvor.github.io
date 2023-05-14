@@ -5,6 +5,5 @@ title: C++
 slug: cpp
 category: studylog
 sidebar: true
-description: >
-   C++ related posts
+description: C++ related posts
 ---

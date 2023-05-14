@@ -5,6 +5,5 @@ title: Blog
 slug: blog
 category: devlog
 sidebar: true
-description: >
-   Posts about blogging / jekyll theme.
+description: Posts about blogging / jekyll theme.
 ---

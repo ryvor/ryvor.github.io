@@ -5,6 +5,5 @@ title: Rust
 slug: rust
 category: studylog
 sidebar: true
-description: >
-   Rust related posts
+description: Rust related posts
 ---

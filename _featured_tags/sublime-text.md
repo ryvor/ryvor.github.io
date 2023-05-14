@@ -5,6 +5,5 @@ title: Sublime Text
 slug: sublime-text
 category: devlog
 sidebar: false
-description: >
-   Sublime Text related articles.
+description: Sublime Text related articles.
 ---

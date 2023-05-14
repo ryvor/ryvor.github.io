@@ -5,6 +5,5 @@ title: Mac
 slug: mac
 category: devlog
 sidebar: false
-description: >
-   Mac related articles
+description: Mac related articles
 ---

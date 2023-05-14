@@ -5,6 +5,5 @@ title: VSCode
 slug: vscode
 category: devlog
 sidebar: false
-description: >
-   Visual Studio Code Text Editor related posts.
+description: Visual Studio Code Text Editor related posts.
 ---

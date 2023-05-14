@@ -5,6 +5,5 @@ title: Coding Interview
 slug: coding-interview
 category: devlog
 sidebar: false
-description: >
-   Self-study for coding interview preparation.
+description: Self-study for coding interview preparation.
 ---

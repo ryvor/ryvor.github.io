@@ -5,6 +5,5 @@ title: Git
 slug: git
 category: devlog
 sidebar: false
-description: >
-   Any article related to Git.
+description: Any article related to Git.
 ---

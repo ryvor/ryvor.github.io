@@ -5,6 +5,5 @@ title: Software
 slug: software
 category: review
 sidebar: false
-description: >
-   Software reviews
+description: Software reviews
 ---

@@ -5,6 +5,5 @@ title: Data Structure
 slug: data-structure
 category: devlog
 sidebar: false
-description: >
-   STL-like Data Structure Implementations
+description: STL-like Data Structure Implementations
 ---
