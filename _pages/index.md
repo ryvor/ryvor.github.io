@@ -1,10 +1,14 @@
 ---
 layout:           page
 cover:            true
+
 image:            /assets/img/2023/05/15/image.jpg
-description:      Welcome to my site!
+# logo:
+
 title:            Hey there!
+description:      Welcome to my site!
 hide_description: true
+
 permalink:        /
 posts_page:       /posts/
 ---
