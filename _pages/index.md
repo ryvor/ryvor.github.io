@@ -12,6 +12,7 @@ order:            0
 image:            /assets/img/banner.png
 
 title:            Hey there!
+hide_title:       true
 description:      Welcome to my site!
 hide_description: true
 permalink:        /
@@ -35,9 +36,3 @@ Thanks for visiting, and I hope you enjoy exploring my work!
 ***
 
 <!--projects-->
-
-***
-
-<!--posts_list-->
-
-***
