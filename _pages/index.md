@@ -36,18 +36,8 @@ Thanks for visiting, and I hope you enjoy exploring my work!
 
 ***
 
-<h2>Latest Posts</h2>
-{% assign posts = site.posts | limit: 3 %}
-{% for post in posts %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
+<!--projects-->
 
 ***
 
-{% assign projects = site.projects | limit: 3 %}
-<h2>Latest Projects</h2>
-{% for project in projects %}
-  <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-  <p>{{ project.excerpt }}</p>
-{% endfor %}
+<!--posts-->
