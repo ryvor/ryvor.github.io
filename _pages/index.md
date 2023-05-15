@@ -16,11 +16,7 @@ description:      Welcome to my site!
 hide_description: true
 permalink:        /
 
-selected_posts:
-  - _posts
 posts_page:       /Posts/
-selected_projects:
-  - _projects
 projects_page:    /Projects/
 ---
 
