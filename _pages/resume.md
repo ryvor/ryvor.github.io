@@ -2,6 +2,9 @@
 layout:            resume
 title:             Resume
 permalink:         /Resume/
+description:       My personal Resume.
+sidebar:           true
+order:             3
 hide_description:  true
 left_column:
  - work
