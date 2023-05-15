@@ -5,4 +5,4 @@ permalink:   /
 cover:       true
 ---
 
-Hi! I'm Robert, otherwise known as [@{{ site.author.social.twitter }}]({{ site.author.social.twitter }})
+Hi! I'm Robert, otherwise known as [@{{ site.data.authors.author1.social.twitter }}]({{site.data.social.twitter.prepend}}{{ site.data.authors.author1.social.twitter }})
