@@ -1,20 +1,21 @@
 ---
 last_modified_at: 2023-05-15
-no_link_title: false 
-no_excerpt: false 
-hide_image: false
+no_link_title:    false 
+no_excerpt:       false 
+hide_image:       false
 
 layout:           welcome
 cover:            true
+sidebar:          false
+order:            0
 
-image:            /assets/img/2023/05/15/banner.png
-# logo:
+image:            /assets/img/welcome/banner.png
 
 title:            Hey there!
 description:      Welcome to my site!
 hide_description: true
-
 permalink:        /
+
 posts_page:       /posts/
 ---
 
