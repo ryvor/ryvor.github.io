@@ -10,6 +10,8 @@ include:
   - .well-known
   - LICENSE.md
   - _pages
+  - _posts
+  - _projects
 exclude:
   - .jekyll-cache
   - .sass-cache
