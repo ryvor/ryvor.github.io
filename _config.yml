@@ -140,8 +140,11 @@ hydejack:
 # ----------------------------------------------------------------------------------------
 collections:
   projects:
-    permalink: /Project/:path/
     output:    true
+    permalink: /Project/:path/
+  posts:
+    output:    true
+    permalink: /Post/:title/
 
   
 
