@@ -168,27 +168,21 @@ plugins:
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
-# google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
+ google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
 # -- or --
-# webmaster_verifications:
-#   google:              <verification-id>
-#   bing:                <verification-id>
-#   alexa:               <verification-id>
-#   yandex:              <verification-id>
+webmaster_verifications:
+  google:              <verification-id>
+  bing:                <verification-id>
+  alexa:               <verification-id>
+  yandex:              <verification-id>
 # Used for twitter cards
-# twitter:
-#   username:            <username>
+twitter:
+  username:            <username>
 # Used for facebook open graph
 # facebook:
 #   app_id:              <id>
 #   publisher:           <id>
 #   admins:              <id>
-# Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
 
 # Plugin Configs
 # ---------------------------------------------------------------------------------------

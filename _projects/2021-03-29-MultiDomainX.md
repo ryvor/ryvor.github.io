@@ -1,5 +1,4 @@
 ---
-
 layout:      project
 title:       Multi Domain X
 date:        2021-03-29 11:37:00
@@ -16,7 +15,7 @@ links:
     url:     http://s908228974.websitehome.co.uk/
   - title:   Source
     url:     https://github.com/Ashwell-Design/MultiDomainX/
-featured:    true
+featured:    false
 ---
 
 
