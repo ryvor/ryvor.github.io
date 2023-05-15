@@ -24,6 +24,8 @@ permalink:        /
 
 posts_page:       /Posts/
 projects_page:    /Projects/
+selected_project:
+  - _projects/MultiDomainX.md
 ---
 
 Hi! I'm Robert, otherwise known as [@{{ site.data.authors.author1.social.github }}]({{site.data.social.github.prepend}}{{site.data.authors.author1.social.github}}). In my free time, I enjoy working on software development projects in a variety of areas. I am particularly passionate about creating new software solutions that can benefit people in all types of industries and domains.

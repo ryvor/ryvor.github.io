@@ -45,8 +45,7 @@ async function getFiles(dir) {
     const prevRegExp = new RegExp(prev, "g");
 
     const args = await Promise.all([
-      getFiles("./hyde/_posts"),
-      getFiles("./hydejack/_posts"),
+      getFiles("./_posts"),
       getFiles("./_projects"),
       getFiles("./docs"),
     ]);
