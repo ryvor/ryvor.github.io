@@ -44,13 +44,13 @@ async function getFiles(dir) {
     const prev = vPrev.replace(/\./g, "\\.");
     const prevRegExp = new RegExp(prev, "g");
 
-    // const args = await Promise.all([
-    //   getFiles("./hyde/_posts"),
-    //   getFiles("./hydejack/_posts"),
-    //   getFiles("./_projects"),
-    //   getFiles("./docs"),
-    // ]);
-    const args = [];
+    const args = await Promise.all([
+      getFiles("./hyde/_posts"),
+      getFiles("./hydejack/_posts"),
+      getFiles("./_projects"),
+      getFiles("./docs"),
+    ]);
+    // const args = [];
       
     const files = Array.prototype.concat.call(FILES, ...args);
 
