@@ -23,8 +23,10 @@ hide_description: true
 permalink:        /
 
 posts_page:       /Posts/
+selected_posts:
+  - _posts/2023-05-15-Welcome.md
 projects_page:    /Projects/
-selected_project:
+selected_projects:
   - _projects/MultiDomainX.md
 ---
 
