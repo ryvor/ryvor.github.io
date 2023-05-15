@@ -16,7 +16,12 @@ description:      Welcome to my site!
 hide_description: true
 permalink:        /
 
-posts_page:       /posts/
+selected_posts:
+  - _posts
+posts_page:       /Posts/
+selected_projects:
+  - _projects
+projects_page:    /Projects/
 ---
 
 Hi! I'm Robert, otherwise known as [@{{ site.data.authors.author1.social.github }}]({{site.data.social.github.prepend}}{{site.data.authors.author1.social.github}}). In my free time, I enjoy working on software development projects in a variety of areas. I am particularly passionate about creating new software solutions that can benefit people in all types of industries and domains.
@@ -29,12 +34,14 @@ Thanks for visiting, and I hope you enjoy exploring my work!
 
 ***
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) ({{ post.date | date_to_string }})
-{% endfor %}
+<!--posts-->
 
 ***
 
-<!--Projects-->
+<!--projects-->
+
+***
+
+<!--posts_list-->
 
 ***
