@@ -3,15 +3,16 @@ basics:
   label: "Software Developer"
   picture: /assets/img/ryvor.png
   email: "RSmith_20@outlook.com"
-  phone: "+44 746 599 3448"
+  # phone: "+44 746 599 3448"
   website: "https://ryvor.github.io/"
   summary: Hello, I'm Robert Smith.
   location:
-    address: "20 Northview Road"
-    postalCode: "LU5 5AH"
-    city: "Dunstable"
-    countryCode: "UK"
-    region: "Bedfordshire"
+    # address: "20 Northview Road"
+    # postalCode: "LU5 5AH"
+    # city: "Dunstable"
+    # countryCode: "UK"
+    # region: "Bedfordshire"
+    country: "England"
   profiles:
     - network: "Github"
       username: "ryvor"
