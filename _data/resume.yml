@@ -3,15 +3,21 @@ basics:
   label: "Software Developer"
   picture: /assets/img/ryvor.png
   email: "RSmith_20@outlook.com"
-  # phone: "+44 746 599 3448"
+  phone: "+44 746 599 3448"
   website: "https://ryvor.github.io/"
-  summary: Hello, I'm Robert Smith.
+  summary: |
+    Hello, I'm Robert Smith. I am an aspiring software developer with a love for all things compuers!
+    I have lots of experience with many different languages ranging from vb.net, to HTML, CSS, JS all the way to assembly and c.
+    Aside from software development, I'm also a quick learner with strong analytical skills and a detail-oriented approach to problem-solving.
+    I thrive in fast-paced, challenging environments where I can use my creativity and technical expertise to develop effective solutions.
+    If you're looking for a dedicated and talented software developer who can bring your vision to life, then look no further!
+    I'm eager to take on new challenges and create amazing software solutions for you and your business.
   location:
-    # address: "20 Northview Road"
-    # postalCode: "LU5 5AH"
-    # city: "Dunstable"
-    # countryCode: "UK"
-    # region: "Bedfordshire"
+    address: "20 Northview Road"
+    postalCode: "LU5 5AH"
+    city: "Dunstable"
+    countryCode: "UK"
+    region: "Bedfordshire"
     country: "England"
   profiles:
     - network: "Github"
@@ -78,18 +84,28 @@ projects:
     highlights:
 awards:
 skills:
-  - name:  ""
-    level: ""
+  - name:  "Web development"
+    level: "3"
     keywords:
+      - Apache
+      - PHP
+      - HTML
+      - CSS
+      - JS
 languages:
   - language: "English"
     fluency:  "Native speaker"
 interests:
-  - name: "Activities"
+  - name: "Nature"
     keywords:
+      - Trees
+      - Forest
+      - Rivers
+      - Beach
+      - Adventure
 references:
   - name: "Simon Hopcroft, Carpetright"
     reference: >
-      It is my pleasure to recommend Robery, his performance working as a Deputy/Manager Cnder carpetright
+      It is my pleasure to recommend Robert, his performance working as a Deputy/Manager Cnder carpetright
       proved that he will be a valuable addition to any company. He has been able to handle anything thrown at him.
 # <https://jsonresume.org/>

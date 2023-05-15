@@ -31,7 +31,7 @@ right_column:
 no_language_icons: false
 no_skill_icons:    false
 buttons:
-  print:           false
+  print:           true
   pdf:             /assets/resume/resume.pdf
   vcf:             /assets/resume/resume.vcf
   json:            /assets/resume/resume.json

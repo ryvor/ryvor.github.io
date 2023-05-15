@@ -83,6 +83,14 @@ defaults:
     values:
       comments:        true
       applause_button: true # https://applause-button.com/
+  - scope:            
+      type:            "tags"
+    values:
+      permalink:       
+  - scope:
+      type:            "pages"
+    values:
+      permalink:       
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
