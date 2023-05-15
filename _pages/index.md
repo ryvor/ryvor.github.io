@@ -22,6 +22,7 @@ description:      Welcome to my site!
 hide_description: true
 permalink:        /
 
+more_posts:       posts.md
 posts_page:       /Posts/
 projects_page:    /Projects/
 ---
@@ -41,3 +42,7 @@ Thanks for visiting, and I hope you enjoy exploring my work!
 ***
 
 <!--projects-->
+
+***
+
+<!--posts_list-->

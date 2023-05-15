@@ -168,7 +168,7 @@ plugins:
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
-# google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
+google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
