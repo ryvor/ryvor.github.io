@@ -1,8 +1,12 @@
 ---
-layout:      page
-title:       Hey there!
-permalink:   /
-cover:       true
+layout:           page
+cover:            true
+image:            /assets/img/2023/05/15/image.jpg
+description:      Welcome to my site!
+title:            Hey there!
+hide_description: true
+permalink:        /
+posts_page:       /posts/
 ---
 
 Hi! I'm Robert, otherwise known as [@{{ site.data.authors.author1.social.twitter }}]({{site.data.social.twitter.prepend}}{{ site.data.authors.author1.social.twitter }}). In my free time, I enjoy working on software development projects in a variety of areas. I am particularly passionate about creating new software solutions that can benefit people in all types of industries and domains.
