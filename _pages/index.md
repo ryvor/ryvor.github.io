@@ -6,13 +6,12 @@ hide_image:       false
 
 layout:           welcome
 cover:            true
-sidebar:          true
+sidebar:          false
 order:            0
 
-image:            /assets/img/banner.png
+image:            # /assets/img/banner.png
 
-title:            Hey there!
-hide_title:       true
+title:            Hey there
 description:      Welcome to my site!
 hide_description: true
 permalink:        /
