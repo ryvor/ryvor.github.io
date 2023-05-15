@@ -3,18 +3,17 @@ layout:      welcome
 title:       About
 description: A little about myself.
 permalink:   /About/
-more_posts:  /posts.md
 ---
 
 ## Hello, World!
 
-Hi, I'm **Robert Smith**, *a.k.a.* [**@ryvor**]({{= site.author.social.github}}).<br>
+Hi, I'm **Robert Smith**, *a.k.a.* [**@{{site.data.authors.authot1.github}}**]({{site.data.social.github.prepend}}{{site.data.authors.authot1.github}}).<br>
 
 Pleaseh check my [resume] if you wish to know more about me.
 
 ***
 
-<!--posts_list-->
+<!--Posts-->
 
 ***
 

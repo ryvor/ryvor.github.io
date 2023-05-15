@@ -29,10 +29,10 @@ Thanks for visiting, and I hope you enjoy exploring my work!
 
 ***
 
-<!--posts-->
+<!--Posts-->
 
 ***
 
-<!--projects-->
+<!--Projects-->
 
 ***
