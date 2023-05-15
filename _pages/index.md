@@ -9,7 +9,7 @@ cover:            true
 sidebar:          false
 order:            0
 
-image:            /assets/img/welcome/banner.png
+image:            /assets/img/banner.png
 
 title:            Hey there!
 description:      Welcome to my site!

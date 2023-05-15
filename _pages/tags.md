@@ -10,7 +10,7 @@ cover:            false
 sidebar:          false
 order:            1
 
-image:            /assets/img/welcome/banner.png
+image:            /assets/img/banner.png
 
 title:            Tags
 description:      List of all categories & tags of the blog.

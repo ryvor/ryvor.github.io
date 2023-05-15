@@ -9,7 +9,7 @@ cover:            false
 sidebar:          true
 order:            2
 
-image:            /assets/img/welcome/banner.png
+image:            /assets/img/banner.png
 
 title:            Posts
 description:      All the posts in blog.

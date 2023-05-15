@@ -9,7 +9,7 @@ cover:            false
 sidebar:          true
 order:            1
 
-image:            /assets/img/welcome/banner.png
+image:            /assets/img/banner.png
 
 title:            Projects
 description:      All the projects I've done so far.
