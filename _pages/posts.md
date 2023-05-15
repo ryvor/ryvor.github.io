@@ -9,7 +9,12 @@ cover:            false
 sidebar:          true
 order:            2
 
-image:            /assets/img/banner.png
+image:
+  path:      /assets/img/banner/banner.png
+  srcset:
+    1920w:   /assets/img/banner/banner@1x.png
+    960w:    /assets/img/banner/banner@0,5x.png
+    480w:    /assets/img/banner/banner@0,25x.png
 
 title:            Posts
 description:      All the posts in blog.

@@ -55,10 +55,10 @@ excerpt_separator:     <!--more-->
 # Customization
 # ----------------------------------------------------------------------------------------
 
-accent_image:          /assets/img/sidebar-bg.jpg # Sidebar image and theme color of the site.
+accent_image:          /assets/img/sidebar/sidebar-bg.png # Sidebar image and theme color of the site.
 accent_color:          rgb(50, 50, 56)
 theme_color:           rgb(25, 55, 71)
-logo:                  /assets/img/ryvor.png
+logo:                  /assets/img//users/ryvor.png
 title:                 "@ryvor"
 description:           "Software Developer"
 tagline:               "Take it easy, but make it count."

@@ -1,7 +1,7 @@
 basics:
   name: "Robert Smith"
   label: "Software Developer"
-  picture: /assets/img/ryvor.png
+  picture: /assets/img/users/ryvor.png
   email: "RSmith_20@outlook.com"
   phone: "+44 746 599 3448"
   website: "https://ryvor.github.io/"
@@ -85,7 +85,7 @@ projects:
 awards:
 skills:
   - name:  "Web development"
-    level: "3"
+    level: "Amateur"
     keywords:
       - Apache
       - PHP
