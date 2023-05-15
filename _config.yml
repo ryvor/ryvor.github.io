@@ -137,6 +137,10 @@ hydejack:
 
 # Collections
 # ----------------------------------------------------------------------------------------
+collections:
+  projects:
+    permalink: /Project/:path/
+    output:    true
 
   
 

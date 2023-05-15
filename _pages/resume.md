@@ -22,6 +22,7 @@ no_language_icons: false
 no_skill_icons:    false
 buttons:
   print:           false
-  pdf:             /assets/Resume.pdf
-  json:            /assets/resume.json
+  pdf:             /assets/resume/Resume.pdf
+  vcf:             http://h2vx.com/vcf/https%3A//ryvor.github.io/Resume/
+  json:            /assets/resume/resume.json
 ---
