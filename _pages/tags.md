@@ -7,7 +7,7 @@ hide_image:       false
 
 layout:           tags
 cover:            false
-sidebar:          true
+sidebar:          false
 order:            1
 
 image:            /assets/img/welcome/banner.png
