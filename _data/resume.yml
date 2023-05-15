@@ -15,7 +15,7 @@ basics:
   profiles:
     - network: "Github"
       username: "ryvor"
-      url: {% include components/social-list-item.html platform=github username=ryvor %}
+      url: "https://github.com/ryvor"
     - network: "Twitter"
       username: "_ryvor"
       url: "https://twitter.com/_ryvor/"
