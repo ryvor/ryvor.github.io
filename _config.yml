@@ -203,7 +203,7 @@ sass:
 
 # Sidebar
 # ---------------------------------------------------------------------------------------
-nav: sidebar-sticky
+nav: sidebar
 menu:
   - title: Posts
     url:   /Posts/
