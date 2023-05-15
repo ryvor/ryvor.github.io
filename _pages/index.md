@@ -6,7 +6,7 @@ hide_image:       false
 
 layout:           welcome
 cover:            true
-sidebar:          false
+sidebar:          true
 order:            0
 
 image:            /assets/img/banner.png
