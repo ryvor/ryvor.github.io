@@ -1,11 +1,21 @@
 ---
-layout:            resume
-title:             Resume
-permalink:         /Resume/
-description:       My personal Resume.
-sidebar:           true
-order:             3
-hide_description:  true
+last_modified_at: 2023-05-15
+no_link_title:    false 
+no_excerpt:       false 
+hide_image:       false
+
+layout:           resume
+cover:            false
+sidebar:          true
+order:            3
+
+image:            /assets/img/banner.png
+
+title:            Resume
+description:      My personal Resume.
+hide_description: true
+permalink:        /Resume/
+
 left_column:
  - work
  - education
