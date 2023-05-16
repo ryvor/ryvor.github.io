@@ -95,7 +95,7 @@ defaults:
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
-# google_analytics:      
+google_analytics:        G-C99N0GNZ2J
 # lightbox:              true
 # tinyletter:            <username>
 
@@ -121,7 +121,7 @@ hydejack:
     no_theme_color:      false                      # You can set this to `true` if you don't want to set the `theme-color` meta tag
     no_breadcrumbs:      false                      # Disable the breadcrumbs above the title
     use_lsi:             false                      # Set to `true` when building with the `--lsi` option
-    cookies_banner:      false                      # When using Google Analytics, set to `true` to display a cookie notice banner.
+    cookies_banner:      true                       # When using Google Analytics, set to `true` to display a cookie notice banner.
     advertise:           false                      # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
     hide_dates:          false
     hide_last_modified:  false
