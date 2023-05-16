@@ -95,7 +95,7 @@ defaults:
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
-google_analytics:        G-C99N0GNZ2J
+google_search_console:        UA-68290006-3
 # lightbox:              true
 # tinyletter:            <username>
 
