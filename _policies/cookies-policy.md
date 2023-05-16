@@ -1,8 +1,25 @@
 ---
-    layout:         page
-    title:          Cookies Policy
-    description:    Coolie policy
-    permalink:      /cookies-policy/
+last_modified_at: 2023-05-15
+no_link_title:    false 
+no_excerpt:       false 
+hide_image:       false
+
+layout:           plain
+cover:            true
+sidebar:          false
+order:            0
+
+image:
+  path:           /assets/img/policies/coolie.png
+  srcset:
+    1920w:        /assets/img/policies/cookie@1x.png
+    960w:         /assets/img/policies/cookie@0,5x.png
+    480w:         /assets/img/policies/cookie@0,25x.png
+
+title:            Cookie policy
+description:      information for the cookies we use
+hide_description: false
+permalink:        /Policies/Cookies/
 ---
 
 ## TL;DR

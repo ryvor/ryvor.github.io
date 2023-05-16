@@ -1,33 +1,32 @@
 ---
-    last_modified_at: 2023-05-15
-    no_link_title:    false 
-    no_excerpt:       false 
-    hide_image:       false
+last_modified_at: 2023-05-15
+no_link_title:    false 
+no_excerpt:       false 
+hide_image:       false
 
-    layout:           welcome
-    cover:            true
-    sidebar:          false
-    order:            0
+layout:           welcome
+cover:            true
+sidebar:          false
+order:            0
 
-    image:
-        path:         /assets/img/banner/banner.png
-        srcset:
-            1920w:    /assets/img/banner/banner@1x.png
-            960w:     /assets/img/banner/banner@0,5x.png
-            480w:     /assets/img/banner/banner@0,25x.png
+image:
+  path:           /assets/img/banner/banner.png
+  srcset:
+    1920w:        /assets/img/banner/banner@1x.png
+    960w:         /assets/img/banner/banner@0,5x.png
+    480w:         /assets/img/banner/banner@0,25x.png
 
-    title:            Hey there
-    description:      Welcome to my site!
-    hide_description: true
-    permalink:        /
+title:            Hey there
+description:      Welcome to my site!
+hide_description: true
+permalink:        /
 
-    posts_page:       /Posts/
-    selected_posts:
-        - _posts/2023-05-15-Welcome.md
-
-    projects_page:    /Projects/
-    selected_projects:
-        - _projects/MultiDomainX.md
+posts_page:       /Posts/
+selected_posts:
+  - _posts/2023-05-15-Welcome.md
+projects_page:    /Projects/
+selected_projects:
+  - _projects/MultiDomainX.md
 ---
 
 Hi! I'm Robert, otherwise known as [@{{ site.data.authors.author1.social.github }}]({{site.data.social.github.prepend}}{{site.data.authors.author1.social.github}}). In my free time, I enjoy working on software development projects in a variety of areas. I am particularly passionate about creating new software solutions that can benefit people in all types of industries and domains.

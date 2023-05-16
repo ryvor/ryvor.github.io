@@ -4,7 +4,7 @@ no_link_title:    false
 no_excerpt:       false 
 hide_image:       false
 
-layout:           post
+layout:           plain
 cover:            true
 sidebar:          false
 order:            0
@@ -16,14 +16,10 @@ image:
     960w:         /assets/img/banner/banner@0,5x.png
     480w:         /assets/img/banner/banner@0,25x.png
 
-title:            Welcome
-description:      Welcome to my blog!
-hide_description: true
+title:            Policies
+description:      All web policies
+hide_description: false
+permalink:        /Policies/
 
-
-date:        2023-05-15 15:42:00
-tag:         General
-featured:    false
+show_collection:  policies
 ---
-
-Welcome to my site!
