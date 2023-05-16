@@ -1,8 +1,8 @@
 ---
-	layout:			page
-	title:			Cookies Policy
-	description:	Coolie policy
-	permalink:		/cookies-policy/
+    layout:         page
+    title:          Cookies Policy
+    description:    Coolie policy
+    permalink:      /cookies-policy/
 ---
 
 ## TL;DR
