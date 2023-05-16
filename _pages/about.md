@@ -1,8 +1,8 @@
 ---
-layout:      welcome
-title:       About
-description: A little about myself.
-permalink:   /About/
+	layout:			welcome
+	title:			About
+	description:	A little about myself.
+	permalink:		/About/
 ---
 
 ## Hello, World!
