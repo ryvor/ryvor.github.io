@@ -4,213 +4,203 @@
 
 # General settings
 # ---------------------------------------------------------------------------------------
-url:                    https://ryvor.github.io/
-source:                 .
-destination:            ./_site
+url:                  https://ryvor.github.io/
+source:               .
+destination:          ./_site
 include:
-    - .well-known
-    - LICENSE.md
-    - _pages
+  - .well-known
+  - LICENSE.md
+  - _pages
 exclude:
-    - .jekyll-cache
-    - .sass-cache
-    - '*.toml'
-    - vendor
-    - Gemfile
-    - Gemfile.lock
-    - node_modules
+  - .jekyll-cache
+  - .sass-cache
+  - '*.toml'
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
 
-lang:                   en-US
-timezone:               Europe/London
+lang:                 en-US
+timezone:             Europe/London
 
-keywords:               ["", "", "", ""]
+keywords:             
+  - MultiDomainX
+  -
 
-author:                 # This should be the same author as first entry in `_data/authors.yml`.
-    name:               Robert Smith
-    email:              RSmith_20@oulook.com
-    about:              "Software Developer"
-    picture:
-        path:           /assets/img/ryvor.png
-    social:
-        github:         ryvor
-        twitter:        _ryvor
-        email:          RSmith_20@outlook.com
-github_username:        ryvor
+author:               # This should be the same author as first entry in `_data/authors.yml`.
+  name:               Robert Smith
+  email:              RSmith_20@oulook.com
+  about:              "Software Developer"
+  picture:
+    path:             /assets/img/ryvor.png
+  social:
+    github:           ryvor
+    twitter:          _ryvor
+    email:            RSmith_20@outlook.com
+github_username:      ryvor
 
-copyright:              © 2023. All rights reserved.
-legal:                  # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-#  - title:             LICENSES
-#    url:               /licenses/
-  - title:             COOKIES POLICY
-    url:               /Policies/Cookies/
-#   - title:             NOTICE
-#     url:               /NOTICE/
-#   - title:             CHANGELOG
-#     url:               /CHANGELOG/
+copyright:            © 2023. All rights reserved.
+legal:                # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+  - title:            LICENSES
+    url:              /licenses/
+  - title:            COOKIES POLICY
+    url:              /Policies/Cookies/
 
-paginate:               10
-paginate_path:          /:num/
-excerpt_separator:      <!--more-->
+paginate:             10
+paginate_path:        /:num/
+excerpt_separator:    <!--more-->
 
 # Customization
 # ----------------------------------------------------------------------------------------
 
-accent_image:           /assets/img/sidebar/sidebar-bg.png # Sidebar image and theme color of the site.
-accent_color:           rgb(50, 50, 56)
-theme_color:            rgb(25, 55, 71)
-logo:                   /assets/img//users/ryvor.png
-title:                  "@ryvor"
-description:            "Software Developer"
-tagline:                "Take it easy, but make it count."
+accent_image:         /assets/img/sidebar/sidebar-bg.png # Sidebar image and theme color of the site.
+accent_color:         rgb(50, 50, 56)
+theme_color:          rgb(25, 55, 71)
+logo:                 /assets/img//users/ryvor.png
+title:                "@ryvor"
+description:          "Software Developer"
+tagline:              "Take it easy, but make it count."
 
-google_fonts:           Roboto+Slab:700|Noto+Sans:400,400i,700,700i
-font:                   system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif
-font_heading:           system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif
-font-code:              ui-monospace,Menlo,Monaco,Cascadia Code,Segoe UI Mono,Roboto Mono,Oxygen Mono,Ubuntu Monospace,Source Code Pro,Fira Code,Droid Sans Mono,DejaVu Sans Mono,Courier New,monospace
+google_fonts:         Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+font:                 system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif
+font_heading:         system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif
+font-code:            ui-monospace,Menlo,Monaco,Cascadia Code,Segoe UI Mono,Roboto Mono,Oxygen Mono,Ubuntu Monospace,Source Code Pro,Fira Code,Droid Sans Mono,DejaVu Sans Mono,Courier New,monospace
 
 defaults:
-    - scope:            # Don't include documents in assets in the sitemap
-        path:           assets/**
-        values:
-        sitemap:        false
-    - scope:            # Don't include licenses in sitemap (feel free to delete)
-        path:           licenses/**
-        values:
-        layout:         plain
-        sitemap:        false
-    - scope:            # You can use the following to enable comments on all posts.
-        type:           posts
-        values:
-        comments:        true
-        applause_button: true # https://applause-button.com/
-    - scope:            
-        type:            "tags"
-        values:
-        permalink:       
-    - scope:
-        type:            "pages"
-        values:
-        permalink:       
+  - scope:              # Don't include documents in assets in the sitemap
+      path:             assets/**
+      type:             ""
+    values:
+      sitemap:          false
+  - scope:              # You can use the following to enable comments on all posts.
+      path:             ""
+      type:             posts
+    values:
+      comments:          true
+      applause_button:  true
+  - scope:              # You can use the following to enable comments on all projects.
+      path:             ""
+      type:             "projects"
+    values:
+      comments:         true
+      applause_button:  true # https://applause-button.com/
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
 google_search_console:
-  enabled:               true
-  tag:                   UA-68290006-3 # UA-xxxxxxxx-x
+  enabled:            true
+  tag:                UA-68290006-3 # UA-xxxxxxxx-x
 lightbox:
-  enabled:               false
+  enabled:            false
 tinyletter:
-  enabled:               false
-  username:              # <username>
-
+  enabled:            false
+  username:           # <username>
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
 hydejack:
-    post_addons:         [about, related, comments] # [about, newsletter, related, random, comments]
-    project_addons:      [about, other, comments]   # [about, newsletter, other, comments]
-    no_mark_external:    false                      # Set to `true` if you don't want to show an icon indicating external links
-    no_push_state:       false                      # Set to `true` if third party plugins fail to work with dynamically loaded pages
-    no_drawer:           false                      # Set to `true` if you want to disable the drawer
-    no_navbar:           false                      # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
-    no_search:           false                      # Set to true to disable the built-in search functionality.
-    no_inline_css:       true                       # Set to `true` if you do not want parts of the css inlined in <head/>
-    no_page_style:       false                      # Set to `true` if you don't intend on changing the accent color on a per-page basis.
-    no_break_layout:     true                       # Code blocks and tables "break" the layout by spanning the full available width.
-    no_toc:              false                      # Set to `true` to disable the dynamic Table of Contents on large screens.
-    no_third_column:     false                      # When set to `true`, will not extend the content in the "third column" on large screens.
-    no_large_headings:   false                      # Set to `true` if you don't like oversized headlines on large screens.
-    no_structured_data:  false                      # Set to `true` if you do not want to expose your resume and projects in machine-readable formats.
-    no_theme_color:      false                      # You can set this to `true` if you don't want to set the `theme-color` meta tag
-    no_breadcrumbs:      false                      # Disable the breadcrumbs above the title
-    use_lsi:             false                      # Set to `true` when building with the `--lsi` option
-    cookies_banner:      true                       # When using Google Analytics, set to `true` to display a cookie notice banner.
-    advertise:           false                      # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
-    hide_dates:          false
-    hide_last_modified:  false
-    dark_mode:
-        always:          false                      # Set to `true` to always use the dark theme.
-        dynamic:         true                       # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-        icon:            true                       # Set to `true` to allow visitors to switch between light and dark mode.
-    offline:                                        # This is an _experimental_ feature. Only use if you know what Service Workers are and how they can impact your site!
-        enabled:         true
-        cache_version:   13
-        precache_assets:
-            - /assets/img/swipe.svg
-            - /assets/img/offline/banner.png
-            - /assets/img/offline/banner@1x.png
-            - /assets/img/offline/banner@0,5x.png
-            - /assets/img/offline/banner@0,25x.png
+  post_addons:        [about, related, comments] # [about, newsletter, related, random, comments]
+  project_addons:     [about, other, comments]   # [about, newsletter, other, comments]
+  no_mark_external:   false                      # Set to `true` if you don't want to show an icon indicating external links
+  no_push_state:      false                      # Set to `true` if third party plugins fail to work with dynamically loaded pages
+  no_drawer:          false                      # Set to `true` if you want to disable the drawer
+  no_navbar:          false                      # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
+  no_search:          false                      # Set to true to disable the built-in search functionality.
+  no_inline_css:      true                       # Set to `true` if you do not want parts of the css inlined in <head/>
+  no_page_style:      false                      # Set to `true` if you don't intend on changing the accent color on a per-page basis.
+  no_break_layout:    true                       # Code blocks and tables "break" the layout by spanning the full available width.
+  no_toc:             false                      # Set to `true` to disable the dynamic Table of Contents on large screens.
+  no_third_column:    false                      # When set to `true`, will not extend the content in the "third column" on large screens.
+  no_large_headings:  false                      # Set to `true` if you don't like oversized headlines on large screens.
+  no_structured_data: false                      # Set to `true` if you do not want to expose your resume and projects in machine-readable formats.
+  no_theme_color:     false                      # You can set this to `true` if you don't want to set the `theme-color` meta tag
+  no_breadcrumbs:     false                      # Disable the breadcrumbs above the title
+  use_lsi:            false                      # Set to `true` when building with the `--lsi` option
+  cookies_banner:     true                       # When using Google Analytics, set to `true` to display a cookie notice banner.
+  advertise:          false                      # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
+  hide_dates:         false
+  hide_last_modified: false
+  dark_mode:
+    always:           false                      # Set to `true` to always use the dark theme.
+    dynamic:          true                       # Set to `true` to use the dark theme based on visitors' preference (OS setting).
+    icon:             true                       # Set to `true` to allow visitors to switch between light and dark mode.
+  offline:                                          # This is an _experimental_ feature. Only use if you know what Service Workers are and how they can impact your site!
+    enabled:          true
+    cache_version:    13
+    precache_assets:
+      - /assets/img/swipe.svg
+      - /assets/img/offline/banner.png
+      - /assets/img/offline/banner@1x.png
+      - /assets/img/offline/banner@0,5x.png
+      - /assets/img/offline/banner@0,25x.png
 
 
 # Collections
 # ----------------------------------------------------------------------------------------
 collections:
-    projects:
-        output:          true
-        permalink:       /Project/:path/
-    posts:
-        output:          true
-        permalink:       /Post/:title/
-    policies:
-        output:          true
-        permalink:       /Policies/:title/
-
-  
+  projects:
+    output:           true
+    permalink:        /Project/:path/
+  posts:
+    output:           true
+    permalink:        /Post/:title/
+  policies:
+    output:           true
+    permalink:        /Policies/:title/
 
 # Plugins
 # ----------------------------------------------------------------------------------------
 plugins:
-    - jekyll-avatar
-    - jekyll-default-layout
-    - jekyll-feed
-    - jekyll-optional-front-matter
-    - jekyll-paginate
-    - jekyll-readme-index
-    - jekyll-redirect-from
-    - jekyll-relative-links
-    - jekyll-seo-tag
-    - jekyll-sitemap
-    - jekyll-titles-from-headings
-    - jekyll-include-cache
-    - jekyll-last-modified-at
-    - jemoji
+  - jekyll-avatar
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-include-cache
+  - jekyll-last-modified-at
+  - jemoji
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
 # google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
 # -- or --
 # webmaster_verifications:
-#   google:              <verification-id>
-#   bing:                <verification-id>
-#   alexa:               <verification-id>
-#   yandex:              <verification-id>
+#   google:             <verification-id>
+#   bing:               <verification-id>
+#   alexa:              <verification-id>
+#   yandex:             <verification-id>
 # Used for twitter cards
 # twitter:
-#   username:            <username>
+#   username:           <username>
 # Used for facebook open graph
 # facebook:
-#   app_id:              <id>
-#   publisher:           <id>
-#   admins:              <id>
+#   app_id:             <id>
+#   publisher:          <id>
+#   admins:             <id>
 
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
 optional_front_matter:
-    remove_originals:    true
+    remove_originals: true
 readme_index:
-    remove_originals:    true
-    with_frontmatter:    true
+    remove_originals: true
+    with_frontmatter: true
 relative_links:
-    collections:         true
+    collections:      true
 titles_from_headings:
-    strip_title:         true
-    collections:         true
+    strip_title:      true
+    collections:      true
 compress_html:
-    comments:            ["<!-- ", " -->"]
-    clippings:           all
-    endings:             all
+    comments:         ["<!-- ", " -->"]
+    clippings:        all
+    endings:          all
 sass:
-    style:               compressed
+    style:            compressed
