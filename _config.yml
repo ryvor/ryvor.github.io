@@ -95,9 +95,14 @@ defaults:
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
-google_search_console:        UA-68290006-3
-# lightbox:              true
-# tinyletter:            <username>
+google_search_console:
+  - enabled:             true
+  - tag:                 UA-68290006-3 # UA-xxxxxxxx-x
+lightbox:
+  - enabled:             false
+tinyletter:
+  - enabled:             false
+  - username:            <username>
 
 
 # Hydejack Settings
