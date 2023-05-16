@@ -108,7 +108,7 @@ hydejack:
   no_drawer:          false                      # Set to `true` if you want to disable the drawer
   no_navbar:          false                      # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   no_search:          false                      # Set to true to disable the built-in search functionality.
-  no_inline_css:      false                      # Set to `true` if you do not want parts of the css inlined in <head/>
+  no_inline_css:      true                       # Set to `true` if you do not want parts of the css inlined in <head/>
   no_page_style:      false                      # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   no_break_layout:    true                       # Code blocks and tables "break" the layout by spanning the full available width.
   no_toc:             false                      # Set to `true` to disable the dynamic Table of Contents on large screens.
