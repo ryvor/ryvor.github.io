@@ -2,13 +2,12 @@
 <script src="/assets/js/clap-button.js"></script>
 {% if site.lightbox %}
   <script src="/assets/js/lightbox.js"></script>
-  <script>
+{% endif %}
+<script>
   document
     .getElementById("_pushState")
     .addEventListener("hy-push-state-load", function () {
       get_clap_count();
       apply_lightbox();
     });
-  </script>
-
-{% endif %}
+</script>
