@@ -170,21 +170,14 @@ plugins:
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
- google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
-# -- or --
 webmaster_verifications:
   google:             "JwhZZPp5_s5wJc5ygjFbnwBAmltfXR7h4owoacJnJ6Q"
-#  bing:               <verification-id>
+#  bing:               <verification-id> # Not Needed as verified through Google Search Console
 #  alexa:              <verification-id>
 #  yandex:             <verification-id>
 # Used for twitter cards
 twitter:
   username:           "_ryvor"
-# Used for facebook open graph
-# facebook:
-#   app_id:             <id>
-#   publisher:          <id>
-#   admins:             <id>
 
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
