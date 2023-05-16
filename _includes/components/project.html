@@ -1,16 +1,10 @@
-{% assign project          = include.page             %}
+{% assign projects         = include.projects         %}
 {% assign no_link_title    = include.no_link_title    %}
 {% assign no_excerpt       = include.no_excerpt       %}
 {% assign hide_image       = include.hide_image       %}
 {% assign hide_description = include.hide_description %}
 
-{% assign separator         = site.data.strings.separator | default:"|" %}
-{% assign nsd               = site.hydejack.no_structured_data | default:site.no_structured_data %}
-{% assign proj_format       = site.data.strings.date_formats.project | default:"%Y" %}
-{% assign from_to_separator = strings.from_to_separator | default:strings.resume.from_to_separator | default:"–" %}
-
-
-<article id="project{{ post.id | replace:'/','-' }}" class="page mb6" role="article">
+<article id="post{{ project.id | replace:'/','-' }}" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
       {% unless no_link_title %}<a href="{{ project.url | relative_url }}" class="flip-title">{% endunless %}
@@ -59,35 +53,25 @@
       {% endunless %}
     </div>
 
-    {% assign screenshot = project.screenshot | default:project.image %}
-	{% assign alt = false %}
-    {% unless hide_image %}
-	  {% if project.image %}
-        {% unless no_link_title %}<a href="{{ project.url | relative_url }}" class="no-hover no-print-link {% unless project.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
-          <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
-            {% include_cached components/hy-img.html
-			  img=screenshot
-			  sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
-			  alt=project.title
-			  property="image"
-			  width=864
-			  height=486
-		    %}
-          </div>
-        {% unless no_link_title %}</a>{% endunless %}
-        {% assign alt = '' %}
-      {% endif %}
-	{% endunless %}
+    {% assign alt = false %}
+    {% unless hide_image %}{% if project.image %}
+      {% unless no_link_title %}<a href="{{ project.url | relative_url }}" class="no-hover no-print-link {% unless project.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          {% include_cached components/hy-img.html img=project.image alt=project.title width=864 height=486 %}
+        </div>
+      {% unless no_link_title %}</a>{% endunless %}
+      {% assign alt = '' %}
+    {% endif %}{% endunless %}
 
-    {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
-    {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
+    {% include components/message.html text=project.description hide=hide_description alt=alt %}
   </header>
 
   {% if no_excerpt %}
-    {{ post.content }}
+    {{ project.content }}
   {% else %}
-    {{ post.excerpt }}
-    {% capture post_title %}<a class="heading flip-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endcapture %}
+    {{ project.excerpt }}
+
+    {% capture post_title %}<a class="heading flip-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>{% endcapture %}
     {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--post_title-->" %}
     <footer>
       <p class="read-more">
