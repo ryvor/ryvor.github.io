@@ -18,7 +18,7 @@ image:
 caption:          
 
 title:            Cookies
-date:             
+date:             2023-05-15
 description:      information for the cookies we use
 hide_description: false
 slug:             Cookies
