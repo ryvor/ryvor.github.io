@@ -96,13 +96,13 @@ defaults:
 # ----------------------------------------------------------------------------------------
 
 google_search_console:
-  - enabled:             true
-  - tag:                 UA-68290006-3 # UA-xxxxxxxx-x
+  enabled:               true
+  tag:                   UA-68290006-3 # UA-xxxxxxxx-x
 lightbox:
-  - enabled:             false
+  enabled:               false
 tinyletter:
-  - enabled:             false
-  - username:            # <username>
+  enabled:               false
+  username:              # <username>
 
 
 # Hydejack Settings
