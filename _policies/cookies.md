@@ -3,9 +3,8 @@ last_modified_at: 2023-05-15
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
-hide_title:       false
 
-layout:           plain
+layout:           page
 cover:            false
 sidebar:          false
 order:            0
@@ -19,12 +18,12 @@ image:
 caption:          
 
 title:            Cookies
-date:             2023-05-15
+hide_title:       false
 description:      information for the cookies we use
 hide_description: false
+date:             2023-05-15
 slug:             Cookies
 featured:         false
-
 ---
 
 ## TL;DR
