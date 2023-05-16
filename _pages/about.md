@@ -5,7 +5,7 @@ no_excerpt:       false
 hide_image:       false
 
 layout:           about
-cover:            true
+cover:            false
 sidebar:          false
 order:            0
 
