@@ -8,7 +8,9 @@ layout: base
 {% assign minor = version[1] | plus:0 %}
 {% assign patch = version[2] | plus:0 %}
 
-{% include_cached components/project.html project=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+{% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+
+{% include components/dingbat.html %}
 
 {% assign addons = page.addons | default:site.hydejack.project_addons %}
 {% unless addons %}
