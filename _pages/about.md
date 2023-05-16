@@ -3,6 +3,7 @@ last_modified_at: 2023-05-15
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
+hide_title:       false
 
 layout:           about
 cover:            false

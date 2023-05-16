@@ -9,14 +9,17 @@ layout: base
 {% assign patch      = version[2] | plus:0 %}
 
 {% assign no_link_title = true %}
-{% assign hide_image    = page.hide_image %}
+{% assign hide_image    = page.hide_image   %}
+{% assign hide_title    = page.hide_title   %}
 {% assign strings       = site.data.strings %}
 
 <div class="page">
     <header>
-      <h1 class="page-title" property="name">
-        {{ page.title | default:strings.not_found.title | default: "404: Page Not Found" }}
-      </h1>
+		{% unless hide_title %}
+          <h1 class="page-title" property="name">
+            {{ page.title | default:strings.not_found.title | default: "404: Page Not Found" }}
+          </h1>
+		{% endunless %}
       {% assign alt = false %}
       {% unless hide_image %}
         {% if page.image %}
