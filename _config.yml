@@ -92,7 +92,7 @@ google_search_console:
   enabled:            true
   tag:                UA-68290006-3 # UA-xxxxxxxx-x
 lightbox:
-  enabled:            false
+  enabled:            true
 tinyletter:
   enabled:            false
   username:           # <username>
