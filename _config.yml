@@ -102,7 +102,7 @@ lightbox:
   - enabled:             false
 tinyletter:
   - enabled:             false
-  - username:            <username>
+  - username:            # <username>
 
 
 # Hydejack Settings
