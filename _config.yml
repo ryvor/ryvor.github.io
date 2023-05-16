@@ -126,7 +126,7 @@ hydejack:
     always:           false                      # Set to `true` to always use the dark theme.
     dynamic:          true                       # Set to `true` to use the dark theme based on visitors' preference (OS setting).
     icon:             true                       # Set to `true` to allow visitors to switch between light and dark mode.
-  offline:                                          # This is an _experimental_ feature. Only use if you know what Service Workers are and how they can impact your site!
+  offline:                                       # This is an _experimental_ feature. Only use if you know what Service Workers are and how they can impact your site!
     enabled:          true
     cache_version:    13
     precache_assets:
@@ -170,16 +170,16 @@ plugins:
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
-# google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
+ google_site_verification: "" # Where you proof that you own this site (used by jekyll-seo-tag)
 # -- or --
-# webmaster_verifications:
-#   google:             <verification-id>
-#   bing:               <verification-id>
-#   alexa:              <verification-id>
-#   yandex:             <verification-id>
+webmaster_verifications:
+  google:             "JwhZZPp5_s5wJc5ygjFbnwBAmltfXR7h4owoacJnJ6Q"
+#  bing:               <verification-id>
+#  alexa:              <verification-id>
+#  yandex:             <verification-id>
 # Used for twitter cards
-# twitter:
-#   username:           <username>
+twitter:
+  username:           "_ryvor"
 # Used for facebook open graph
 # facebook:
 #   app_id:             <id>
