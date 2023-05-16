@@ -15,7 +15,7 @@
     <div class="post-date">
       {% capture foobar %}
         {%- unless site.hydejack.hide_dates -%}
-          {%- assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" -%}
+          {%- assign post_format = site.data.strings.date_formats.project | default:"%d %b %Y" -%}
           <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:post_format }}</time>
         {%- else -%}
           {{- site.data.strings.posted | default:"Posted" -}}
@@ -71,11 +71,11 @@
   {% else %}
     {{ project.excerpt }}
 
-    {% capture post_title %}<a class="heading flip-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>{% endcapture %}
-    {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--post_title-->" %}
+    {% capture project_title %}<a class="heading flip-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>{% endcapture %}
+    {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--project_title-->" %}
     <footer>
       <p class="read-more">
-        {{ text | replace:"<!--post_title-->", post_title }}
+        {{ text | replace:"<!--project_title-->", project_title }}
       </p>
     </footer>
   {% endif %}
