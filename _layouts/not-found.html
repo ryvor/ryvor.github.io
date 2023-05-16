@@ -1,26 +1,34 @@
 ---
 # Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
 layout: base
 ---
 
+{% assign version = jekyll.version | split:'.' %}
+{% assign major = version[0] | plus:0 %}
+{% assign minor = version[1] | plus:0 %}
+{% assign patch = version[2] | plus:0 %}
 {% assign strings = site.data.strings %}
 
 <div class="page">
-  <h1 class="page-title">{{ page.title | default:strings.not_found.title | default: "404: Page Not Found" }}</h1>
+	<header>
+	  <h1 class="page-title" property="name">
+		{{ page.title | default:strings.not_found.title | default: "404: Page Not Found" }}
+	  </h1>
+	  {% assign alt = false %}
+	  {% unless hide_image %}{% if post.image %}
+		{% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
+		  <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+			{% include_cached components/hy-img.html img=post.image alt=post.title width=864 height=486 %}
+		  </div>
+		{% unless no_link_title %}</a>{% endunless %}
+		{% assign alt = '' %}
+	  {% endif %}{% endunless %}
+  
+	  {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
+	  {% if project.caption %}
+        <meta property="disambiguatingDescription" content="{{ page.caption }}"/>
+      {% endif %}
+	</header>
   <div class="hr pb0"></div>
 
   {% assign test = page.content | strip_newlines %}
