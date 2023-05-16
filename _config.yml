@@ -30,7 +30,7 @@ author:                 # This should be the same author as first entry in `_dat
     email:              RSmith_20@oulook.com
     about:              "Software Developer"
     picture:
-        path:           /assets/img/ryver.png
+        path:           /assets/img/ryvor.png
     social:
         github:         ryvor
         twitter:        _ryvor
