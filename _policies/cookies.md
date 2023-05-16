@@ -19,7 +19,7 @@ image:
 title:            Cookie policy
 description:      information for the cookies we use
 hide_description: false
-permalink:        /Policies/Cookies/
+
 ---
 
 ## TL;DR

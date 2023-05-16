@@ -41,8 +41,8 @@ copyright:              © 2023. All rights reserved.
 legal:                  # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 #  - title:             LICENSES
 #    url:               /licenses/
-#  - title:             COOKIES POLICY
-#    url:               /cookies-policy/
+  - title:             COOKIES POLICY
+    url:               /Policies/Cookies/
 #   - title:             NOTICE
 #     url:               /NOTICE/
 #   - title:             CHANGELOG
@@ -149,6 +149,9 @@ collections:
     posts:
         output:          true
         permalink:       /Post/:title/
+    policies:
+        output:          true
+        permalink:       /Policies/:title/
 
   
 
