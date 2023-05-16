@@ -87,6 +87,24 @@ defaults:
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
+comments:              # 'disqus' / 'giscus' / 'utterances' are available
+  provider:            giscus
+giscus:
+  repo:                "ryvor/ryvor.github.io"
+  repo-id:             "638951686"
+  category:            "Comments"
+  category-id:         "DIC_kwDOEHDTNc4B-MIg"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  data-emit-metadata:  "0"
+  theme:               "dark_dimmed"
+  data-lang:           "en"
+  crossorigin:         "anonymous"
+  
+kramdown:
+  math_engine:         mathjax
+  math_engine_opts:    {}
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
 
 google_search_console:
   enabled:            true
