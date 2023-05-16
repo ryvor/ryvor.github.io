@@ -16,7 +16,7 @@ image:
     960w:         /assets/img/policies/cookie@0,5x.png
     480w:         /assets/img/policies/cookie@0,25x.png
 
-title:            Cookie policy
+title:            Cookies
 description:      information for the cookies we use
 hide_description: false
 
