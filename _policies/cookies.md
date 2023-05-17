@@ -17,7 +17,7 @@ image:
     480w:         /assets/img/policies/cookie/banner@0,25x.png
 caption:          
 
-title:            Cookies
+title:            Cookies policy
 hide_title:       false
 description:      information for the cookies we use
 hide_description: false
