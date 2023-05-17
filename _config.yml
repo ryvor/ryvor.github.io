@@ -96,7 +96,7 @@ giscus:
   mapping:             "pathname"
   reaction-enabled:    "1"
   data-emit-metadata:  "0"
-  theme:               "dark_dimmed"
+  theme:               "preferred_color_scheme"
   data-lang:           "en"
   crossorigin:         "anonymous"
   
