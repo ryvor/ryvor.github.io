@@ -15,8 +15,7 @@ image:
     1920w:        /assets/img/policies/cookie/banner@1x.png
     960w:         /assets/img/policies/cookie/banner@0,5x.png
     480w:         /assets/img/policies/cookie/banner@0,25x.png
-caption:          
-
+caption:          Cookies policy
 title:            Cookies policy
 hide_title:       false
 description:      information for the cookies we use

@@ -158,18 +158,18 @@ hydejack:
 # Collections
 # ----------------------------------------------------------------------------------------
 collections:
-  projects:
-    output:           true
-    permalink:        /Project/:path/
-  posts:
-    output:           true
-    permalink:        /Post/:title/
   policies:
     output:           true
     permalink:        /Policies/:title/
   licenses:
     output:           true
     permalink:        /Licenses/:title/
+  projects:
+    output:           true
+    permalink:        /Project/:path/
+  posts:
+    output:           true
+    permalink:        /Post/:title/
 
 # Plugins
 # ----------------------------------------------------------------------------------------
