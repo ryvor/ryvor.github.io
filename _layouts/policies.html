@@ -3,20 +3,63 @@
 layout: page
 ---
 
-{{ content }}
+{% assign version    = jekyll.version | split:'.' %}
+{% assign major      = version[0] | plus:0 %}
+{% assign minor      = version[1] | plus:0 %}
+{% assign patch      = version[2] | plus:0 %}
 
-{% assign show_collection = page.show_collection | default:"licenses" %}
+{% assign show_collection = page.show_collection | default:"policies" %}
 {% assign empty_col = '' | split:'.' %}
-{% assign ordered_licenses = site[show_collection] | default:empty_col | sort:"title" %}
+{% assign ordered_policies = site[show_collection] | default:empty_col | sort:"title" %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
-{% assign licenses_group_by = site.data.strings.date_formats.licenses_group_by | default:"%Y" %}
+{% assign policies_group_by = site.data.strings.date_formats.policies_group_by | default:"%Y" %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
+
+{% assign no_link_title = true %}
+{% assign hide_image    = page.hide_image   %}
+{% assign hide_title    = page.hide_title   %}
+{% assign strings       = site.data.strings %}
+
+
+<div class="page">
+  <header>
+    {% unless hide_title %}
+      <h1 class="page-title" property="name">
+        {{ page.title }}
+      </h1>
+    {% endunless %}
+
+    {% assign alt = false %}
+    {% unless hide_image %}
+      {% if page.image %}
+        {% unless no_link_title %}
+          <a href="{{ page.url | relative_url }}" class="no-hover no-print-link {% unless page.hide_image %}flip-project{% endunless %}" tabindex="-1">
+        {% endunless %}
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          {% include_cached components/hy-img.html img=page.image alt=page.title width=864 height=486 %}
+        </div>
+        {% unless no_link_title %}
+          </a>
+        {% endunless %}
+        {% assign alt = '' %}
+      {% endif %}
+    {% endunless %}
+
+    {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
+    {% if project.caption %}
+      <meta property="disambiguatingDescription" content="{{ page.caption }}"/>
+    {% endif %}
+  </header>
+
+  {{ content }}
+
+  
 {% assign prev_letter = 0 %}
 {% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
-{% for license in ordered_licenses %}
-  {% assign current_letter = license.title | slice: 0 | upcase %}
+{% for policy in ordered_policies %}
+  {% assign current_letter = policy.title | slice: 0 | upcase %}
 
   {% unless page.no_groups %}
     {% if current_letter != prev_letter %}
@@ -27,9 +70,9 @@ layout: page
     {% endif %}
   {% endunless %}
 
-  {% assign featured = page.featured | default:license.featured | default:page.big_license | default:license.big_license %}
+  {% assign featured = page.featured | default:policy.featured | default:page.big_policy | default:policy.big_policy %}
   <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
-    {% include_cached pro/license-card.html license=license featured=featured %}
+    {% include components/policy-card.html policy=policy featured=featured %}
   </div>
 
   {% if forloop.last %}</div>{% endif %}

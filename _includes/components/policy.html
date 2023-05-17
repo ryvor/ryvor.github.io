@@ -1,0 +1,59 @@
+{% assign policy           = include.post             %}
+{% assign no_link_title    = include.no_link_title    %}
+{% assign no_excerpt       = include.no_excerpt       %}
+{% assign hide_image       = include.hide_image       %}
+{% assign hide_description = include.hide_description %}
+
+<article id="post{{ policy.id | replace:'/','-' }}" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      {% unless no_link_title %}<a href="{{ policy.url | relative_url }}" class="flip-title">{% endunless %}
+        {{ policy.title }}
+      {% unless no_link_title %}</a>{% endunless %}
+    </h1>
+
+    <div class="post-date">
+      {% capture foobar %}
+        {%- unless site.hydejack.hide_dates -%}
+          {%- assign policy_format = site.data.strings.date_formats.policy | default:"%d %b %Y" -%}
+          <time datetime="{{ policy.date | date_to_xmlschema }}">{{ policy.date | date:policy_format }}</time>
+        {%- else -%}
+          {{- site.data.strings.posted | default:"Posted" -}}
+        {%- endunless -%}
+        {% if policy.applause_button %}
+          {{ ' ' }}
+          <span class="clap-count" data-url="{{ policy.url | absolute_url }}"></span>
+        {% endif %}
+      {% endcapture %}
+      <span class="ellipsis mr1">
+        {{ foobar }}
+      </span>
+    </div>
+
+    {% assign alt = false %}
+    {% unless hide_image %}{% if policy.image %}
+      {% unless no_link_title %}<a href="{{ policy.url | relative_url }}" class="no-hover no-print-link {% unless policy.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          {% include_cached components/hy-img.html img=policy.image alt=policy.title width=864 height=486 %}
+        </div>
+      {% unless no_link_title %}</a>{% endunless %}
+      {% assign alt = '' %}
+    {% endif %}{% endunless %}
+
+    {% include components/message.html text=policy.description hide=hide_description alt=alt %}
+  </header>
+
+  {% if no_excerpt %}
+    {{ policy.content }}
+  {% else %}
+    {{ policy.excerpt }}
+
+    {% capture policy_title %}<a class="heading flip-title" href="{{ policy.url | relative_url }}">{{ policy.title }}</a>{% endcapture %}
+    {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--policy_title-->" %}
+    <footer>
+      <p class="read-more">
+        {{ text | replace:"<!--policy_title-->", policy_title }}
+      </p>
+    </footer>
+  {% endif %}
+</article>
