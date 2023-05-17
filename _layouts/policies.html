@@ -25,12 +25,6 @@ layout: page
 
 <div class="page">
   <header>
-    {% unless hide_title %}
-      <h1 class="page-title" property="name">
-        {{ page.title }}
-      </h1>
-    {% endunless %}
-
     {% assign alt = false %}
     {% unless hide_image %}
       {% if page.image %}
