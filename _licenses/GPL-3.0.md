@@ -1,11 +1,11 @@
 ---
-last_modified_at: 2023-05-17
+last_modified_at: 
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
 hide_title:       false
 
-layout:           project
+layout:           page
 cover:            false
 sidebar:          false
 order:            0
@@ -19,16 +19,14 @@ image:
 caption:          General Public License logo
 
 title:            GNU General Public License
-date:             2021-03-29 11:37:00
-description:      
+date:             2007-06-29
+description:      Version 3.0
 hide_description: true
 slug:             GPL-2.0
 featured:         false
 ---
 
-# GNU GENERAL PUBLIC LICENSE
-
-Version 3, 29 June 2007
+# GNU General Public License
 
 Copyright (C) 2007 Free Software Foundation, Inc.
 <http://fsf.org/>

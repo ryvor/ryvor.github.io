@@ -5,7 +5,7 @@ no_excerpt:       false
 hide_image:       false
 hide_title:       false
 
-layout:           project
+layout:           page
 cover:            false
 sidebar:          false
 order:            0
