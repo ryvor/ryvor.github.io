@@ -19,11 +19,11 @@
     </h1>
     <p class="post-date heading">
       <span class="ellipsis mr1">
-        {% if parent %}
+        {% if parent.size > 0 %}
           <a href="{{ parent.url | relative_url }}" class="flip-title" property="genre">{{ parent.title }}</a>
         {% endif %}
         {% unless site.hydejack.hide_dates %}
-          {% if parent %}
+          {% if parent.size > 0 %}
             {{ separator }}
           {% endif %}
           {%- assign project_format = site.data.strings.date_formats.project | default:"%d %b %Y" -%}
