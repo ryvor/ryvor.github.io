@@ -27,7 +27,7 @@ featured:         false
 
 links:
   - title:        Source
-    url:          https://github.com/ryvor/AvaAssistant/
+    url:          https://github.com/ryvor/Ava-Assistant/
 ---
 
 
