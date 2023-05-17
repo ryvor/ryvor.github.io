@@ -22,7 +22,6 @@
         {% if parent %}
           <a href="{{ parent.url | relative_url }}" class="flip-title" property="genre">{{ parent.title }}</a>
         {% endif %}
-
         {% unless site.hydejack.hide_dates %}
           {% if parent %}
             {{ separator }}
@@ -50,6 +49,7 @@
         {% endfor %}
       </span>
     </p>
+
     {% assign alt = false %}
     {% unless hide_image %}
       {% if project.image %}
