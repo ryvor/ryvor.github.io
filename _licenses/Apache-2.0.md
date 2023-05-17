@@ -1,3 +1,28 @@
+---
+last_modified_at: 2023-05-17
+no_link_title:    false
+no_excerpt:       false
+hide_image:       false
+hide_title:       false
+
+layout:           plain
+cover:            false
+sidebar:          false
+order:            0
+
+image:
+  path:           /assets/img/licences/apache-2.0/banner.png
+  srcset:
+    1920w:        /assets/img/licences/apache-2.0/banner@1x.png
+    960w:         /assets/img/licences/apache-2.0/banner@0,5x.png
+    480w:         /assets/img/licences/apache-2.0/banner@0,25x.png
+
+title:            Apache Licence
+description:      Page not found
+hide_description: false
+
+---
+
 # Apache License
 
 Version 2.0, January 2004
