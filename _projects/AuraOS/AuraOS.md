@@ -16,7 +16,7 @@ image:
     1920w:        /assets/img/projects/AuraOS/banner@1x.png
     960w:         /assets/img/projects/AuraOS/banner@0,5x.png
     480w:         /assets/img/projects/AuraOS/banner@0,25x.png
-caption:          Aura OS Logo
+caption:          A simple OS aimed to be clean and easy to use
 
 title:            Aura OS
 date:             2021-03-29 11:37:00
