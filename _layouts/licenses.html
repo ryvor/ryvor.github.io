@@ -24,22 +24,6 @@ layout: page
 
 
 <div class="page">
-    {% assign alt = false %}
-    {% unless hide_image %}
-      {% if page.image %}
-        {% unless no_link_title %}
-          <a href="{{ page.url | relative_url }}" class="no-hover no-print-link {% unless page.hide_image %}flip-project{% endunless %}" tabindex="-1">
-        {% endunless %}
-        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
-          {% include_cached components/hy-img.html img=page.image alt=page.title width=864 height=486 %}
-        </div>
-        {% unless no_link_title %}
-          </a>
-        {% endunless %}
-        {% assign alt = '' %}
-      {% endif %}
-    {% endunless %}
-
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
     {% if project.caption %}
       <meta property="disambiguatingDescription" content="{{ page.caption }}"/>
