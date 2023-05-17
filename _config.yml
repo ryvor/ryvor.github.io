@@ -88,7 +88,7 @@ defaults:
       path:             "assets/js/sw.js"
       type:             ""
     values:
-      permalink:        /sw.js
+      permalink:        sw.js
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
