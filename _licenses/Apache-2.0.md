@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-05-15
+last_modified_at: 2023-05-17
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
@@ -20,7 +20,7 @@ caption:          Apache logo
 
 title:            Apache License
 date:             2021-03-29 11:37:00
-description:      Information about Aura OS
+description:      
 hide_description: true
 slug:             Apache-2.0
 featured:         false

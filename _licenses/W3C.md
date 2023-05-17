@@ -1,3 +1,31 @@
+---
+last_modified_at: 2023-05-17
+no_link_title:    false 
+no_excerpt:       false 
+hide_image:       false
+hide_title:       false
+
+layout:           project
+cover:            false
+sidebar:          false
+order:            0
+
+image:
+  path:           /assets/img/licenses/W3C/banner.png
+  srcset:
+    1920w:        /assets/img/licenses/W3C/banner@1x.png
+    960w:         /assets/img/licenses/W3C/banner@0,5x.png
+    480w:         /assets/img/licenses/W3C/banner@0,25x.png
+caption:          W3C logo
+
+title:            W3C License
+date:             2021-03-29 11:37:00
+description:      
+hide_description: true
+slug:             W3C
+featured:         false
+---
+
 # W3C SOFTWARE NOTICE AND LICENSE
 
 **Status**: This license takes effect 13 May, 2015.

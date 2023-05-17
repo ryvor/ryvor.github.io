@@ -1,3 +1,31 @@
+---
+last_modified_at: 2023-05-17
+no_link_title:    false 
+no_excerpt:       false 
+hide_image:       false
+hide_title:       false
+
+layout:           project
+cover:            false
+sidebar:          false
+order:            0
+
+image:
+  path:           /assets/img/licenses/GPL-3.0/banner.png
+  srcset:
+    1920w:        /assets/img/licenses/GPL-3.0/banner@1x.png
+    960w:         /assets/img/licenses/GPL-3.0/banner@0,5x.png
+    480w:         /assets/img/licenses/GPL-3.0/banner@0,25x.png
+caption:          General Public License logo
+
+title:            GNU General Public License
+date:             2021-03-29 11:37:00
+description:      
+hide_description: true
+slug:             GPL-2.0
+featured:         false
+---
+
 # GNU GENERAL PUBLIC LICENSE
 
 Version 3, 29 June 2007
