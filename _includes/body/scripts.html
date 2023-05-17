@@ -8,7 +8,7 @@
 <script type="module">
   if ('serviceWorker' in navigator) {
     {% if site.hydejack.offline.enabled %}
-    navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}')
+    navigator.serviceWorker.register('{{ "/assets/js/sw.js" | relative_url }}')
       .then(r => r.update())
       .catch(() => {});
     {% else %}
