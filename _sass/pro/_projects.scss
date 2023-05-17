@@ -91,8 +91,8 @@ main:not(.layout-resume) {
     }
 
     a {
-      position: relative;
-      z-index: 1;
+      // position: relative;
+      // z-index: 1;
 
       &.fill-card {
         position: absolute;

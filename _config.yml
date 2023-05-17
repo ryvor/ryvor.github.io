@@ -23,9 +23,8 @@ exclude:
 lang:                 en-US
 timezone:             Europe/London
 
-keywords:             
+keywords:
   - MultiDomainX
-  -
 
 author:               # This should be the same author as first entry in `_data/authors.yml`.
   name:               Robert Smith
@@ -149,6 +148,7 @@ hydejack:
     cache_version:    13
     precache_assets:
       - /assets/img/swipe.svg
+      - /assets/img/siebar/sidebar-bg.png
       - /assets/img/offline/banner.png
       - /assets/img/offline/banner@1x.png
       - /assets/img/offline/banner@0,5x.png
