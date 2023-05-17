@@ -61,7 +61,16 @@
           <a href="{{ project.url | relative_url }}" class="no-hover no-print-link {% unless project.hide_image %}flip-project{% endunless %}" tabindex="-1">
         {% endunless %}
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
-          {% include_cached components/hy-img.html img=project.image alt=project.title width=864 height=486 %}
+          {% if screenshot %}
+            {% include_cached components/hy-img.html
+              img=screenshot
+              sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
+              alt=project.title
+              property="image"
+              width=864
+              height=486
+            %}
+          {% endif %}
         </div>
         {% unless no_link_title %}
           </a>
