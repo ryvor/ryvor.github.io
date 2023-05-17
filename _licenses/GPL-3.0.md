@@ -22,7 +22,6 @@ title:            GNU General Public License
 date:             2007-06-29
 description:      Version 3.0
 hide_description: true
-slug:             GPL-2.0
 featured:         false
 ---
 

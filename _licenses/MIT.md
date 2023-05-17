@@ -22,7 +22,6 @@ title:            MIT License
 date:             1987-01-01
 description:      
 hide_description: true
-slug:             MIT
 featured:         false
 ---
 

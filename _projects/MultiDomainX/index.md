@@ -22,7 +22,6 @@ title:            Multi Domain X
 date:             2021-03-29 11:37:00
 description:      Information about Multi Domain X
 hide_description: true
-slug:             Cookies
 featured:         false
 
 links:

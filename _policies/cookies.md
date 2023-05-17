@@ -22,7 +22,6 @@ hide_title:       false
 description:      information for the cookies we use
 hide_description: false
 date:             2023-05-15
-slug:             Cookies
 featured:         false
 ---
 

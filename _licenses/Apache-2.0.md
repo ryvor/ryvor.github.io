@@ -22,7 +22,6 @@ title:            Apache License
 date:             2004-01-01
 description:      Version 2.0
 hide_description: false
-slug:             Apache-2.0
 featured:         false
 ---
 

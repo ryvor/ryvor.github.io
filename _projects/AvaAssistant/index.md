@@ -22,7 +22,6 @@ title:            AVA Assistant
 date:             2021-03-29 11:37:00
 description:      Information about AVA Assistant
 hide_description: true
-slug:             Cookies
 featured:         false
 
 links:

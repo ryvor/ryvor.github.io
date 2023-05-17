@@ -22,7 +22,6 @@ title:            W3C Software Notice and License
 date:             2023-01-01
 description:      Version 2023
 hide_description: true
-slug:             W3C
 featured:         false
 ---
 
