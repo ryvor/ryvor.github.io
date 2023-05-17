@@ -73,7 +73,7 @@ const CONTENT_FILES = [
 ];
 
 const SITE_URL = new URL("{{ '/' | relative_url }}", self.location);
-const OFFLINE_PAGE_URL = new URL("{{ '/Offline' | relative_url }}", self.location);
+const OFFLINE_PAGE_URL = new URL("{{ '/Offline/' | relative_url }}", self.location);
 
 self.addEventListener("install", e => e.waitUntil(onInstall(e)));
 self.addEventListener("activate", e => e.waitUntil(onActivate(e)));
