@@ -60,8 +60,8 @@ Screenshots go here.
 
 ## Contributing
 
-We welcome contributions from the community. Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
+We welcome contributions from the community. Please read our contributing guidelines for more information.
 
 ## License
 
-This project is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+This project is licensed under the [GNU Affero General Public License v3.0](/Licenses/AGPL-3.0/)
