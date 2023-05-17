@@ -19,7 +19,7 @@ image:
 caption:          MIT logo
 
 title:            MIT License
-date:             1987
+date:             1987-01-01
 description:      
 hide_description: true
 slug:             MIT
