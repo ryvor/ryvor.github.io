@@ -22,5 +22,5 @@ description:      All the projects I've done so far.
 hide_description: false
 permalink:        /Projects/
 
-show_collection:  projects
+show_collection:  projects	
 ---
