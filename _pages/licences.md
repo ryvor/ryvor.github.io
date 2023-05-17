@@ -11,16 +11,16 @@ sidebar:          false
 order:            0
 
 image:
-  path:           /assets/img/licences/banner.png
+  path:           /assets/img/licenses/banner.png
   srcset:
-    1920w:        /assets/img/licences/banner@1x.png
-    960w:         /assets/img/licences/banner@0,5x.png
-    480w:         /assets/img/licences/banner@0,25x.png
+    1920w:        /assets/img/licenses/banner@1x.png
+    960w:         /assets/img/licenses/banner@0,5x.png
+    480w:         /assets/img/licenses/banner@0,25x.png
 
-title:            Licences
-description:      All applicable Licences
+title:            Licenses
+description:      All applicable licenses
 hide_description: false
-permalink:        /Licences/
+permalink:        /Licenses/
 
-show_collection:  licences
+show_collection:  licenses
 ---

@@ -40,8 +40,8 @@ github_username:      ryvor
 
 copyright:            © 2023. All rights reserved.
 legal:                # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-  - title:            LICENCES
-    url:              /Licences/
+  - title:            LICENSES
+    url:              /Licenses/
   - title:            COOKIES POLICY
     url:              /Policies/Cookies/
 
@@ -167,9 +167,9 @@ collections:
   policies:
     output:           true
     permalink:        /Policies/:title/
-  licences:
+  licenses:
     output:           true
-    permalink:        /Licences/:title/
+    permalink:        /Licenses/:title/
 
 # Plugins
 # ----------------------------------------------------------------------------------------
