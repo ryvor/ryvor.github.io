@@ -1,33 +1,66 @@
-{% assign project          = page                     %}
-{% assign no_link_title    = include.no_link_title    %}
-{% assign no_excerpt       = include.no_excerpt       %}
-{% assign hide_image       = include.hide_image       %}
-{% assign hide_description = include.hide_description %}
+{% assign project          = page                                      %}
+{% assign no_link_title    = include.no_link_title                     %}
+{% assign no_excerpt       = include.no_excerpt                        %}
+{% assign hide_image       = include.hide_image                        %}
+{% assign hide_description = include.hide_description                  %}
+{% assign parent           = include.parent                            %}
+{% assign separator        = site.data.strings.separator | default:"|" %}
 
 <article id="project{{ post.id | replace:'/','-' }}" class="page mb6" role="article">
   <header>
     <h1 class="page-title" property="name">
-    {% unless no_link_title %}<a href="{{ project.url | relative_url }}" class="flip-title">{% endunless %}
+      {% unless no_link_title %}
+        <a href="{{ project.url | relative_url }}" class="flip-title">
+      {% endunless %}
       {{ project.title }}
-    {% unless no_link_title %}</a>{% endunless %}
-  </h1>
+      {% unless no_link_title %}
+        </a>
+      {% endunless %}
+    </h1>
+    <p class="post-date heading">
+      <span class="ellipsis mr1">
 
-    <div class="post-date">
+        {% if parent %}
+          <a href="{{ parent.url | relative_url }}" class="flip-title" property="genre">{{ parent.title }}</a>
+        {% endif %}
+
+        {% unless site.hydejack.hide_dates %}
+          {% if parent %}{{ separator }}{% endif %}
+          <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:proj_format }}</time>
+          {% if project.end_date.size > 0 %}
+            {{ from_to_separator }}
+            <time datetime="{{ project.end_date | date_to_xmlschema }}">{{ project.end_date | date:proj_format }}</time>
+          {% endif %}
+        {% endunless %}
+      </span>
+
+      <span class="ellipsis ml1">
+        <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>
+        <span class="{{ site.data.strings.links_icon | default:'icon-link' }}" title="{{ site.data.strings.links | default:'Links' }}"></span>
+        {% for link in project.links %}
+          <a class="external" href="{{ link.url }}" property="sameAs">{{ link.title }}</a>
+          {% unless forloop.last %}{{ separator }}{% endunless %}
+        {% endfor %}
+      </span>
+    </p>
+
+
+
+    
+
+    <div class="post-date heading">
       {% capture foobar %}
-        {%- unless site.hydejack.hide_dates -%}
-          {%- assign project_format = site.data.strings.date_formats.project | default:"%d %b %Y" -%}
-          <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:project_format }}</time>
-        {%- else -%}
-          {{- site.data.strings.posted | default:"Posted" -}}
-        {%- endunless -%}
-        {{ ' ' }}
-        {%- assign category_start     = site.data.strings.category_start     | default:"in " -%}
-        {%- assign category_separator = site.data.strings.category_separator | default:" / " -%}
-        {%- include components/tag-list.html tags=project.categories meta=site.featured_categories start_with=category_start separator=category_separator -%}
-        {{ ' ' }}
-        {%- assign tag_start          = site.data.strings.tag_start          | default:"on " -%}
-        {%- assign tag_separator      = site.data.strings.tag_separator      | default:", "  -%}
-        {%- include components/tag-list.html tags=project.tags meta=site.featured_tags start_with=tag_start separator=tag_separator -%}
+        {% unless site.hydejack.hide_dates %}
+
+        {% if parent %}
+          {{ separator }}
+        {% endif %}
+        {%- assign project_format = site.data.strings.date_formats.project | default:"%d %b %Y" -%}
+        <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:project_format }}</time>
+        {% if project.end_date.size > 0 %}
+          {{ from_to_separator }}
+          <time datetime="{{ project.end_date | date_to_xmlschema }}">{{ project.end_date | date:proj_format }}</time>
+        {% endif %}
         {% if project.applause_button %}
           {{ ' ' }}
           <span class="clap-count" data-url="{{ project.url | absolute_url }}"></span>

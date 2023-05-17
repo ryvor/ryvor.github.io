@@ -8,14 +8,22 @@ layout: base
 {% assign minor = version[1] | plus:0 %}
 {% assign patch = version[2] | plus:0 %}
 
-{% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+{% if major >= 4 and minor >= 1 %}
+  {% assign parent = site.pages | find:"show_collection",project.collection %}
+{% else %}
+  {% assign parent = site.pages | where:"show_collection",project.collection | first %}
+{% endif %}
+
+{% include_cached components/project.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description parent=parent %}
 
 {% include components/dingbat.html %}
 
 {% assign addons = page.addons | default:site.hydejack.project_addons %}
+
 {% unless addons %}
   {% assign addons = "about,newsletter,related,random" | split:"," %}
 {% endunless %}
+
 {% for addon in addons %}
   {% case addon %}
     {% when 'about' %}
