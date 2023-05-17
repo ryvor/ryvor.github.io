@@ -7,7 +7,7 @@ layout: page
 
 {% assign show_collection = page.show_collection | default:"licenses" %}
 {% assign empty_col = '' | split:'.' %}
-{% assign ordered_licenses = site[show_collection] | default:empty_col | sort:"date" | reverse %}
+{% assign ordered_licenses = site[show_collection] | default:empty_col | sort:"title" | reverse %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
 {% assign licenses_group_by = site.data.strings.date_formats.licenses_group_by | default:"%Y" %}

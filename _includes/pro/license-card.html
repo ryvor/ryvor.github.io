@@ -24,7 +24,7 @@
 {% endif %}
 {% assign sizes = sizes | strip_newlines %}
 
-{% assign screenshot = default:license.image %}
+{% assign screenshot = license.image %}
 {% assign image_base = screenshot.src | default:screenshot.path | default:screenshot %}
 
 <article
@@ -49,6 +49,6 @@
       {{ license.tagline | default:license.caption | default:license.description | markdownify | replace:'<p>','' | replace:'</p>','' }}
     </p>
   {% endif %}
-  {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--post_title-->" %}
-  <a class="fill-card no-hover" href="{{ license.url | relative_url }}" tabindex="-1"><span class="sr-only">{{ text | replace:"<!--post_title-->", license.title }}</span></a>
+  {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--license_title-->" %}
+  <a class="fill-card no-hover" href="{{ license.url | relative_url }}" tabindex="-1"><span class="sr-only">{{ text | replace:"<!--license_title-->", license.title }}</span></a>
 </article>
