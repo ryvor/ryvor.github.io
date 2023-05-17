@@ -67,13 +67,13 @@ const PRE_CACHED_ASSETS = [
 // Files we add on every service worker installation.
 const CONTENT_FILES = [
   "{{ '/'             | relative_url }}",
-  "{{ '/offline.html' | relative_url }}",
+  "{{ '/Offline/' | relative_url }}",
   /*{% for node in site.legal %}*/"{% assign url = node.url | default: node.href %}{% include_cached smart-url url=url %}",
   /*{% endfor %}*/
 ];
 
 const SITE_URL = new URL("{{ '/' | relative_url }}", self.location);
-const OFFLINE_PAGE_URL = new URL("{{ '/offline.html' | relative_url }}", self.location);
+const OFFLINE_PAGE_URL = new URL("{{ '/Offline' | relative_url }}", self.location);
 
 self.addEventListener("install", e => e.waitUntil(onInstall(e)));
 self.addEventListener("activate", e => e.waitUntil(onActivate(e)));
