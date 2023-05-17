@@ -26,7 +26,7 @@ slug:             Cookies
 featured:         false
 ---
 
-# COOKIES POLICY
+# Cookies policy
 
 ## TL;DR
 
