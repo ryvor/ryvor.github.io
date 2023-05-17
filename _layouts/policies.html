@@ -5,18 +5,18 @@ layout: page
 
 {{ content }}
 
-{% assign show_collection = page.show_collection | default:"policies" %}
+{% assign show_collection = page.show_collection | default:"licenses" %}
 {% assign empty_col = '' | split:'.' %}
-{% assign ordered_policies = site[show_collection] | default:empty_col | sort:"title" %}
+{% assign ordered_licenses = site[show_collection] | default:empty_col | sort:"title" %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
-{% assign policies_group_by = site.data.strings.date_formats.policies_group_by | default:"%Y" %}
+{% assign licenses_group_by = site.data.strings.date_formats.licenses_group_by | default:"%Y" %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
 {% assign prev_letter = 0 %}
 {% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
-{% for policy in ordered_policies %}
-  {% assign current_letter = policy.title | slice: 0 | upcase %}
+{% for license in ordered_licenses %}
+  {% assign current_letter = license.title | slice: 0 | upcase %}
 
   {% unless page.no_groups %}
     {% if current_letter != prev_letter %}
@@ -27,9 +27,9 @@ layout: page
     {% endif %}
   {% endunless %}
 
-  {% assign featured = page.featured | default:policy.featured | default:page.big_policy | default:policy.big_policy %}
+  {% assign featured = page.featured | default:license.featured | default:page.big_license | default:license.big_license %}
   <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
-    {% include_cached pro/policy-card.html policy=policy featured=featured %}
+    {% include_cached pro/license-card.html license=license featured=featured %}
   </div>
 
   {% if forloop.last %}</div>{% endif %}

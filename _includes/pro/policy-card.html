@@ -1,0 +1,54 @@
+{% assign policy = include.policy %}
+
+{% assign vars = site.data.variables %}
+{% assign break_point_1 = vars.break_point_1 | default:42 %}
+{% assign break_point_2 = vars.break_point_2 | default:54 %}
+{% assign break_point_5 = vars.break_point_5 | default:86 %}
+{% assign content_width   = vars.content_width   | default:42 %}
+{% assign content_width_2 = vars.content_width_2 | default:48 %}
+{% assign content_width_5 = vars.content_width_5 | default:54 %}
+
+{% assign sizes = '' %}
+{% if include.featured %}
+  {% capture sizes %}(min-width: {{ break_point_5 }}em) {{ content_width_5 | plus:2 }}rem,
+                     (min-width: {{ break_point_2 }}em) {{ content_width_2 | plus:2 }}rem,
+                     (min-width: {{ break_point_1 }}em) {{ content_width   | plus:2 }}rem,
+                                                        {{ content_width            }}rem
+  {% endcapture %}
+{% else %}
+  {% capture sizes %}(min-width: {{ break_point_5 }}em) {{ content_width_5 | plus:2 | divided_by:2 | minus:0.5 }}rem,
+                     (min-width: {{ break_point_2 }}em) {{ content_width_2 | plus:2 | divided_by:2 | minus:0.5 }}rem,
+                     (min-width: {{ break_point_1 }}em) {{ content_width   | plus:2 | divided_by:2 | minus:0.5 }}rem,
+                                                        {{ content_width                                       }}rem
+  {% endcapture %}
+{% endif %}
+{% assign sizes = sizes | strip_newlines %}
+
+{% assign screenshot = policy.image %}
+{% assign image_base = screenshot.src | default:screenshot.path | default:screenshot %}
+
+<article
+  class="project-card"
+  {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="{{ policy.url | relative_url }}#policy"{% endunless %}
+  >
+  <meta property="name" content="{{ policy.title }}"/>
+  {% if image_base %}<meta property="image" content="{% include_cached smart-url url=image_base %}"/>{% endif %}
+
+  <a href="{{ policy.url | relative_url }}" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img fill-card {% unless screenshot %}fallback-img{% endunless %}">
+      {% if screenshot %}
+        {% include_cached components/hy-img.html img=screenshot alt=policy.title sizes=sizes width=864 height=486 %}
+      {% endif %}
+    </div>
+  </a>
+  <h3 class="project-card-title flip-project-title">
+    <a href="{{ policy.url | relative_url }}" class="flip-title" property="mainEntityOfPage">{{ policy.title }}</a>
+  </h3>
+  {% if policy.description or policy.tagline or policy.caption %}
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      {{ policy.tagline | default:policy.caption | default:policy.description | markdownify | replace:'<p>','' | replace:'</p>','' }}
+    </p>
+  {% endif %}
+  {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--policy_title-->" %}
+  <a class="fill-card no-hover" href="{{ policy.url | relative_url }}" tabindex="-1"><span class="sr-only">{{ text | replace:"<!--policy_title-->", policy.title }}</span></a>
+</article>
