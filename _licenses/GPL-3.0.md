@@ -20,7 +20,7 @@ caption:          GNU General Public License
 title:            GNU General Public License
 date:             2007-06-29
 description:      Version 3.0
-hide_description: false
+hide_description: **false**
 featured:         false
 ---
 
