@@ -19,18 +19,25 @@
     </h1>
     <p class="post-date heading">
       <span class="ellipsis mr1">
-
         {% if parent %}
           <a href="{{ parent.url | relative_url }}" class="flip-title" property="genre">{{ parent.title }}</a>
         {% endif %}
 
         {% unless site.hydejack.hide_dates %}
-          {% if parent %}{{ separator }}{% endif %}
-          <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:proj_format }}</time>
+          {% if parent %}
+            {{ separator }}
+          {% endif %}
+          {%- assign project_format = site.data.strings.date_formats.project | default:"%d %b %Y" -%}
+          <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:project_format }}</time>
           {% if project.end_date.size > 0 %}
             {{ from_to_separator }}
-            <time datetime="{{ project.end_date | date_to_xmlschema }}">{{ project.end_date | date:proj_format }}</time>
+            <time datetime="{{ project.end_date | date_to_xmlschema }}">{{ project.end_date | date:project_format }}</time>
           {% endif %}
+          {% if project.applause_button %}
+            {{ ' ' }}
+            <span class="clap-count" data-url="{{ project.url | absolute_url }}"></span>
+          {% endif %}
+          
         {% endunless %}
       </span>
 
@@ -43,49 +50,6 @@
         {% endfor %}
       </span>
     </p>
-
-
-
-    
-
-    <div class="post-date heading">
-      {% capture foobar %}
-        {% unless site.hydejack.hide_dates %}
-
-        {% if parent %}
-          {{ separator }}
-        {% endif %}
-        {%- assign project_format = site.data.strings.date_formats.project | default:"%d %b %Y" -%}
-        <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:project_format }}</time>
-        {% if project.end_date.size > 0 %}
-          {{ from_to_separator }}
-          <time datetime="{{ project.end_date | date_to_xmlschema }}">{{ project.end_date | date:proj_format }}</time>
-        {% endif %}
-        {% if project.applause_button %}
-          {{ ' ' }}
-          <span class="clap-count" data-url="{{ project.url | absolute_url }}"></span>
-        {% endif %}
-      {% endcapture %}
-      <span class="ellipsis mr1">
-        {{ foobar }}
-      </span>
-      {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or project.hide_last_modified %}
-        {% if project.last_modified_at %}
-          {% assign d1 = project.date             | date:"%Y-%m-%d" %}
-          {% assign d2 = project.last_modified_at | date:"%Y-%m-%d" %}
-          {% if d1 != d2 %}
-            {% assign label = site.data.strings.last_modified_at | default:"Last modified at" %}
-            {% assign last_modified_at_format = site.data.strings.date_formats.last_modified_at | default:"%Y-%m-%d" %}
-            <span class="ellipsis" data-tippy-content="{{ label }}{{ site.data.strings.colon }} {{ project.last_modified_at | date:project_format }}">
-              <span class="sr-only">{{ label }}{{ site.data.strings.colon }}</span>
-              <span class="{{ site.data.strings.last_modified_icon | default:'icon-history' }}"></span>
-              <time datetime="{{ project.last_modified_at | date_to_xmlschema }}">{{ project.last_modified_at | date:last_modified_at_format }}</time>
-            </span>
-          {% endif %}
-        {% endif %}
-      {% endunless %}
-    </div>
-
     {% assign alt = false %}
     {% unless hide_image %}
       {% if project.image %}
