@@ -26,7 +26,9 @@ slug:             W3C
 featured:         false
 ---
 
-# W3C Software Notice and LicenseThis work is being provided by the copyright holders under the following license.
+# W3C Software Notice and License
+
+This work is being provided by the copyright holders under the following license.
 
 By obtaining and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions.
 
