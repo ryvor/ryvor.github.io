@@ -84,6 +84,11 @@ defaults:
     values:
       comments:         true
       applause_button:  true # https://applause-button.com/
+  - scope:              # You can use the following to enable comments on all projects.
+      path:             "assets/js/sw.js"
+      type:             ""
+    values:
+      permalink:        /sw.js
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
