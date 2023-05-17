@@ -16,12 +16,11 @@ image:
     1920w:        /assets/img/licenses/gpl-3.0/banner@1x.png
     960w:         /assets/img/licenses/gpl-3.0/banner@0,5x.png
     480w:         /assets/img/licenses/gpl-3.0/banner@0,25x.png
-caption:          General Public License logo
-
+caption:          GNU General Public License
 title:            GNU General Public License
 date:             2007-06-29
 description:      Version 3.0
-hide_description: true
+hide_description: false
 featured:         false
 ---
 

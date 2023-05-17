@@ -17,7 +17,7 @@ image:
     960w:         /assets/img/licenses/banner@0,5x.png
     480w:         /assets/img/licenses/banner@0,25x.png
 
-title:            Licenses
+title:            LICENCES
 description:      All applicable licenses
 hide_description: false
 permalink:        /Licenses/

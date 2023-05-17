@@ -16,8 +16,7 @@ image:
     1920w:        /assets/img/licenses/apache-2.0/banner@1x.png
     960w:         /assets/img/licenses/apache-2.0/banner@0,5x.png
     480w:         /assets/img/licenses/apache-2.0/banner@0,25x.png
-caption:          Apache logo
-
+caption:          Apache License
 title:            Apache License
 date:             2004-01-01
 description:      Version 2.0

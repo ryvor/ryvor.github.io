@@ -16,11 +16,10 @@ image:
     1920w:        /assets/img/licenses/w3c/banner@1x.png
     960w:         /assets/img/licenses/w3c/banner@0,5x.png
     480w:         /assets/img/licenses/w3c/banner@0,25x.png
-caption:          W3C logo
-
+caption:          W3C Software Notice and License
 title:            W3C Software Notice and License
 date:             2023-01-01
-description:      Version 2023
+description:      Version unknown
 hide_description: true
 featured:         false
 ---
