@@ -35,14 +35,13 @@
           console.error("Sign-in error:", error);
         });
       };
+      window.recaptchaVerifier = new RecaptchaVerifier('no-fouc', {
+        'size': 'invisible',
+        'callback': (response) => {
+          onSignInSubmit();
+        }
+      }, auth);
     */
-
-    window.recaptchaVerifier = new RecaptchaVerifier('no-fouc', {
-      'size': 'invisible',
-      'callback': (response) => {
-        onSignInSubmit();
-      }
-    }, auth);
     window.account = {
       Login: {
         {{ if site.firebase.github.enabled }}
