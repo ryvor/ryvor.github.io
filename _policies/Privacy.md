@@ -10,11 +10,11 @@ sidebar:          false
 order:            0
 
 image:
-  path:           /assets/img/policies/cookie/banner.png
+  path:           /assets/img/policies/privacy/banner.png
   srcset:
-    1920w:        /assets/img/policies/cookie/banner@1x.png
-    960w:         /assets/img/policies/cookie/banner@0,5x.png
-    480w:         /assets/img/policies/cookie/banner@0,25x.png
+    1920w:        /assets/img/policies/privacy/banner@1x.png
+    960w:         /assets/img/policies/privacy/banner@0,5x.png
+    480w:         /assets/img/policies/privacy/banner@0,25x.png
 caption:          Privacy policy
 title:            Privacy policy
 hide_title:       false
