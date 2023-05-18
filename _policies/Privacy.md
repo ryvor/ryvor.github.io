@@ -32,7 +32,7 @@ Please read this privacy policy carefully.
 
 ## 1. Definitions and interpretation
 
-  {:style="list-style: upper-latin; "}
+  {: .pl-5 style="list-style: upper-latin"}
 
   1. In this privacy policy, the following definitions are used:
 
@@ -47,7 +47,7 @@ Please read this privacy policy carefully.
 
   2. In this privacy policy, unless the context requires a different interpretation:
 
-    {:style="list-style: upper-roman"}
+    {: .pl-5 style="list-style: upper-roman"}
 
     1. the singular includes the plural and vice versa;
     2. references to sub-clauses, clauses, schedules or appendices are to sub-clauses, clauses, schedules or appendices of this privacy policy;
@@ -69,7 +69,7 @@ Please read this privacy policy carefully.
 
   1. We may collect the following Data, which includes personal Data, from you:
 
-    {:style="list-style: upper-roman"}
+    {: .pl-5 style="list-style: upper-roman"}
 
     1. demographic information such as postcode, preferences and interests;
     2. IP address (automatically collected);
@@ -85,7 +85,7 @@ in each case, in accordance with this privacy policy.
 
   1. We collect Data in the following ways:
 
-    {:style="list-style: upper-roman"}
+    {: .pl-5 style="list-style: upper-roman"}
 
     1. data is given to us by you.
     2. data is collected automatically.
@@ -96,7 +96,7 @@ in each case, in accordance with this privacy policy.
 
   1. We will collect your Data in a number of ways, for example:
 
-    {:style="list-style: upper-roman"}
+    {: .pl-5 style="list-style: upper-roman"}
 
     1. when you contact us through the Website, by telephone, post, e-mail or through any other means;
 
@@ -107,7 +107,9 @@ in each case, in accordance with this privacy policy.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. To the extent that you access the Website, we will collect your Data automatically, for example:
+
     {: .pl-5 style="list-style: upper-latin"}
+
     1. we automatically collect some information about your visit to the Website. This information helps us to make improvements to Website content and navigation, and includes your IP address, the date, times and frequency with which you access the Website and the way you use and interact with its content.
     2. we will collect your Data automatically via cookies, in line with the cookie settings on your browser. For more information about cookies, and how we use them on the Website, see the section below, headed "Cookies".
 
@@ -117,7 +119,7 @@ in each case, in accordance with this privacy policy.
 
   1. We may share your Data with the following groups of people for the following reasons:
 
-    {:style="list-style: upper-roman"}
+    {: .pl-5 style="list-style: upper-roman"}
 
     1. third party service providers who provide services to us which require the processing of personal data To help assist in to development of the site.
 
@@ -128,7 +130,9 @@ in each case, in accordance with this privacy policy.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. We will use technical and organisational measures to safeguard your Data, for example:
+
     {: .pl-5 style="list-style: upper-latin"}
+
     1. access to your account is controlled by a password and a user name that is unique to you.
     2. We store your Data on secure servers.
   2. We are certified to GDPR. This family of standards helps us manage your Data and keep it secure.
@@ -148,7 +152,7 @@ in each case, in accordance with this privacy policy.
 
   1. You have the following rights in relation to your Data:
 
-    {:style="list-style: upper-roman"}
+    {: .pl-5 style="list-style: upper-roman"}
 
     1. **Right to access** - the right to request (i) copies of the information we hold about you at any time, or (ii) that we modify, update or delete such information. If we provide you with access to the information we hold about you, we will not charge you for this, unless your request is "manifestly unfounded or excessive." Where we are legally permitted to do so, we may refuse your request. If we refuse your request, we will tell you the reasons why.
     2. **Right to correct** - the right to have your Data rectified if it is inaccurate or incomplete.
