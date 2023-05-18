@@ -1,28 +1,25 @@
 <script type="module">
-  /* Import the functions you need from the SDKs you need */
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
-	import { getAuth, isSignInWithEmailLink, signInWithEmailLink, sendSignInLinkToEmail } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
+	/* Import the functions you need from the SDKs you need */
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+	import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+	import { getAuth, isSignInWithEmailLink, signInWithEmailLink, sendSignInLinkToEmail, signOut } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
 	import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
-  /* Your web app's Firebase configuration */
-  const firebaseConfig = {
-    apiKey: "AIzaSyCZYhv-k9hgHEZGWPq1XuMFDlXGBfY934g",
-    authDomain: "ryvor-portfolio.firebaseapp.com",
-    projectId: "ryvor-portfolio",
-    storageBucket: "ryvor-portfolio.appspot.com",
-    messagingSenderId: "354876397984",
-    appId: "1:354876397984:web:c98964abbe972b6a756cc5",
-    measurementId: "G-PZ7S7SC9SD"
-  };
-
-  /* Initialize Firebase */
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-
-	/* Web Signin */
+	const firebaseConfig = {
+		apiKey: "AIzaSyCZYhv-k9hgHEZGWPq1XuMFDlXGBfY934g",
+		authDomain: "ryvor-portfolio.firebaseapp.com",
+		projectId: "ryvor-portfolio",
+		storageBucket: "ryvor-portfolio.appspot.com",
+		messagingSenderId: "354876397984",
+		appId: "1:354876397984:web:c98964abbe972b6a756cc5",
+		measurementId: "G-PZ7S7SC9SD"
+	};
+	/* Initialize Firebase */
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
 	const auth = getAuth();
 	const actionCodeSettings = { url: 'https://ryvor.github.io/finishSignUp' };
-	function AttemptLogin(email) {
+	/* Web Logout */
+	function login(email) {
 		sendSignInLinkToEmail(auth, email, actionCodeSettings).then(() => {
 			window.localStorage.setItem('emailForSignIn', email);
 		}).catch((error) => {
@@ -31,12 +28,21 @@
 			console.log(errorCode+' : '+errorMessage)
 		});
 	}
+	/* Web Login */
+	function logout() {
+		signOut(auth).then(() => {
+			// Sign-out successful.
+		}).catch((error) => {
+			// An error happened.
+		});
+	}
+
+
 	if (isSignInWithEmailLink(auth, window.location.href)) {
 		let email = window.localStorage.getItem('emailForSignIn');
-		if (!email) { /* User opened the link on a different device. To prevent session fixation attacks, ask the user to provide the associated email again.*/
+		if (!email) {
 			email = window.prompt('Please provide your email for confirmation');
 		}
-		/* The client SDK will parse the code from the link for you. */
 		signInWithEmailLink(auth, email, window.location.href).then((result) => {
 			window.localStorage.removeItem('emailForSignIn');
 		}).catch((error) => {
