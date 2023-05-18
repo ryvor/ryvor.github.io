@@ -17,7 +17,7 @@
 	const app = initializeApp(firebaseConfig);
 	const analytics = getAnalytics(app);
 	const auth = getAuth();
-	const actionCodeSettings = { url: 'https://ryvor.github.io/finishSignUp' };
+	const actionCodeSettings = { url: 'https://ryvor.github.io/finishSignUp/' };
 	/* Web Logout */
 	function login(email) {
 		sendSignInLinkToEmail(auth, email, actionCodeSettings).then(() => {
@@ -31,14 +31,14 @@
 	/* Web Login */
 	function logout() {
 		signOut(auth).then(() => {
-			// Sign-out successful.
+			/* Sign-out successful. */
 		}).catch((error) => {
-			// An error happened.
+			/* An error happened. */
 		});
 	}
 
 
-	if (isSignInWithEmailLink(auth, window.location.href)) {
+	if(isSignInWithEmailLink(auth, window.location.href)) {
 		let email = window.localStorage.getItem('emailForSignIn');
 		if (!email) {
 			email = window.prompt('Please provide your email for confirmation');
