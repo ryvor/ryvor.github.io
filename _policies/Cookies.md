@@ -26,8 +26,6 @@ featured:         false
 
 # Cookies Policy
 
-Last updated: {{ page.last_modified_at }}
-
 ## 1. Scope of this policy
 
   {:style="list-style: upper-latin"}

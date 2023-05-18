@@ -28,6 +28,21 @@
       <span class="ellipsis mr1">
         {{ foobar }}
       </span>
+      {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or policy.hide_last_modified %}
+        {% if policy.last_modified_at %}
+          {% assign d1 = policy.date             | date:"%Y-%m-%d" %}
+          {% assign d2 = policy.last_modified_at | date:"%Y-%m-%d" %}
+          {% if d1 != d2 %}
+            {% assign label = site.data.strings.last_modified_at | default:"Last modified at" %}
+            {% assign last_modified_at_format = site.data.strings.date_formats.last_modified_at | default:"%Y-%m-%d" %}
+            <span class="ellipsis" data-tippy-content="{{ label }}{{ site.data.strings.colon }} {{ policy.last_modified_at | date:policy_format }}">
+              <span class="sr-only">{{ label }}{{ site.data.strings.colon }}</span>
+              <span class="{{ site.data.strings.last_modified_icon | default:'icon-history' }}"></span>
+              <time datetime="{{ policy.last_modified_at | date_to_xmlschema }}">{{ policy.last_modified_at | date:last_modified_at_format }}</time>
+            </span>
+          {% endif %}
+        {% endif %}
+      {% endunless %}
     </div>
 
     {% assign alt = false %}
