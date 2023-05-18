@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-05-18
+last_modified_at: 2023-05-18 14:07:00
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
@@ -20,7 +20,7 @@ title:            Privacy policy
 hide_title:       false
 description:      Keeping your data safe and respecting your privacy
 hide_description: false
-date:             2023-05-18
+date:             2023-05-15
 featured:         false
 ---
 

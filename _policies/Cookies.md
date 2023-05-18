@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-05-18
+last_modified_at: 2023-05-18 14:07:00
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
@@ -20,11 +20,15 @@ title:            Cookies policy
 hide_title:       false
 description:      information for the cookies we use
 hide_description: false
-date:             2023-05-18
+date:             2023-05-15
 featured:         false
 ---
 
 # Cookies Policy
+
+This cookies policy applies between you, the User of this Website, and Robert Smith, the owner and provider of this Website.
+
+Please read this cookies policy carefully.
 
 ## 1. Scope of this policy
 
