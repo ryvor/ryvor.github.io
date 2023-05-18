@@ -53,7 +53,7 @@
     window.account = {
       Login: {
         {{ if site.firebase.github.enabled }}
-          github: () => {
+          microsoft: () => {
             const provider = new OAuthProvider('microsoft.com');;
             signInWithPopup(auth, provider).then((result) => {
               const credential = OAuthProvider.credentialFromResult(result);
