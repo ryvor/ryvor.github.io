@@ -89,7 +89,7 @@ Please read this cookies policy carefully.
   {:style="list-style: upper-latin"}
 
   1. Below is a list of the cookies that we use. We have tried to ensure this is complete and up to date, but if you think that we have missed a cookie or there is any discrepancy, please let us know.
-    {:style="list-style: upper-roman"}
+    {:style="list-style: upper-roman; padding-left: 3rem;"}
     1. Strictly necessary cookies:
 
        | Name of cookie | Purpose of cookie |
