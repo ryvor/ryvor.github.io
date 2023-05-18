@@ -56,14 +56,14 @@ Please read this privacy policy carefully.
 
 ## 2. Scope of this privacy policy
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. This privacy policy applies only to the actions of us and Users with respect to this Website. It does not extend to any websites that can be accessed from this Website including, but not limited to, any links we may provide to social media websites.
   2. For purposes of the applicable Data Protection Laws, we are the "data controller". This means that we determine the purposes for which, and the manner in which, your Data is processed.
 
 ## 3. Data collected
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. We may collect the following Data, which includes personal Data, from you:
     {:style="list-style: upper-roman; padding-left: 3rem;"}
@@ -77,7 +77,7 @@ in each case, in accordance with this privacy policy.
 
 ## 4. How we collect Data
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. We collect Data in the following ways:
     {:style="list-style: upper-roman; padding-left: 3rem;"}
@@ -86,7 +86,7 @@ in each case, in accordance with this privacy policy.
 
 ## 5. Data that is given to us by you
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. We will collect your Data in a number of ways, for example:
     {:style="list-style: upper-roman; padding-left: 3rem;"}
@@ -96,16 +96,16 @@ in each case, in accordance with this privacy policy.
 
 ## 6. Data that is collectd automatically
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. To the extent that you access the Website, we will collect your Data automatically, for example:
-    {:style="list-style: upper-latin"}
+    {: .pl-3 style="list-style: upper-latin"}
     1. we automatically collect some information about your visit to the Website. This information helps us to make improvements to Website content and navigation, and includes your IP address, the date, times and frequency with which you access the Website and the way you use and interact with its content.
     2. we will collect your Data automatically via cookies, in line with the cookie settings on your browser. For more information about cookies, and how we use them on the Website, see the section below, headed "Cookies".
 
 ## 7. Who we share Data with
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. We may share your Data with the following groups of people for the following reasons:
     {:style="list-style: upper-roman; padding-left: 3rem;"}
@@ -115,10 +115,10 @@ in each case, in accordance with this privacy policy.
 
 ## 8. Keeping Data secure
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. We will use technical and organisational measures to safeguard your Data, for example:
-    {:style="list-style: upper-latin"}
+    {: .pl-3 style="list-style: upper-latin"}
     1. access to your account is controlled by a password and a user name that is unique to you.
     2. We store your Data on secure servers.
   2. We are certified to GDPR. This family of standards helps us manage your Data and keep it secure.
@@ -127,14 +127,14 @@ in each case, in accordance with this privacy policy.
 
 ## 9. Data retention
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. Unless a longer retention period is required or permitted by law, we will only hold your Data on our systems for the period necessary to fulfil the purposes outlined in this privacy policy or until you request that the Data be deleted.
   2. Even if we delete your Data, it may persist on backup or archival media for legal, tax or regulatory purposes.
 
 ## 10. Your rights
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. You have the following rights in relation to your Data:
     {:style="list-style: upper-roman; padding-left: 3rem;"}
@@ -150,7 +150,7 @@ in each case, in accordance with this privacy policy.
 
 ## Transfers outside the United Kingdom and European Economic Area
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. Data which we collect from you may be stored and processed in and transferred to countries outside of the UK and European Economic Area (EEA). For example, this could occur if our servers are located in a country outside the UK or EEA or one of our service providers is situated in a country outside the UK or EEA. We also share information with our group companies, some of which are located outside the UK or EEA.
   2. We will only transfer Data outside the UK or EEA where it is compliant with data protection legislation and the means of transfer provides adequate safeguards in relation to your data, eg by way of data transfer agreement, incorporating the current standard contractual clauses adopted by the European Commission.
@@ -158,13 +158,13 @@ in each case, in accordance with this privacy policy.
 
 ## Links to other websites
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. This Website may, from time to time, provide links to other websites. We have no control over such websites and are not responsible for the content of these websites. This privacy policy does not extend to your use of such websites. You are advised to read the privacy policy or statement of other websites prior to using them.
 
 ## Changes of business ownership and control
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. We may, from time to time, expand or reduce our business and this may involve the sale and/or the transfer of control of all or part of us. Data provided by Users will, where it is relevant to any part of our business so transferred, be transferred along with that part and the new owner or newly controlling party will, under the terms of this privacy policy, be permitted to use the Data for the purposes for which it was originally supplied to us.
   2. We may also disclose Data to a prospective purchaser of our business or any part of it.
@@ -172,14 +172,14 @@ in each case, in accordance with this privacy policy.
 
 ## Cookies
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. This Website may place and access certain Cookies on your computer. We use Cookies to improve your experience of using the Website. We have carefully chosen these Cookies and has taken steps to ensure that your privacy is protected and respected at all times.
   2. For more information regarding cookies, pease refer to our [Cookies Policy](/Policies/Cookies/)
 
 ## General
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. You may not transfer any of your rights under this privacy policy to any other person. We may transfer our rights under this privacy policy where we reasonably believe your rights will not be affected.
   2. If any court or competent authority finds that any provision of this privacy policy (or part of any provision) is invalid, illegal or unenforceable, that provision or part-provision will, to the extent required, be deemed to be deleted, and the validity and enforceability of the other provisions of this privacy policy will not be affected.
@@ -188,6 +188,6 @@ in each case, in accordance with this privacy policy.
 
 ## Changes to this privacy policy
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. We reserve the right to change this privacy policy as we may deem necessary from time to time or as may be required by law. Any changes will be immediately posted on the Website and you are deemed to have accepted the terms of the privacy policy on your first use of the Website following the alterations.

@@ -32,7 +32,7 @@ Please read this cookies policy carefully.
 
 ## 1. Scope of this policy
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin;"}
 
   1. Robert Smith (we or us or our) uses cookies when you visit our website, ryvor.github.io, (the Website) to help customise the Website and improve your experience using the Website.
   2. This policy applies between you, the user of this Website, and us, Robert Smith, the owner and provider of this Website.
@@ -41,7 +41,7 @@ Please read this cookies policy carefully.
 
 ## 2. What are cookies?
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. A cookie is a small text file placed on your computer by this Website when you visit certain parts of the Website and/or when you use certain features of the Website.
   2. This Website may place and access certain cookies on your computer. We use these cookies to improve your experience of using the Website.
@@ -49,7 +49,7 @@ Please read this cookies policy carefully.
 
 ## 3. Types of cookies
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. This Website uses the following cookies:
 
@@ -65,7 +65,7 @@ Please read this cookies policy carefully.
 
 ## 4. How to control your cookies
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. You can choose to enable or disable cookies in your internet browser. By default, most internet browsers accept cookies but this can be changed. For further details, please see the help menu in your internet browser.
   2. You can switch off cookies at any time, however, you may lose information that enables you to access the Website more quickly and efficiently.
@@ -74,19 +74,19 @@ Please read this cookies policy carefully.
 
 ## 5. Changes to this policy
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. Robert Smith reserves the right to change this cookie policy as we may deem necessary from time to time or as may be required by law. Any changes will be immediately posted on the Website and you are deemed to have accepted the terms of the cookie policy on your first use of the Website following the alterations.
 
 ## 6. Contact details
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. The Website is owned by Robert Smith of 20 Northview Road, Dunstable, LU5 5AH, England.
 
 ## 7. COOKIE SCHEDULE
 
-  {:style="list-style: upper-latin"}
+  {: .pl-3 style="list-style: upper-latin"}
 
   1. Below is a list of the cookies that we use. We have tried to ensure this is complete and up to date, but if you think that we have missed a cookie or there is any discrepancy, please let us know.
     {:style="list-style: upper-roman; padding-left: 3rem;"}
