@@ -68,7 +68,7 @@ We may update this Cookies Policy from time to time. We encourage you to review 
 1. Robert Smith (we or us or our) uses cookies when you visit our website, ryvor.github.io, (the Website) to help customise the Website and improve your experience using the Website.
 2. This policy applies between you, the user of this Website, and us, Robert Smith, the owner and provider of this Website.
 3. When you visit the Website, and before your Website places cookies on your computer, you will be presented with a message bar requesting your consent to set those cookies. By giving your consent to the placing of cookies, you are enabling us to provide a better experience and service. You may, if you wish, deny consent to the placing of these cookies; however, certain features of the Website may not function fully or as intended.
-4. This cookie policy should be read alongside, and in addition to, our Privacy Policy, which can be found at: https://ryvor.github.io/Policies/Privacy/.
+4. This cookie policy should be read alongside, and in addition to, our Privacy Policy, which can be found at: <https://ryvor.github.io/Policies/Privacy/>.
 
 ## 2.0 What are cookies?
 
@@ -76,7 +76,7 @@ We may update this Cookies Policy from time to time. We encourage you to review 
 
 1. A cookie is a small text file placed on your computer by this Website when you visit certain parts of the Website and/or when you use certain features of the Website.
 2. This Website may place and access certain cookies on your computer. We use these cookies to improve your experience of using the Website.
-3. Cookies do not usually contain any information that personally identifies you, the Website user. However, personal information that we store about you may be linked to the information obtained from and stored in cookies. For more information on how such personal information is handled and stored, refer to our Privacy Policy which is available online at: https://ryvor.github.io/Policies/Privacy/.
+3. Cookies do not usually contain any information that personally identifies you, the Website user. However, personal information that we store about you may be linked to the information obtained from and stored in cookies. For more information on how such personal information is handled and stored, refer to our Privacy Policy which is available online at: <https://ryvor.github.io/Policies/Privacy/>.
 
 ## 3.0 Types of cookies
 
@@ -89,14 +89,12 @@ This Website uses the following cookies:
   | Functionality cookies          | These are used to recognise you when you return to our Website. This enables us to personalise our content for you, greet you by name and remember your preferences (for example, your choice of language or region). By using the Website, you agree to our placement of functionality cookies.          |
   | Targeting cookies              | These cookies record your visit to our Website, the pages you have visited and the links you have followed. We will use this information to make our Website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose. |
 
-
 {:style="list-style: lower-latin"}
 
 1. You can find a list of the cookies that we use in the attached Cookie Schedule.
 2. We have carefully chosen these cookies and have taken steps to ensure that your privacy is protected and respected at all times.
 
 ## 4.0 How to control your cookies
-
 
 {:style="list-style: lower-latin"}
 
@@ -127,16 +125,19 @@ Cookies that we use on the Website:
 {:style="list-style: lower-latin"}
 
 1. Strictly necessary cookies:
+
    | Name of cookie | Purpose of cookie |
    | -------------- | ----------------- |
    |                |                   |
 
 2. Functionality cookies:
+
    | Name of cookie | Purpose of cookie |
    | -------------- | ----------------- |
    |                |                   |
 
 3. Analytical/performance cookies:
+
    | Name of cookie | Purpose of cookie                                                             |
    | -------------- | ------------------------------------------------------------------------------|
    | _gid           | Google Analytics cookie used to distinguish users.                            |
@@ -144,6 +145,7 @@ Cookies that we use on the Website:
    | _ga            | Google Analytics cookie used to collect data on website traffic.              |
 
 4. Targeting cookies:
+
    | Name of cookie | Purpose of cookie |
    | -------------- | ----------------- |
    |                |                   |
