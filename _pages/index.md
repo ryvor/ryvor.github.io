@@ -3,7 +3,7 @@ last_modified_at: 2023-05-15
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
-hide_title:       false
+hide_title:       true
 
 layout:           welcome
 cover:            true
@@ -17,8 +17,8 @@ image:
     960w:         /assets/img/banner/banner@0,5x.png
     480w:         /assets/img/banner/banner@0,25x.png
 
-title:            Hey there
-description:      Welcome to my site!
+title:            Home
+description:      Discover my skills, experiences, and projects
 hide_description: true
 permalink:        /
 
@@ -31,6 +31,8 @@ selected_projects: # MAX 4
   - _projects/AuraOS.md
   - _projects/AvaAssistant.md
 ---
+
+# Hey there!
 
 Hi! I'm Robert, otherwise known as [@{{ site.data.authors.author1.social.github }}]({{site.data.social.github.prepend}}{{site.data.authors.author1.social.github}}). In my free time, I enjoy working on software development projects in a variety of areas. I am particularly passionate about creating new software solutions that can benefit people in all types of industries and domains.
 
