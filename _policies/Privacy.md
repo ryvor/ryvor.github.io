@@ -46,6 +46,7 @@ Please read this privacy policy carefully.
      | Website | the website that you are currently using, ryvor.github.io, and any sub-domains of this site unless expressly excluded by their own terms and conditions. |
 
   2. In this privacy policy, unless the context requires a different interpretation:
+
     {:style="list-style: upper-roman; padding-left: 3rem;"}
     1. the singular includes the plural and vice versa;
     2. references to sub-clauses, clauses, schedules or appendices are to sub-clauses, clauses, schedules or appendices of this privacy policy;
@@ -66,6 +67,7 @@ Please read this privacy policy carefully.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. We may collect the following Data, which includes personal Data, from you:
+
     {:style="list-style: upper-roman; padding-left: 3rem;"}
     1. demographic information such as postcode, preferences and interests;
     2. IP address (automatically collected);
@@ -80,6 +82,7 @@ in each case, in accordance with this privacy policy.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. We collect Data in the following ways:
+
     {:style="list-style: upper-roman; padding-left: 3rem;"}
     1. data is given to us by you.
     2. data is collected automatically.
@@ -89,6 +92,7 @@ in each case, in accordance with this privacy policy.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. We will collect your Data in a number of ways, for example:
+
     {:style="list-style: upper-roman; padding-left: 3rem;"}
     1. when you contact us through the Website, by telephone, post, e-mail or through any other means;
 
@@ -108,6 +112,7 @@ in each case, in accordance with this privacy policy.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. We may share your Data with the following groups of people for the following reasons:
+
     {:style="list-style: upper-roman; padding-left: 3rem;"}
     1. third party service providers who provide services to us which require the processing of personal data To help assist in to development of the site.
 
@@ -137,6 +142,7 @@ in each case, in accordance with this privacy policy.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. You have the following rights in relation to your Data:
+
     {:style="list-style: upper-roman; padding-left: 3rem;"}
     1. **Right to access** - the right to request (i) copies of the information we hold about you at any time, or (ii) that we modify, update or delete such information. If we provide you with access to the information we hold about you, we will not charge you for this, unless your request is "manifestly unfounded or excessive." Where we are legally permitted to do so, we may refuse your request. If we refuse your request, we will tell you the reasons why.
     2. **Right to correct** - the right to have your Data rectified if it is inaccurate or incomplete.

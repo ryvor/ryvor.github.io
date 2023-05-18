@@ -89,6 +89,7 @@ Please read this cookies policy carefully.
   {: .pl-5 style="list-style: upper-latin"}
 
   1. Below is a list of the cookies that we use. We have tried to ensure this is complete and up to date, but if you think that we have missed a cookie or there is any discrepancy, please let us know.
+
     {: .pl-5 style="list-style: upper-roman"}
     1. Strictly necessary cookies:
 
