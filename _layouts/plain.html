@@ -19,7 +19,7 @@ layout: base
 
 <article class="page mb6" role="article">
   <header>
-		{% unless site.hide_title %}
+		{% unless page.hide_title %}
       <h1 class="page-title">{{ page.title }}</h1>
     {% endunless %}
 		{% include components/message.html text=page.description hide=page.hide_description %}
