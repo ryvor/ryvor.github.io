@@ -84,7 +84,7 @@ breadcrumbs_separator: '/'
 # ---------------------------------------------------------------------------------------
 date_formats:
   post:                '%d %b %Y'
-  last_modified_at:    '%Y-%m-%d %h:%M'
+  last_modified_at:    '%Y-%m-%d %l:%M'
   related_post:        '%d %b %Y'
   list_group_by:       '%Y'
   list_entry:          '%d %b'
