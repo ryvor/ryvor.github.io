@@ -15,7 +15,7 @@ layout: base
 
 <div class="page">
     <header>
-		{% unless hide_title %}
+		{% unless site.hide_title %}
       <h1 class="page-title" property="name">
         {{ page.title | default:strings.not_found.title | default: "404: Page Not Found" }}
       </h1>

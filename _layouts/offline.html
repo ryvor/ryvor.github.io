@@ -20,7 +20,7 @@ layout: base
 {% assign strings = site.data.strings %}
 
 <div class="page">
-	{% unless hide_title %}
+	{% unless site.hide_title %}
 	  <h1 class="page-title">{{ page.title | default:strings.offline.title | default: "You Are Offline" }}</h1>
 	{% endunless %}
   <div class="hr pb0"></div>
