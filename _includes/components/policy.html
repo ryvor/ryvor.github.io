@@ -20,10 +20,6 @@
         {%- else -%}
           {{- site.data.strings.posted | default:"Posted" -}}
         {%- endunless -%}
-        {% if policy.applause_button %}
-          {{ ' ' }}
-          <span class="clap-count" data-url="{{ policy.url | absolute_url }}"></span>
-        {% endif %}
       {% endcapture %}
       <span class="ellipsis mr1">
         {{ foobar }}
