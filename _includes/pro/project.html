@@ -45,12 +45,14 @@
           {% endif %}
         {% endif %}
       {% endunless %}
-      <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>
-      <span class="{{ site.data.strings.links_icon | default:'icon-link' }}" title="{{ site.data.strings.links | default:'Links' }}"></span>
-      {% for link in project.links %}
-        <a class="external" href="{{ link.url }}" property="sameAs">{{ link.title }}</a>
-        {% unless forloop.last %}{{ separator }}{% endunless %}
-      {% endfor %}
+      <span class="ellipsis ml1">
+        <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>
+        <span class="{{ site.data.strings.links_icon | default:'icon-link' }}" title="{{ site.data.strings.links | default:'Links' }}"></span>
+        {% for link in project.links %}
+          <a class="external" href="{{ link.url }}" property="sameAs">{{ link.title }}</a>
+          {% unless forloop.last %}{{ separator }}{% endunless %}
+        {% endfor %}
+      </span>
     </div>
 
     {% assign alt = false %}
