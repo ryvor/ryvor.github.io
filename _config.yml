@@ -38,11 +38,13 @@ author:               # This should be the same author as first entry in `_data/
     email:            RSmith_20@outlook.com
 github_username:      ryvor
 
-copyright:            © 2023. All rights reserved.
+copyright:            © ryvor 2023. All rights reserved.
 legal:                # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-  - title:            LICENSES
-    url:              /Licenses/
-  - title:            COOKIES POLICY
+  - title:            Licences
+    url:              /Licences/
+  - title:            Privacy Policy
+    url:              /Policies/Privacy/
+  - title:            Cookies Policy
     url:              /Policies/Cookies/
 
 paginate:             10
