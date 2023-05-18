@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-05-18 14:07:00
+last_modified_at: 2023-05-18 14:07
 no_link_title:    false 
 no_excerpt:       false 
 hide_image:       false
