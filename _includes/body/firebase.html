@@ -19,7 +19,13 @@
     const analytics = getAnalytics(app);
     const auth = getAuth();
 
-    console.log(window.location.href);
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const uid = user.uid;
+        console.log(user);
+      }
+    });
+
 
     /*
       if (isSignInWithEmailLink(window.location.href)) {
