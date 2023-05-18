@@ -25,6 +25,9 @@ layout: page
 
 <div class="page">
   <header>
+		{% unless hide_title %}
+				<h1 class="page-title">{{ page.title }}</h1>
+		{% endunless %}
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
     {% if project.caption %}
       <meta property="disambiguatingDescription" content="{{ page.caption }}"/>
