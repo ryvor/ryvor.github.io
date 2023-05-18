@@ -17,12 +17,12 @@
   const analytics = getAnalytics(app);
   const auth = getAuth();
 
-	if (auth.isSignInWithEmailLink(window.location.href)) {
+	if (isSignInWithEmailLink(window.location.href)) {
 		var email = window.localStorage.getItem("emailForSignIn");
 		if (!email) {
 			email = window.prompt("Please provide your email for confirmation");
 		}
-		auth.signInWithEmailLink(email, window.location.href).then(function (result) {
+		signInWithEmailLink(email, window.location.href).then(function (result) {
 			window.localStorage.removeItem("emailForSignIn");
 			console.log("User signed in:", result.user);
 		}).catch(function (error) {
@@ -47,7 +47,7 @@
 				});
 			},
 			emailLink(email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) {
-				auth.sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
+				sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
 					window.localStorage.setItem("emailForSignIn", email);
 					console.log("Email sent");
 				}).catch(function (error) {
@@ -58,7 +58,7 @@
 			}
 		},
 		Logout() {
-			auth.signOut().then(() => {
+			signOut().then(() => {
 				alert('Logout successful')
 			}).catch((error) => {
 					var errorCode = error.code;
