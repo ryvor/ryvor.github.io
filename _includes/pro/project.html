@@ -41,7 +41,7 @@
               <span class="sr-only">{{ label }}{{ site.data.strings.colon }}</span>
               <span class="{{ site.data.strings.last_modified_icon | default:'icon-history' }}"></span>
               <time datetime="{{ project.last_modified_at | date_to_xmlschema }}">{{ project.last_modified_at | date:last_modified_at_format }}</time>
-
+              
               <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>
               <span class="{{ site.data.strings.links_icon | default:'icon-link' }}" title="{{ site.data.strings.links | default:'Links' }}"></span>
               {% for link in project.links %}
