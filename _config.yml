@@ -127,10 +127,10 @@ firebase:
   emailLink:
     enabled:          true
     callbackUrl:      https://ryvor.github.io/finishSignUp
-  phone:
-    enabled:          true
   github:
     enabled:          true
+  phone:
+    enabled:          false
 
 
 # Hydejack Settings
