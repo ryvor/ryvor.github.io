@@ -22,7 +22,7 @@
   const analytics = getAnalytics(app);
 </script>
 
-<script>
+<script type="module">
 	import { getAuth, isSignInWithEmailLink, signInWithEmailLink, sendSignInLinkToEmail } from "firebase/auth";
 	const auth = getAuth();
 	const actionCodeSettings = { url: 'https://ryvor.github.io/finishSignUp' };
