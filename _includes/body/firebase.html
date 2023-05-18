@@ -32,7 +32,7 @@
     });
   };
   */
-  export function login_github() {
+  const login_github = () => {
     const provider = new GithubAuthProvider();
     signInWithPopup(auth, provider).then((result) => {
       const credential = GithubAuthProvider.credentialFromResult(result);
@@ -45,7 +45,7 @@
       const credential = GithubAuthProvider.credentialFromError(error);
     });
   };
-  export function login_email(email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) {
+  const login_email = (email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) => {
     sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
       window.localStorage.setItem("emailForSignIn", email);
       console.log("Email sent");
@@ -55,7 +55,7 @@
       console.error("Email sending error:", errorCode, errorMessage);
     });
   };
-  export function login_phone(phoneNumber = getPhoneNumberFromUserInput(), appVerifier = window.recaptchaVerifier) {
+  const login_phone = (phoneNumber = getPhoneNumberFromUserInput(), appVerifier = window.recaptchaVerifier) => {
     /* TODO: PHONE AUTHENTICATION
       signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((confirmationResult) => {
         window.confirmationResult = confirmationResult;
@@ -66,7 +66,7 @@
       });
     */
   };
-  export function logout() {
+  const logout = () => {
     signOut().then(() => {
       alert('Logout successful')
     }).catch((error) => {
@@ -75,4 +75,7 @@
       console.error("Logout error:", errorCode, errorMessage);
     });
   };
+
+
+  export {login_github, login_email, login_phone, logout}
 </script>
