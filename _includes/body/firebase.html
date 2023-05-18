@@ -21,17 +21,14 @@
 			email = window.prompt("Please provide your email for confirmation");
 		}
 		auth.signInWithEmailLink(email, window.location.href).then(function (result) {
-			// User successfully signed in with email link
 			window.localStorage.removeItem("emailForSignIn");
 			console.log("User signed in:", result.user);
-			// Perform actions after successful login
 		}).catch(function (error) {
-			// Error occurred during sign-in with email link
 			alert("An error occurred while trying to log you in");
 			console.error("Sign-in error:", error);
 		});
 	};
-	
+
   export var account = {
 		Login: {
 			github() {
