@@ -1,46 +1,20 @@
+<script type="module">
+	import { getAuth, signInWithPopup, GithubAuthProvider } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js"
 
-<script>
-	const app = firebase.initializeApp({
-		apiKey: "AIzaSyCZYhv-k9hgHEZGWPq1XuMFDlXGBfY934g",
-		authDomain: "ryvor-portfolio.firebaseapp.com",
-		projectId: "ryvor-portfolio",
-		storageBucket: "ryvor-portfolio.appspot.com",
-		messagingSenderId: "354876397984",
-		appId: "1:354876397984:web:c98964abbe972b6a756cc5",
-		measurementId: "G-PZ7S7SC9SD"
-	});
-	const analytics = getAnalytics(app);
-  var auth = firebase.auth();
+	const auth = getAuth();
+	const provider = new GithubAuthProvider();
 
-  function loginWithEmailLink(email) {
-    var actionCodeSettings = {
-      url: 'https://ryvor.github.io/finishSignUp/',
-      handleCodeInApp: true,
-    };
-    auth.sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
-			window.localStorage.setItem("emailForSignIn", email);
-			console.log("Email sent");
-		}).catch(function (error) {
-			console.error("Email sending error:", error.code, error.message);
+	function Login() {
+		signInWithPopup(auth, provider).then((result) => {
+			const credential = GithubAuthProvider.credentialFromResult(result);
+			const token = credential.accessToken;
+			const user = result.user;
+		}).catch((error) => {
+			const errorCode = error.code;
+			const errorMessage = error.message;
+			const email = error.customData.email;
+			const credential = GithubAuthProvider.credentialFromError(error);
 		});
-  }
+	}
 
-  if (auth.isSignInWithEmailLink(window.location.href)) {
-    var email = window.localStorage.getItem("emailForSignIn");
-    if (!email) {
-      email = window.prompt("Please provide your email for confirmation");
-    }
-    auth.signInWithEmailLink(email, window.location.href)
-      .then(function (result) {
-        // User successfully signed in with email link
-        window.localStorage.removeItem("emailForSignIn");
-        console.log("User signed in:", result.user);
-        // Perform actions after successful login
-      })
-      .catch(function (error) {
-        // Error occurred during sign-in with email link
-        alert("An error occurred while trying to log you in");
-        console.error("Sign-in error:", error);
-      });
-  }
 </script>
