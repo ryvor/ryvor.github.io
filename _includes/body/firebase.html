@@ -1,12 +1,6 @@
-<script type="module">
-	/* Import the functions you need from the SDKs you need */
-	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
-	import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
-	import { getAuth, isSignInWithEmailLink, signInWithEmailLink, sendSignInLinkToEmail, signOut } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
-	import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
 
-	/* Initialize Firebase */
-	const app = initializeApp({
+<script>
+	const app = firebase.initializeApp({
 		apiKey: "AIzaSyCZYhv-k9hgHEZGWPq1XuMFDlXGBfY934g",
 		authDomain: "ryvor-portfolio.firebaseapp.com",
 		projectId: "ryvor-portfolio",
@@ -16,40 +10,37 @@
 		measurementId: "G-PZ7S7SC9SD"
 	});
 	const analytics = getAnalytics(app);
-	const auth = getAuth();
-	const actionCodeSettings = { url: 'https://ryvor.github.io/finishSignUp/' };
+  var auth = firebase.auth();
 
-	let account = {
-		login(email) {								/* Web Login */
-			sendSignInLinkToEmail(auth, email, actionCodeSettings).then(() => {
-				window.localStorage.setItem('emailForSignIn', email);
-				alert('Successfully sent email');
-			}).catch((error) => {
-				alert('Error whilst sending email');
-				console.log(error.code + ' : ' + error.message)
-			});
-		},
-		logout() {										/* Web Logout */
-			signOut(auth).then(() => {
-				/* Sign-out successful. */
-				alert('Success');
-			}).catch((error) => {
-				/* An error happened. */
-				alert('Error');
-			});
-		},
-	};
-
-	if(isSignInWithEmailLink(auth, window.location.href)) {
-		let email = window.localStorage.getItem('emailForSignIn');
-		if (!email) {
-			email = window.prompt('Please provide your email for confirmation');
-		}
-		signInWithEmailLink(auth, email, window.location.href).then((result) => {
-			window.localStorage.removeItem('emailForSignIn');
-		}).catch((error) => {
-			alert('An error occurred whilst trying to log you in');
-			console.log(error);
+  function loginWithEmailLink(email) {
+    var actionCodeSettings = {
+      url: 'https://ryvor.github.io/finishSignUp/',
+      handleCodeInApp: true,
+    };
+    auth.sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
+			window.localStorage.setItem("emailForSignIn", email);
+			console.log("Email sent");
+		}).catch(function (error) {
+			console.error("Email sending error:", error.code, error.message);
 		});
-	}
+  }
+
+  if (auth.isSignInWithEmailLink(window.location.href)) {
+    var email = window.localStorage.getItem("emailForSignIn");
+    if (!email) {
+      email = window.prompt("Please provide your email for confirmation");
+    }
+    auth.signInWithEmailLink(email, window.location.href)
+      .then(function (result) {
+        // User successfully signed in with email link
+        window.localStorage.removeItem("emailForSignIn");
+        console.log("User signed in:", result.user);
+        // Perform actions after successful login
+      })
+      .catch(function (error) {
+        // Error occurred during sign-in with email link
+        alert("An error occurred while trying to log you in");
+        console.error("Sign-in error:", error);
+      });
+  }
 </script>
