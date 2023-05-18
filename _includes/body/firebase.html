@@ -14,21 +14,53 @@
   });
   const analytics = getAnalytics(app);
   const auth = getAuth();
-  const provider = new GithubAuthProvider();
 
-  function Login() {
-    signInWithPopup(auth, provider).then((result) => {
-      const credential = GithubAuthProvider.credentialFromResult(result);
-      const token = credential.accessToken;
-      const user = result.user;
-    }).catch((error) => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-      const email = error.customData.email;
-      const credential = GithubAuthProvider.credentialFromError(error);
-    });
-  }
-
-	Login();
-
+	if (auth.isSignInWithEmailLink(window.location.href)) {
+		var email = window.localStorage.getItem("emailForSignIn");
+		if (!email) {
+			email = window.prompt("Please provide your email for confirmation");
+		}
+		auth.signInWithEmailLink(email, window.location.href).then(function (result) {
+			// User successfully signed in with email link
+			window.localStorage.removeItem("emailForSignIn");
+			console.log("User signed in:", result.user);
+			// Perform actions after successful login
+		}).catch(function (error) {
+			// Error occurred during sign-in with email link
+			alert("An error occurred while trying to log you in");
+			console.error("Sign-in error:", error);
+		});
+	}
+  export var account = {
+		Login: {
+			github() {
+			  const provider = new GithubAuthProvider();
+				signInWithPopup(auth, provider).then((result) => {
+					const credential = GithubAuthProvider.credentialFromResult(result);
+					const token = credential.accessToken;
+					const user = result.user;
+				}).catch((error) => {
+					const errorCode = error.code;
+					const errorMessage = error.message;
+					const email = error.customData.email;
+					const credential = GithubAuthProvider.credentialFromError(error);
+				});
+			},
+			emailLink(email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) {
+				auth.sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
+					window.localStorage.setItem("emailForSignIn", email);
+					console.log("Email sent");
+				}).catch(function (error) {
+					var errorCode = error.code;
+					var errorMessage = error.message;
+					console.error("Email sending error:", errorCode, errorMessage);
+				});
+			}
+		},
+		Logout() {
+			auth.signOut().then(() => {
+			}).catch((error) => {
+			});
+		}
+	}
 </script>
