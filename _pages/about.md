@@ -18,16 +18,15 @@ image:
     480w:         /assets/img/about/banner@0,25x.png
 
 title:            About me
-description:      A littbe about myself.
+description:      Learn more about my background, interests, and achievements.
 hide_description: false
 permalink:        /About/
 ---
 
-## Hello, World!
+## Hi!
+I'm **Robert Smith**, *a.k.a.* [**@{{site.data.authors.authot1.github}}**]({{site.data.social.github.prepend}}{{site.data.authors.authot1.github}}).
 
-Hi, I'm **Robert Smith**, *a.k.a.* [**@{{site.data.authors.authot1.github}}**]({{site.data.social.github.prepend}}{{site.data.authors.authot1.github}}).<br>
-
-Pleaseh check my [resume] if you wish to know more about me.
+Pleaseh check my [Resume](/Resume/) if you wish to know more about me.
 
 ***
 
