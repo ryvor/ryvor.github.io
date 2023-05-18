@@ -54,7 +54,7 @@
           const credential = GithubAuthProvider.credentialFromError(error);
         });
       },
-      emailLink(email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) {
+      email(email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) {
         sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
           window.localStorage.setItem("emailForSignIn", email);
           console.log("Email sent");
@@ -68,8 +68,10 @@
         signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((confirmationResult) => {
           window.confirmationResult = confirmationResult;
         }).catch((error) => {
+          window.recaptchaVerifier.render().then(function(widgetId) {
+            grecaptcha.reset(widgetId);
+          });
         });
-
       }
     },
     Logout() {
