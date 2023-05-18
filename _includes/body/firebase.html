@@ -4,7 +4,9 @@
     import {	getAuth,
               signInWithPopup, GithubAuthProvider,
               sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink,
-              signInWithPhoneNumber, RecaptchaVerifier } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+              signInWithPhoneNumber, RecaptchaVerifier,
+              OAuthProvider,
+              onAuthStateChanged} from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
 
     const app = initializeApp({
@@ -50,6 +52,21 @@
     */
     window.account = {
       Login: {
+        {{ if site.firebase.github.enabled }}
+          github: () => {
+            const provider = new OAuthProvider('microsoft.com');;
+            signInWithPopup(auth, provider).then((result) => {
+              const credential = OAuthProvider.credentialFromResult(result);
+              const accessToken = credential.accessToken;
+              const idToken = result.idToken;
+            }).catch((error) => {
+              const errorCode = error.code;
+              const errorMessage = error.message;
+              const email = error.customData.email;
+              const credential = GithubAuthProvider.credentialFromError(error);
+            });
+          },
+        {{ endif }}
         {{ if site.firebase.github.enabled }}
           github: () => {
             const provider = new GithubAuthProvider();
