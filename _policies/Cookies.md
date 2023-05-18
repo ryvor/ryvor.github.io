@@ -52,12 +52,14 @@ Please read this cookies policy carefully.
   {:style="list-style: upper-latin"}
 
   1. This Website uses the following cookies:
-    | Type of cookie                 | Purpose                                                                                                                                                                                                                                                                                                   |
-    |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Strictly necessary cookies     | These are cookies that are required for the operation of the Website. They include, for example, cookies that enable you to log into secure areas of the Website, use a shopping cart or make use of e-billing services.                                                                                  |
-    | Analytical/performance cookies | These cookies allow us to recognise and count the number of visitors and to see how visitors move around our Website when they are using it. This helps us to improve the way our Website works, for example, by ensuring that users are finding what they are looking for easily.                        |
-    | Functionality cookies          | These are used to recognise you when you return to our Website. This enables us to personalise our content for you, greet you by name and remember your preferences (for example, your choice of language or region). By using the Website, you agree to our placement of functionality cookies.          |
-    | Targeting cookies              | These cookies record your visit to our Website, the pages you have visited and the links you have followed. We will use this information to make our Website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose. |
+
+     | Type of cookie                 | Purpose                                                                                                                                                                                                                                                                                                   |
+     |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     | Strictly necessary cookies     | These are cookies that are required for the operation of the Website. They include, for example, cookies that enable you to log into secure areas of the Website, use a shopping cart or make use of e-billing services.                                                                                  |
+     | Analytical/performance cookies | These cookies allow us to recognise and count the number of visitors and to see how visitors move around our Website when they are using it. This helps us to improve the way our Website works, for example, by ensuring that users are finding what they are looking for easily.                        |
+     | Functionality cookies          | These are used to recognise you when you return to our Website. This enables us to personalise our content for you, greet you by name and remember your preferences (for example, your choice of language or region). By using the Website, you agree to our placement of functionality cookies.          |
+     | Targeting cookies              | These cookies record your visit to our Website, the pages you have visited and the links you have followed. We will use this information to make our Website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose. |
+
   2. You can find a list of the cookies that we use in the attached Cookie Schedule.
   3. We have carefully chosen these cookies and have taken steps to ensure that your privacy is protected and respected at all times.
 
@@ -89,23 +91,27 @@ Please read this cookies policy carefully.
   1. Below is a list of the cookies that we use. We have tried to ensure this is complete and up to date, but if you think that we have missed a cookie or there is any discrepancy, please let us know.
     {:style="list-style: upper-roman"}
     1. Strictly necessary cookies:
-      | Name of cookie | Purpose of cookie |
-      | -------------- | ----------------- |
-      |                |                   |
+
+       | Name of cookie | Purpose of cookie |
+       | -------------- | ----------------- |
+       |                |                   |
 
     2. Functionality cookies:
-      | Name of cookie | Purpose of cookie |
-      | -------------- | ----------------- |
-      |                |                   |
+
+       | Name of cookie | Purpose of cookie |
+       | -------------- | ----------------- |
+       |                |                   |
 
     3. Analytical/performance cookies:
-      | Name of cookie | Purpose of cookie                                                             |
-      | -------------- | ------------------------------------------------------------------------------|
-      | _gid           | Google Analytics cookie used to distinguish users.                            |
-      | _gat           | Google Analytics cookie used to throttle the speed of requests to the server. |
-      | _ga            | Google Analytics cookie used to collect data on website traffic.              |
+
+       | Name of cookie | Purpose of cookie                                                             |
+       | -------------- | ------------------------------------------------------------------------------|
+       | _gid           | Google Analytics cookie used to distinguish users.                            |
+       | _gat           | Google Analytics cookie used to throttle the speed of requests to the server. |
+       | _ga            | Google Analytics cookie used to collect data on website traffic.              |
 
     4. Targeting cookies:
-      | Name of cookie | Purpose of cookie |
-      | -------------- | ----------------- |
-      |                |                   |
+
+       | Name of cookie | Purpose of cookie |
+       | -------------- | ----------------- |
+       |                |                   |

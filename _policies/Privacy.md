@@ -35,14 +35,16 @@ Please read this privacy policy carefully.
   {:style="list-style: upper-latin"}
 
   1. In this privacy policy, the following definitions are used:
-    | Data | collectively all information that you submit to Robert Smith via the Website. This definition incorporates, where applicable, the definitions provided in the Data Protection Laws. |
-    | Cookies | a small text file placed on your computer by this Website when you visit certain parts of the Website and/or when you use certain features of the Website. Details of the cookies used by this Website are set out in the clause below (Cookies); |
-    | Data Protection Laws | any applicable law relating to the processing of personal Data, including but not limited to the GDPR, and any national implementing and supplementary laws, regulations and secondary legislation. |
-    | GDPR | the UK General Data Protection Regulation |
-    | Robert Smith, (we or us) | Robert Smith of 20 Northview Road, Dunstable, Bedfordshire, LU5 5AH;
-    | UK and EU Cookie Law | the Privacy and Electronic Communications (EC Directive) Regulations 2003 as amended by the Privacy and Electronic Communications (EC Directive) (Amendment) Regulations 2011 & the Privacy and Electronic Communications (EC Directive) (Amendment) Regulations 2018; |
-    | User or you | any third party that accesses the Website and is not either (i) employed by Robert Smith and acting in the course of their employment or (ii) engaged as a consultant or otherwise providing services to Robert Smith and accessing the Website in connection with the provision of such services; and |
-    | Website | the website that you are currently using, ryvor.github.io, and any sub-domains of this site unless expressly excluded by their own terms and conditions. |
+
+     | Data | collectively all information that you submit to Robert Smith via the Website. This definition incorporates, where applicable, the definitions provided in the Data Protection Laws. |
+     | Cookies | a small text file placed on your computer by this Website when you visit certain parts of the Website and/or when you use certain features of the Website. Details of the cookies used by this Website are set out in the clause below (Cookies); |
+     | Data Protection Laws | any applicable law relating to the processing of personal Data, including but not limited to the GDPR, and any national implementing and supplementary laws, regulations and secondary legislation. |
+     | GDPR | the UK General Data Protection Regulation |
+     | Robert Smith, (we or us) | Robert Smith of 20 Northview Road, Dunstable, Bedfordshire, LU5 5AH;
+     | UK and EU Cookie Law | the Privacy and Electronic Communications (EC Directive) Regulations 2003 as amended by the Privacy and Electronic Communications (EC Directive) (Amendment) Regulations 2011 & the Privacy and Electronic Communications (EC Directive) (Amendment) Regulations 2018; |
+     | User or you | any third party that accesses the Website and is not either (i) employed by Robert Smith and acting in the course of their employment or (ii) engaged as a consultant or otherwise providing services to Robert Smith and accessing the Website in connection with the provision of such services; and |
+     | Website | the website that you are currently using, ryvor.github.io, and any sub-domains of this site unless expressly excluded by their own terms and conditions. |
+
   2. In this privacy policy, unless the context requires a different interpretation:
     {:style="list-style: upper-roman"}
     1. the singular includes the plural and vice versa;
