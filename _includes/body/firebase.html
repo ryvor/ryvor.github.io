@@ -1,82 +1,95 @@
-<script type="module">
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
-  import {	getAuth,
-            signInWithPopup, GithubAuthProvider,
-            sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink,
-            signInWithPhoneNumber } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+{{ if site.firebase.enabled }}
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+    import {	getAuth,
+              signInWithPopup, GithubAuthProvider,
+              sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink,
+              signInWithPhoneNumber } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
 
-  const app = initializeApp({
-    apiKey: "AIzaSyCZYhv-k9hgHEZGWPq1XuMFDlXGBfY934g",
-    authDomain: "ryvor-portfolio.firebaseapp.com",
-    projectId: "ryvor-portfolio",
-    storageBucket: "ryvor-portfolio.appspot.com",
-    messagingSenderId: "354876397984",
-    appId: "1:354876397984:web:c98964abbe972b6a756cc5",
-    measurementId: "G-PZ7S7SC9SD"
-  });
-  const analytics = getAnalytics(app);
-  const auth = getAuth();
-  /*
-  if (isSignInWithEmailLink(window.location.href)) {
-    var email = window.localStorage.getItem("emailForSignIn");
-    if (!email) {
-      email = window.prompt("Please provide your email for confirmation");
-    }
-    signInWithEmailLink(email, window.location.href).then(function (result) {
-      window.localStorage.removeItem("emailForSignIn");
-      console.log("User signed in:", result.user);
-    }).catch(function (error) {
-      alert("An error occurred while trying to log you in");
-      console.error("Sign-in error:", error);
+    const app = initializeApp({
+      apiKey: "{{ site.firebase.api_key }}",
+      authDomain: "{{ site.firebase.auth_domain }}",
+      projectId: "{{ site.firebase.project_id }}",
+      storageBucket: "{{ site.firebase.storage_bucket }}",
+      messagingSenderId: "{{ site.firebase.message_sender_id }}",
+      appId: "{{ site.firebase.app_id }}",
+      measurementId: "{{ site.firebase.measurement_id }}"
     });
-  };
-  */
-  window.account = {
-    Login: {
-      github: () => {
-        const provider = new GithubAuthProvider();
-        signInWithPopup(auth, provider).then((result) => {
-          const credential = GithubAuthProvider.credentialFromResult(result);
-          const token = credential.accessToken;
-          const user = result.user;
-        }).catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          const email = error.customData.email;
-          const credential = GithubAuthProvider.credentialFromError(error);
-        });
+    const analytics = getAnalytics(app);
+    const auth = getAuth();
+    /*
+    if (isSignInWithEmailLink(window.location.href)) {
+      var email = window.localStorage.getItem("emailForSignIn");
+      if (!email) {
+        email = window.prompt("Please provide your email for confirmation");
+      }
+      signInWithEmailLink(email, window.location.href).then(function (result) {
+        window.localStorage.removeItem("emailForSignIn");
+        console.log("User signed in:", result.user);
+      }).catch(function (error) {
+        alert("An error occurred while trying to log you in");
+        console.error("Sign-in error:", error);
+      });
+    };
+    */
+    window.recaptchaVerifier = new RecaptchaVerifier('sign-in-button', {
+      'size': 'invisible',
+      'callback': (response) => {
+        onSignInSubmit();
+      }
+    }, auth);
+    window.account = {
+      Login: {
+        {{ if site.firebase.github.enabled }}
+          github: () => {
+            const provider = new GithubAuthProvider();
+            signInWithPopup(auth, provider).then((result) => {
+              const credential = GithubAuthProvider.credentialFromResult(result);
+              const token = credential.accessToken;
+              const user = result.user;
+            }).catch((error) => {
+              const errorCode = error.code;
+              const errorMessage = error.message;
+              const email = error.customData.email;
+              const credential = GithubAuthProvider.credentialFromError(error);
+            });
+          },
+        {{ endif }}
+        {{ if site.firebase.emailLink.enabled }}
+          email: (email, actionCodeSettings = { url: "{{ site.firebase.emailLink.callbackUrl }}", handleCodeInApp: true }) => {
+            sendSignInLinkToEmail(auth, email, actionCodeSettings).then((result) => {
+              window.localStorage.setItem("emailForSignIn", email);
+              console.log("Email sent");
+            }).catch(function (error) {
+              var errorCode = error.code;
+              var errorMessage = error.message;
+              console.error("Email sending error:", errorCode, errorMessage);
+            });
+          },
+        {{ endif }}
+        {{ if site.firebase.phone.enabled }}
+          phone: (phoneNumber, appVerifier = window.recaptchaVerifier) => {
+            signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((result) => {
+              window.localStorage.setItem("phoneForSignIn", phoneNumber);
+              window.confirmationResult = confirmationResult;
+            }).catch((error) => {
+              appVerifier.render().then(function(widgetId) {
+                grecaptcha.reset(widgetId);
+              });
+            });
+          },
+        {{ endif }}
       },
-      email: (email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) => {
-        sendSignInLinkToEmail(auth, email, actionCodeSettings).then((result) => {
-          window.localStorage.setItem("emailForSignIn", email);
-          console.log("Email sent");
-        }).catch(function (error) {
+      Logout: () => {
+        signOut().then(() => {
+          alert('Logout successful')
+        }).catch((error) => {
           var errorCode = error.code;
           var errorMessage = error.message;
-          console.error("Email sending error:", errorCode, errorMessage);
+          console.error("Logout error:", errorCode, errorMessage);
         });
-      },
-      phone: (phoneNumber, appVerifier = window.recaptchaVerifier) => {
-        /* TODO: PHONE AUTHENTICATION
-          signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((result) => {
-            window.localStorage.setItem("phoneForSignIn", phoneNumber);
-          }).catch((error) => {
-            window.recaptchaVerifier.render().then(function(widgetId) {
-              grecaptcha.reset(widgetId);
-            });
-          });
-        */
       }
-    },
-    Logout: () => {
-      signOut().then(() => {
-        alert('Logout successful')
-      }).catch((error) => {
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        console.error("Logout error:", errorCode, errorMessage);
-      });
     }
-  }
-</script>
+  </script>
+{{ endif }}
