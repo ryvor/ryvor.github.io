@@ -48,7 +48,7 @@
         });
       },
       email: (email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) => {
-        sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
+        sendSignInLinkToEmail(auth, email, actionCodeSettings).then(function () {
           window.localStorage.setItem("emailForSignIn", email);
           console.log("Email sent");
         }).catch(function (error) {
