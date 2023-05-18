@@ -16,31 +16,31 @@
 
     <div class="post-date">
       {% capture foobar %}
-        {%- unless site.hydejack.hide_dates -%}
-          {%- assign policy_format = site.data.strings.date_formats.policy | default:"%d %b %Y" -%}
-          <time datetime="{{ policy.date | date_to_xmlschema }}">{{ policy.date | date:policy_format }}</time>
+        {%- unless site.hydFejack.hide_dates -%}
+          {%- assign project_format = site.data.strings.date_formats.project | default:"%d %b %Y" -%}
+          <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date:project_format }}</time>
         {%- else -%}
           {{- site.data.strings.posted | default:"Posted" -}}
         {%- endunless -%}
-        {% if policy.applause_button %}
+        {% if project.applause_button %}
           {{ ' ' }}
-          <span class="clap-count" data-url="{{ policy.url | absolute_url }}"></span>
+          <span class="clap-count" data-url="{{ project.url | absolute_url }}"></span>
         {% endif %}
       {% endcapture %}
       <span class="ellipsis mr1">
         {{ foobar }}
       </span>
-      {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or policy.hide_last_modified %}
-        {% if policy.last_modified_at %}
-          {% assign d1 = policy.date             | date:"%Y-%m-%d" %}
-          {% assign d2 = policy.last_modified_at | date:"%Y-%m-%d" %}
+      {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or project.hide_last_modified %}
+        {% if project.last_modified_at %}
+          {% assign d1 = project.date             | date:"%Y-%m-%d" %}
+          {% assign d2 = project.last_modified_at | date:"%Y-%m-%d" %}
           {% if d1 != d2 %}
             {% assign label = site.data.strings.last_modified_at | default:"Last modified at" %}
             {% assign last_modified_at_format = site.data.strings.date_formats.last_modified_at | default:"%Y-%m-%d" %}
-            <span class="ellipsis" data-tippy-content="{{ label }}{{ site.data.strings.colon }} {{ policy.last_modified_at | date:policy_format }}">
+            <span class="ellipsis" data-tippy-content="{{ label }}{{ site.data.strings.colon }} {{ project.last_modified_at | date:project_format }}">
               <span class="sr-only">{{ label }}{{ site.data.strings.colon }}</span>
               <span class="{{ site.data.strings.last_modified_icon | default:'icon-history' }}"></span>
-              <time datetime="{{ policy.last_modified_at | date_to_xmlschema }}">{{ policy.last_modified_at | date:last_modified_at_format }}</time>
+              <time datetime="{{ project.last_modified_at | date_to_xmlschema }}">{{ project.last_modified_at | date:last_modified_at_format }}</time>
             </span>
           {% endif %}
         {% endif %}
