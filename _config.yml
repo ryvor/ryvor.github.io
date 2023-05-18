@@ -168,10 +168,10 @@ collections:
     permalink:        /Licenses/:title/
   projects:
     output:           true
-    permalink:        /Project/:path/
+    permalink:        /Projects/:path/
   posts:
     output:           true
-    permalink:        /Post/:title/
+    permalink:        /Posts/:title/
 
 # Plugins
 # ----------------------------------------------------------------------------------------
