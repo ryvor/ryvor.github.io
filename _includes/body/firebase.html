@@ -23,12 +23,10 @@
 </script>
 
 <script>
-	const actionCodeSettings = {
-		url: 'https://ryvor.github.io/finishSignUp',
-	};
 	import { getAuth, sendSignInLinkToEmail } from "firebase/auth";
-
 	const auth = getAuth();
+	const actionCodeSettings = { url: 'https://ryvor.github.io/finishSignUp' };
+	
 	sendSignInLinkToEmail(auth, email, actionCodeSettings).then(() => {
 			window.localStorage.setItem('emailForSignIn', email);
 	}).catch((error) => {
