@@ -4,7 +4,7 @@
     import {	getAuth,
               signInWithPopup, GithubAuthProvider,
               sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink,
-              signInWithPhoneNumber } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+              signInWithPhoneNumber, RecaptchaVerifier } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
 
     const app = initializeApp({
@@ -18,7 +18,7 @@
     });
     const analytics = getAnalytics(app);
     const auth = getAuth();
-    /*
+
     if (isSignInWithEmailLink(window.location.href)) {
       var email = window.localStorage.getItem("emailForSignIn");
       if (!email) {
@@ -32,7 +32,7 @@
         console.error("Sign-in error:", error);
       });
     };
-    */
+
     window.recaptchaVerifier = new RecaptchaVerifier('sign-in-button', {
       'size': 'invisible',
       'callback': (response) => {
