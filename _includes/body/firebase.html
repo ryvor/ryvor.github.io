@@ -48,7 +48,7 @@
         });
       },
       email: (email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) => {
-        sendSignInLinkToEmail(auth, email, actionCodeSettings).then(function () {
+        sendSignInLinkToEmail(auth, email, actionCodeSettings).then((result) => {
           window.localStorage.setItem("emailForSignIn", email);
           console.log("Email sent");
         }).catch(function (error) {
@@ -59,8 +59,8 @@
       },
       phone: (phoneNumber = getPhoneNumberFromUserInput(), appVerifier = window.recaptchaVerifier) => {
         /* TODO: PHONE AUTHENTICATION
-          signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((confirmationResult) => {
-            window.confirmationResult = confirmationResult;
+          signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((result) => {
+            window.result = result;
           }).catch((error) => {
             window.recaptchaVerifier.render().then(function(widgetId) {
               grecaptcha.reset(widgetId);
