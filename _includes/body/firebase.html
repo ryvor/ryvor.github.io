@@ -19,29 +19,26 @@
 	const auth = getAuth();
 	const actionCodeSettings = { url: 'https://ryvor.github.io/finishSignUp/' };
 
-
-	/* Web Login */
-	function login(email) {
-		sendSignInLinkToEmail(auth, email, actionCodeSettings).then(() => {
-			window.localStorage.setItem('emailForSignIn', email);
-			alert('Successfully sent email');
-		}).catch((error) => {
-			alert('Error whilst sending email');
-			console.log(error.code + ' : ' + error.message)
-		});
+	let account = {
+		login(email) {								/* Web Login */
+			sendSignInLinkToEmail(auth, email, actionCodeSettings).then(() => {
+				window.localStorage.setItem('emailForSignIn', email);
+				alert('Successfully sent email');
+			}).catch((error) => {
+				alert('Error whilst sending email');
+				console.log(error.code + ' : ' + error.message)
+			});
+		},
+		logout() {										/* Web Logout */
+			signOut(auth).then(() => {
+				/* Sign-out successful. */
+				alert('Success');
+			}).catch((error) => {
+				/* An error happened. */
+				alert('Error');
+			});
+		}
 	}
-
-	/* Web Logout */
-	function logout() {
-		signOut(auth).then(() => {
-			/* Sign-out successful. */
-			alert('Success');
-		}).catch((error) => {
-			/* An error happened. */
-			alert('Error');
-		});
-	}
-
 
 	if(isSignInWithEmailLink(auth, window.location.href)) {
 		let email = window.localStorage.getItem('emailForSignIn');
