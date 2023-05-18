@@ -57,10 +57,10 @@
           console.error("Email sending error:", errorCode, errorMessage);
         });
       },
-      phone: (phoneNumber = getPhoneNumberFromUserInput(), appVerifier = window.recaptchaVerifier) => {
+      phone: (phoneNumber, appVerifier = window.recaptchaVerifier) => {
         /* TODO: PHONE AUTHENTICATION
           signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((result) => {
-            window.result = result;
+            window.localStorage.setItem("phoneForSignIn", phoneNumber);
           }).catch((error) => {
             window.recaptchaVerifier.render().then(function(widgetId) {
               grecaptcha.reset(widgetId);
