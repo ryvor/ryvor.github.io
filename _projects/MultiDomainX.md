@@ -19,7 +19,7 @@ image:
 caption:          A simple website solution for multiple domains.
 
 title:            Multi Domain X
-date:             2021-03-29 11:37:00
+date:             2023-03-29 11:37:00
 description:      Information about Multi Domain X
 hide_description: true
 featured:         false
