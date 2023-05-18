@@ -19,19 +19,23 @@
     const analytics = getAnalytics(app);
     const auth = getAuth();
 
-    if (isSignInWithEmailLink(window.location.href)) {
-      var email = window.localStorage.getItem("emailForSignIn");
-      if (!email) {
-        email = window.prompt("Please provide your email for confirmation");
-      }
-      signInWithEmailLink(email, window.location.href).then(function (result) {
-        window.localStorage.removeItem("emailForSignIn");
-        console.log("User signed in:", result.user);
-      }).catch(function (error) {
-        alert("An error occurred while trying to log you in");
-        console.error("Sign-in error:", error);
-      });
-    };
+    console.log(window.location.href);
+
+    /*
+      if (isSignInWithEmailLink(window.location.href)) {
+        var email = window.localStorage.getItem("emailForSignIn");
+        if (!email) {
+          email = window.prompt("Please provide your email for confirmation");
+        }
+        signInWithEmailLink(email, window.location.href).then(function (result) {
+          window.localStorage.removeItem("emailForSignIn");
+          console.log("User signed in:", result.user);
+        }).catch(function (error) {
+          alert("An error occurred while trying to log you in");
+          console.error("Sign-in error:", error);
+        });
+      };
+    */
 
     window.recaptchaVerifier = new RecaptchaVerifier('sign-in-button', {
       'size': 'invisible',
