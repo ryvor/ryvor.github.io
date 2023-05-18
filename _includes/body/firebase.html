@@ -32,42 +32,41 @@
     });
   };
   */
-  export var account = {
-    login_github = () => {
-      const provider = new GithubAuthProvider();
-      signInWithPopup(auth, provider).then((result) => {
-        const credential = GithubAuthProvider.credentialFromResult(result);
-        const token = credential.accessToken;
-        const user = result.user;
+  window.login_github = () => {
+    const provider = new GithubAuthProvider();
+    signInWithPopup(auth, provider).then((result) => {
+      const credential = GithubAuthProvider.credentialFromResult(result);
+      const token = credential.accessToken;
+      const user = result.user;
+    }).catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      const email = error.customData.email;
+      const credential = GithubAuthProvider.credentialFromError(error);
+    });
+  };
+  window.login_email = (email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) => {
+    sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
+      window.localStorage.setItem("emailForSignIn", email);
+      console.log("Email sent");
+    }).catch(function (error) {
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      console.error("Email sending error:", errorCode, errorMessage);
+    });
+  };
+  window.login_phone = (phoneNumber = getPhoneNumberFromUserInput(), appVerifier = window.recaptchaVerifier) => {
+    /* TODO: PHONE AUTHENTICATION
+      signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((confirmationResult) => {
+        window.confirmationResult = confirmationResult;
       }).catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        const email = error.customData.email;
-        const credential = GithubAuthProvider.credentialFromError(error);
-      });
-    };
-    login_email = (email, actionCodeSettings = { url: "https://ryvor.github.io/finishSignUp", handleCodeInApp: true }) => {
-      sendSignInLinkToEmail(email, actionCodeSettings).then(function () {
-        window.localStorage.setItem("emailForSignIn", email);
-        console.log("Email sent");
-      }).catch(function (error) {
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        console.error("Email sending error:", errorCode, errorMessage);
-      });
-    };
-    login_phone = (phoneNumber = getPhoneNumberFromUserInput(), appVerifier = window.recaptchaVerifier) => {
-      /* TODO: PHONE AUTHENTICATION
-        signInWithPhoneNumber(auth, phoneNumber, appVerifier).then((confirmationResult) => {
-          window.confirmationResult = confirmationResult;
-        }).catch((error) => {
-          window.recaptchaVerifier.render().then(function(widgetId) {
-            grecaptcha.reset(widgetId);
-          });
+        window.recaptchaVerifier.render().then(function(widgetId) {
+          grecaptcha.reset(widgetId);
         });
-      */
-    };
-    logout = () => {
+      });
+    */
+  };
+  window.logout = () => {
       signOut().then(() => {
         alert('Logout successful')
       }).catch((error) => {
@@ -76,5 +75,4 @@
         console.error("Logout error:", errorCode, errorMessage);
       });
     };
-  }
 </script>
