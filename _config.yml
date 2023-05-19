@@ -115,25 +115,6 @@ lightbox:
 tinyletter:
   enabled:            false
   username:           # <username>
-firebase:
-  enabled:            true
-  api_key:            AIzaSyCZYhv-k9hgHEZGWPq1XuMFDlXGBfY934g
-  auth_domain:        ryvor-portfolio.firebaseapp.com
-  project_id:         ryvor-portfolio
-  storage_bucket:     ryvor-portfolio.appspot.com
-  message_sender_id:  354876397984
-  app_id:             1:354876397984:web:c98964abbe972b6a756cc5
-  measurement_id:     G-PZ7S7SC9SD
-  emailLink:
-    enabled:          true
-    callbackUrl:      https://ryvor.github.io/finishSignUp
-  github:
-    enabled:          true
-  microsoft:
-    enabled:          true
-  phone:
-    enabled:          false
-
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
