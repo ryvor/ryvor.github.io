@@ -28,28 +28,36 @@
       }
     });
 
+    if(isSignInWithEmailLink(window.location.href)) {
+      var email = window.localStorage.getItem("emailForSignIn");
+      if (!email) {
+        email = window.prompt("Please provide your email for confirmation");
+      }
+      signInWithEmailLink(email, window.location.href).then(function (result) {
+        window.localStorage.removeItem("emailForSignIn");
+        console.log("User signed in:", result.user);
+      }).catch(function (error) {
+        alert("An error occurred while trying to log you in");
+        console.error("Sign-in error:", error);
+      });
+    };
+    window.recaptchaVerifier = new RecaptchaVerifier('no-fouc', {
+      'size': 'invisible',
+      'callback': (response) => {
+        onSignInSubmit();
+      }
+    }, auth);
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/reference/js/firebase.User
+        const uid = user.uid;
+        console.log(uid)
+      } else {
+        // User is signed out
+      }
+    });
 
-    /*
-      if (isSignInWithEmailLink(window.location.href)) {
-        var email = window.localStorage.getItem("emailForSignIn");
-        if (!email) {
-          email = window.prompt("Please provide your email for confirmation");
-        }
-        signInWithEmailLink(email, window.location.href).then(function (result) {
-          window.localStorage.removeItem("emailForSignIn");
-          console.log("User signed in:", result.user);
-        }).catch(function (error) {
-          alert("An error occurred while trying to log you in");
-          console.error("Sign-in error:", error);
-        });
-      };
-      window.recaptchaVerifier = new RecaptchaVerifier('no-fouc', {
-        'size': 'invisible',
-        'callback': (response) => {
-          onSignInSubmit();
-        }
-      }, auth);
-    */
     window.account = {
       Login: {
         {{ if site.firebase.github.enabled }}
