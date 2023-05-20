@@ -25,6 +25,8 @@ hide_description: true
 featured:         false
 
 links:
+#  - title:        Demo
+#    url:          http://s908228974.websitehome.co.uk/
   - title:        Source
     url:          https://github.com/Aurora-Softwares/Aura-OS/
 ---
