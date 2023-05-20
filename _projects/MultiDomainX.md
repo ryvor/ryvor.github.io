@@ -29,11 +29,12 @@ links:
     url:          http://s908228974.websitehome.co.uk/
   - title:        Source
     url:          https://github.com/Ashwell-Design/MultiDomainX/
+
 project:
 	docs:         https://ashwell-design.github.io/MultiDomainX/
 ---
 
-MultiDomainX(MDX) is an innovative and user-friendly software solution designed to streamline web-traffic and sales management for small or large e-commerce businesses. MDX is specifically designed to manage multiple domains by directing all domain traffic for multiple domains and processing all the URL parts, user login status, and other pertinent data. With MDX, small business owners can easily manage their web traffic, increase their online presence, and boost their sales.
+MultiDomainX(MDX) is an innovative and user-friendly software solution designed to streamline web-traffic and sales management for small or large e-commerce businesses. MDX is specifically designed to manage multiple domains by directing all domain traffic for multiple domains and processing all the URL parts, user login status, and other pertinent data. With MDX, business owners can easily manage their web traffic, increase their online presence, and boost their sales.
 
 ## Features
 
