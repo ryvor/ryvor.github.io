@@ -29,15 +29,11 @@ links:
     url:          http://s908228974.websitehome.co.uk/
   - title:        Source
     url:          https://github.com/Ashwell-Design/MultiDomainX/
+project:
+	docs:         https://ashwell-design.github.io/MultiDomainX/
 ---
 
-# Multi Domain X
-
-[![GitHub contributors](https://img.shields.io/github/contributors/Ashwell-Design/MultiDomainX)](https://github.com/Ashwell-Design/MultiDomainX/graphs/contributors)
-[![GitHub forks](https://img.shields.io/github/forks/Ashwell-Design/MultiDomainX)](https://github.com/Ashwell-Design/MultiDomainX/network)
-[![GitHub stars](https://img.shields.io/github/stars/Ashwell-Design/MultiDomainX)](https://github.com/Ashwell-Design/MultiDomainX/stargazers)
-
-MultiDomainX is an innovative and user-friendly software solution designed to streamline web-traffic and sales management for small businesses. MultiDomainX is specifically designed to manage multiple domains by directing all domain traffic for multiple domains and processing all the URL parts, user login status, and other pertinent data. With MultiDomainX, small business owners can easily manage their web traffic, increase their online presence, and boost their sales.
+MultiDomainX(MDX) is an innovative and user-friendly software solution designed to streamline web-traffic and sales management for small or large e-commerce businesses. MDX is specifically designed to manage multiple domains by directing all domain traffic for multiple domains and processing all the URL parts, user login status, and other pertinent data. With MDX, small business owners can easily manage their web traffic, increase their online presence, and boost their sales.
 
 ## Features
 
@@ -46,21 +42,13 @@ MultiDomainX is an innovative and user-friendly software solution designed to st
 - Cloud-based platform for easy access from anywhere
 - User-friendly interface
 
-## Installation
-
-Instructions go here.
-
-## Usage
-
-Instructions go here.
-
 ## Screenshots
 
 Screenshots go here.
 
-## Contributing
+## Learn more
 
-We welcome contributions from the community. Please read our contributing guidelines for more information.
+To learmn more about the project, please [click here!]({{ page.project.docs }})!
 
 ## License
 
