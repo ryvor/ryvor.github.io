@@ -48,7 +48,7 @@ Screenshots go here.
 
 ## Learn more
 
-To learmn more about the project, please [click here!]({{ page.project.docs }})!
+To learmn more about the project, please [click here!]()!
 
 ## License
 
