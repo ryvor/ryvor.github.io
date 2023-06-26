@@ -22,7 +22,7 @@ title:            Enigma IDE
 date:             2023-06-04 12:10:00
 description:      Information about Enigma IDE
 hide_description: true
-featured:         true
+featured:         false
 
 links:
   - title:        Source
