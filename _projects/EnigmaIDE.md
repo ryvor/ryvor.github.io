@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-05-15
+last_modified_at: 2023-06-26
 no_link_title:    false
 no_excerpt:       false
 hide_image:       false
@@ -19,7 +19,7 @@ image:
 caption:          A more secure IDE.
 
 title:            Enigma IDE
-date:             2023-03-29 11:37:00
+date:             2023-06-04 12:10:00
 description:      Information about Enigma IDE
 hide_description: true
 featured:         true
