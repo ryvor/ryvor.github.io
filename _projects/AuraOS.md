@@ -37,13 +37,10 @@ ______________________________________________________________________
 
 <p align="center">
 
-[Features](#features)
-•
-[Requirements](#requirements)
-•
-[Documentation](https://github.com/Aurora-softwares/Aura-OS/wiki/)
-•
-[License](#license)
+<a href="#features">Features</a> •
+<a href="#requirements">Requirements</a> •
+<a href="https://ryvor.github.io/Projects/AuraOS/wiki/">Documentation</a> •
+<a href="#license">License</a>
 
 </p>
 
