@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-05-15
+last_modified_at: 2023-07-31 13:26:00
 no_link_title:    false
 no_excerpt:       false
 hide_image:       false
@@ -31,18 +31,17 @@ links:
 
 <div align="center">
 
-  **An all new OS, entirely made from the ground up.**
+**An all new OS, entirely made from the ground up.**
 
-  ______________________________________________________________________
+______________________________________________________________________
 
-  <p align="center">
-    <a href="#what-is-aura-os">What is Aura OS</a> •
-    <a href="#requirements">Software Requirements</a> •
-    <a href="https://github.com/Aurora-softwares/Aura-OS/wiki/">Docs</a> •
-    <a href="#license">License</a>
-  </p>
+<p align="center">
 
-  ______________________________________________________________________
+[Features](#features) • [Requirements](#requirements) • [Documentation](https://github.com/Aurora-softwares/Aura-OS/wiki/) • [License](#license)
+
+</p>
+
+______________________________________________________________________
 
 </div>
 
