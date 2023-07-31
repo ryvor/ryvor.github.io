@@ -37,7 +37,13 @@ ______________________________________________________________________
 
 <p align="center">
 
-[Features](#features) • [Requirements](#requirements) • [Documentation](https://github.com/Aurora-softwares/Aura-OS/wiki/) • [License](#license)
+[Features](#features)
+•
+[Requirements](#requirements)
+•
+[Documentation](https://github.com/Aurora-softwares/Aura-OS/wiki/)
+•
+[License](#license)
 
 </p>
 
