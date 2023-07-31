@@ -31,7 +31,7 @@ links:
 
 <div align="center">
 
-**An all new OS, entirely made from the ground up.**
+An all new OS, entirely made from the ground up.
 
 ______________________________________________________________________
 
