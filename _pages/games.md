@@ -18,4 +18,9 @@ image:
     480w:         /assets/img/games/banner@0,25x.png
 
 title:            Games
+description:      All the games I've made so far.
+hide_description: false
+permalink:        /Games/
+
+show_collection:  games	
 ---
