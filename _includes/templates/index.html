@@ -2,17 +2,17 @@
   {% assign strings = site.data.strings %}
   <h2 class="sr-only">{{ strings.templates | default: "Templates"}}{{ strings.colon | default:":" }}</h2>
 
-  {% include templates/animation.html %}
-  {% include templates/loading.html %}
-  {% include templates/error.html %}
-  {% include templates/permalink.html %}
+  {% include_cached templates/animation.html %}
+  {% include_cached templates/loading.html %}
+  {% include_cached templates/error.html %}
+  {% include_cached templates/permalink.html %}
   {% if site.hydejack.cookies_banner %}
-    {% include templates/pro/cookies-banner.html %}
+    {% include_cached templates/pro/cookies-banner.html %}
   {% endif %}
   {% if site.hydejack.dark_mode.icon %}
-    {% include templates/pro/dark-mode.html %}
+    {% include_cached templates/pro/dark-mode.html %}
   {% endif %}
   {% unless site.hydejack.no_search %}
-    {% include templates/pro/search.html %}
+    {% include_cached templates/pro/search.html %}
   {% endunless %}
 </div>

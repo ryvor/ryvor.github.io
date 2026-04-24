@@ -33,6 +33,6 @@ layout: page
     <ul class="related-posts">
     {% assign date = currentdate %}
   {% endif %}
-  {% include components/post-list-item.html post=post format=list_entry %}
+  {% include_cached components/post-list-item.html post=post format=list_entry %}
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}

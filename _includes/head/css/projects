@@ -1,1 +1,1 @@
-{% capture to_scssify %}{% include styles/pro/projects.scss %}{% endcapture %}{{ to_scssify | scssify }}
+{% capture to_scssify %}{% include_cached styles/pro/projects.scss %}{% endcapture %}{{ to_scssify | scssify }}

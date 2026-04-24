@@ -25,7 +25,7 @@
     {% for post in related_posts limit:2 %}
       <div class="column column-1-2">
         {% if post %}
-          {% include pro/post-card.html post=post %}
+          {% include_cached pro/post-card.html post=post %}
         {% else %}
           Post with path <code>{{ post_path }}</code> not found.
         {% endif %}

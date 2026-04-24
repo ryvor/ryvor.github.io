@@ -24,12 +24,12 @@ layout: base
   role="article"
   {% unless nsd %}vocab="http://schema.org/" typeof="Person" resource="#resume"{% endunless %}
   >
-  {% include pro/resume/header.html %}
-  {% include pro/resume/buttons.html %}
+  {% include_cached pro/resume/header.html %}
+  {% include_cached pro/resume/buttons.html %}
 
   <div class="columns contact {% unless no_third_column %}columns-break{% endunless %}">
-    {% include pro/resume/basics.html %}
-    {% include pro/resume/profiles.html %}
+    {% include_cached pro/resume/basics.html %}
+    {% include_cached pro/resume/profiles.html %}
   </div>
 
   <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
@@ -42,25 +42,25 @@ layout: base
       {% for sec in l_col %}
         {% case sec %}
         {% when 'work' %}
-          {% include pro/resume/work.html %}
+          {% include_cached pro/resume/work.html %}
         {% when 'volunteer' %}
-          {% include pro/resume/volunteer.html %}
+          {% include_cached pro/resume/volunteer.html %}
         {% when 'education' %}
-          {% include pro/resume/education.html %}
+          {% include_cached pro/resume/education.html %}
         {% when 'projects' %}
-          {% include pro/resume/projects.html %}
+          {% include_cached pro/resume/projects.html %}
         {% when 'awards' %}
-          {% include pro/resume/awards.html %}
+          {% include_cached pro/resume/awards.html %}
         {% when 'publications' %}
-          {% include pro/resume/publications.html %}
+          {% include_cached pro/resume/publications.html %}
         {% when 'references' %}
-          {% include pro/resume/references.html %}
+          {% include_cached pro/resume/references.html %}
         {% when 'languages' %}
-          {% include pro/resume/languages.html %}
+          {% include_cached pro/resume/languages.html %}
         {% when 'skills' %}
-          {% include pro/resume/skills.html %}
+          {% include_cached pro/resume/skills.html %}
         {% when 'interests' %}
-          {% include pro/resume/interests.html %}
+          {% include_cached pro/resume/interests.html %}
         {% else %}
         {% endcase %}
       {% endfor %}
@@ -69,25 +69,25 @@ layout: base
       {% for sec in r_col %}
         {% case sec %}
         {% when 'work' %}
-          {% include pro/resume/work.html %}
+          {% include_cached pro/resume/work.html %}
         {% when 'volunteer' %}
-          {% include pro/resume/volunteer.html %}
+          {% include_cached pro/resume/volunteer.html %}
         {% when 'education' %}
-          {% include pro/resume/education.html %}
+          {% include_cached pro/resume/education.html %}
         {% when 'projects' %}
-          {% include pro/resume/projects.html %}
+          {% include_cached pro/resume/projects.html %}
         {% when 'awards' %}
-          {% include pro/resume/awards.html %}
+          {% include_cached pro/resume/awards.html %}
         {% when 'publications' %}
-          {% include pro/resume/publications.html %}
+          {% include_cached pro/resume/publications.html %}
         {% when 'references' %}
-          {% include pro/resume/references.html %}
+          {% include_cached pro/resume/references.html %}
         {% when 'languages' %}
-          {% include pro/resume/languages.html %}
+          {% include_cached pro/resume/languages.html %}
         {% when 'skills' %}
-          {% include pro/resume/skills.html %}
+          {% include_cached pro/resume/skills.html %}
         {% when 'interests' %}
-          {% include pro/resume/interests.html %}
+          {% include_cached pro/resume/interests.html %}
         {% else %}
         {% endcase %}
       {% endfor %}

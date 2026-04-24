@@ -8,9 +8,9 @@ layout: base
 {% assign minor = version[1] | plus:0 %}
 {% assign patch = version[2] | plus:0 %}
 
-{% include components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+{% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 
-{% include components/dingbat.html %}
+{% include_cached components/dingbat.html %}
 
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
 {% unless addons %}
@@ -19,15 +19,15 @@ layout: base
 {% for addon in addons %}
   {% case addon %}
     {% when 'about' %}
-      {% include components/about.html author=page.author %}
+      {% include_cached components/about.html author=page.author %}
     {% when 'newsletter' %}
-      {% include if-non-null try="pro/newsletter.html" %}
+      {% include_cached if-non-null try="pro/newsletter.html" %}
     {% when 'related' %}
-      {% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %}
+      {% include_cached if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %}
     {% when 'random' %}
-      {% include if-non-null try="pro/random-posts.html" %}
+      {% include_cached if-non-null try="pro/random-posts.html" %}
     {% when 'comments' %}
-      {% include body/comments.html %}
+      {% include_cached body/comments.html %}
     {% else %}
   {% endcase %}
 {% endfor %}

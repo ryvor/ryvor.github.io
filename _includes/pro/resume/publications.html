@@ -14,7 +14,7 @@
         </p>
       {% endif %}
       <h3 class="h4 faded">
-        {% capture name %}{% include components/link.html title=pub.name href=pub.website span_class="bc" %}{% endcapture %}
+        {% capture name %}{% include_cached components/link.html title=pub.name href=pub.website span_class="bc" %}{% endcapture %}
         {% capture publisher %}<span class="bc">{{ pub.publisher }}</span>{% endcapture %}
         {{ strings.resume.publications_title
           | default:"<!--name--> by <!--publisher-->"
@@ -24,7 +24,7 @@
       </h3>
     </header>
 
-    {% include components/message.html class="note" text=pub.summary alt="" %}
+    {% include_cached components/message.html class="note" text=pub.summary alt="" %}
   </section>
   {% if forloop.first %}</div>{% endif %}
   {% endfor %}

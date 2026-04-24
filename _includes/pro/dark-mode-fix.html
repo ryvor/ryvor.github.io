@@ -2,6 +2,6 @@
 <script>
   window._sunrise = {{ site.hydejack.dark_mode.sunrise | default:"6"  }};
   window._sunset =  {{ site.hydejack.dark_mode.sunset  | default:"18" }};
-  {% include scripts/dark-mode-fix.min.js %}
+  {% include_cached scripts/dark-mode-fix.min.js %}
 </script>
 {% endif %}

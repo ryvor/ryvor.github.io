@@ -10,10 +10,10 @@
       <header class="{% unless forloop.first %}mt2{% endunless %}" typeof="Project">
         <h3 class="h4 faded">
           <meta property="name" content="{{ project.title }}" />
-          {% capture title %}{% include components/link.html title=project.title href=project.url span_class="bc" property="sameAs" %}{% endcapture %}
+          {% capture title %}{% include_cached components/link.html title=project.title href=project.url span_class="bc" property="sameAs" %}{% endcapture %}
           {% if project.startDate.size > 0 %}
           {% capture date %}<p class="faded project-date">
-            {% include components/from-to.html from=project.startDate to=project.endDate format=from_to_format %}
+            {% include_cached components/from-to.html from=project.startDate to=project.endDate format=from_to_format %}
           </p>{% endcapture %}
           {% endif %}
           {{ strings.resume.projects_title
@@ -24,7 +24,7 @@
         </h3>
       </header>
 
-      {% include components/message.html text=project.summary alt="" %}
+      {% include_cached components/message.html text=project.summary alt="" %}
 
       {% if project.highlights.size > 0 %}
       <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>

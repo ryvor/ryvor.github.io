@@ -9,7 +9,7 @@
     <p class="h3 faded subline title p-job-title" property="jobTitle">{{ basics.label }}</p>
   {% endif %}
 
-  {% include components/message.html text=page.description hide=page.hide_description %}
+  {% include_cached components/message.html text=page.description hide=page.hide_description %}
 </header>
 
 {% if basics.summary.size > 0 %}

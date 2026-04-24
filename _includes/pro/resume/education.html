@@ -22,7 +22,7 @@
       {% else %}
       {% if edu.startDate.size > 0 %}
         <p class="faded">
-          {% include components/from-to.html from=edu.startDate to=edu.endDate format=from_to_format %}
+          {% include_cached components/from-to.html from=edu.startDate to=edu.endDate format=from_to_format %}
         </p>
       {% endif %}
       <h3 class="h4 faded" {% if edu.endDate.size > 0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>

@@ -13,7 +13,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-{% include styles/variables.scss %}
+{% include_cached styles/variables.scss %}
 @import "variables";
 @import "my-variables";
 @import "mixins";
@@ -118,7 +118,7 @@
   @import "my-inline";
   @import "my-style";
 
-  {% include styles/common.scss %}
+  {% include_cached styles/common.scss %}
 {% endunless %}
 
 @import "spinner";

@@ -1,1 +1,1 @@
-{% capture to_scssify %}{% include styles/inline.scss %}{% endcapture %}{{ to_scssify | scssify }}
+{% capture to_scssify %}{% include_cached styles/inline.scss %}{% endcapture %}{{ to_scssify | scssify }}

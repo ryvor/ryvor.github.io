@@ -1,3 +1,3 @@
 ---
 ---
-{% include js/service-worker.js %}
+{% include_cached js/service-worker.js %}

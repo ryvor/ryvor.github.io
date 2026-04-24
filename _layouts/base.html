@@ -26,9 +26,9 @@ layout: compress
 {% assign theme_color = page.theme_color  | default:site.theme_color  | default:'rgb(8,46,57)' %}
 
 <head>
-  {% include head/index.html %}
+  {% include_cached head/index.html %}
 </head>
 
-<body class="{% include base-classes %}">
-  {% include body/index.html %}
+<body class="{% include_cached base-classes %}">
+  {% include_cached body/index.html %}
 </body>

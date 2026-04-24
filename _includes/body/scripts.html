@@ -1,10 +1,10 @@
-{% include body/analytics.html %}
+{% include_cached body/analytics.html %}
 <script nomodule>
-  {% include scripts/nomodule.min.js %}
+  {% include_cached scripts/nomodule.min.js %}
 </script>
 <script src="{{ '/assets/js/hydejack-9.1.6.js' | relative_url }}" type="module"></script>
 <script src="{{ '/assets/js/LEGACY-hydejack-9.1.6.js' | relative_url }}" nomodule defer></script>
-{% include my-scripts.html %}
+{% include_cached my-scripts.html %}
 <script type="module">
   if ('serviceWorker' in navigator) {
     {% if site.hydejack.offline.enabled %}
