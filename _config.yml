@@ -77,14 +77,23 @@ defaults:
       path:             ""
       type:             posts
     values:
-      comments:          true
+      comments:         false
       applause_button:  true
+      sitemap:          false
   - scope:              # You can use the following to enable comments on all projects.
       path:             ""
-      type:             "projects"
+      type:             projects
     values:
-      comments:         true
-      applause_button:  true # https://applause-button.com/
+      comments:         false
+      applause_button:  true
+      sitemap:          true
+  - scope:              # You can use the following to enable comments on all projects.
+      path:             ""
+      type:             games
+    values:
+      comments:         false
+      applause_button:  true
+      sitemap:          true
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
