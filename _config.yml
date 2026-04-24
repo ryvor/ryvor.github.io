@@ -38,7 +38,7 @@ author:               # This should be the same author as first entry in `_data/
     email:            RSmith_20@outlook.com
 github_username:      ryvor
 
-copyright:            © ryvor 2023. All rights reserved.
+copyright:            © ryvor 2026. All rights reserved.
 legal:                # Add links to the footer. Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
   - title:            Licenses
     url:              /Licenses/
@@ -47,8 +47,8 @@ legal:                # Add links to the footer. Typically you'll want to link t
   - title:            Cookies Policy
     url:              /Policies/Cookies/
 
-#paginate:             10
-#paginate_path:        /:num/
+paginate:             10
+paginate_path:        /:num/
 excerpt_separator:    <!--more-->
 
 # Customization
