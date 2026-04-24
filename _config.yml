@@ -28,7 +28,7 @@ keywords:
 
 author:               # This should be the same author as first entry in `_data/authors.yml`.
   name:               Robert Smith
-  email:              RSmith_20@oulook.com
+  email:              RSmith_20@outlook.com
   about:              "Software Developer"
   picture:
     path:             /assets/img/ryvor.png
@@ -47,8 +47,8 @@ legal:                # Add links to the footer. Typically you'll want to link t
   - title:            Cookies Policy
     url:              /Policies/Cookies/
 
-paginate:             10
-paginate_path:        /:num/
+#paginate:             10
+#paginate_path:        /:num/
 excerpt_separator:    <!--more-->
 
 # Customization
@@ -57,7 +57,7 @@ excerpt_separator:    <!--more-->
 accent_image:         /assets/img/sidebar/sidebar-bg.png # Sidebar image and theme color of the site.
 accent_color:         rgb(50, 50, 56)
 theme_color:          rgb(25, 55, 71)
-logo:                 /assets/img//users/ryvor.png
+logo:                 /assets/img/users/ryvor.png
 title:                "@ryvor"
 description:          "Software Developer"
 tagline:              "Take it easy, but make it count."
@@ -150,7 +150,7 @@ hydejack:
     cache_version:    13
     precache_assets:
       - /assets/img/swipe.svg
-      - /assets/img/siebar/sidebar-bg.png
+      - /assets/img/sidebar/sidebar-bg.png
       - /assets/img/offline/banner.png
       - /assets/img/offline/banner@1x.png
       - /assets/img/offline/banner@0,5x.png
@@ -178,7 +178,7 @@ collections:
 
 # Plugins
 # ----------------------------------------------------------------------------------------
-plugins: []
+plugins:
 # Plugins disabled - install gems with: bundle install && bundle exec jekyll serve --livereload
 # - jekyll-default-layout
 # - jekyll-feed
@@ -189,6 +189,7 @@ plugins: []
 # - jekyll-seo-tag
 # - jekyll-sitemap
 # - jekyll-titles-from-headings
+ - jekyll-include-cache
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
