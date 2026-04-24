@@ -180,15 +180,14 @@ collections:
 # ----------------------------------------------------------------------------------------
 plugins:
 # Plugins disabled - install gems with: bundle install && bundle exec jekyll serve --livereload
-# - jekyll-default-layout
-# - jekyll-feed
-# - jekyll-optional-front-matter
-# - jekyll-paginate
-# - jekyll-redirect-from
-# - jekyll-relative-links
-# - jekyll-seo-tag
-# - jekyll-sitemap
-# - jekyll-titles-from-headings
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - jekyll-relative-links
+ - jekyll-optional-front-matter
+ - jekyll-readme-index
+ - jekyll-default-layout
+ - jekyll-titles-from-headings
+ - jekyll-sitemap
  - jekyll-include-cache
 
 # SEO Tag
