@@ -29,6 +29,8 @@ links:
     url:          https://github.com/Aurora-Softwares/Aura-OS/
 ---
 
+# Aura OS has been depreciated! I am moving on to (https://ryvor.github.io/australis)[Australis OS] built using my own language (https://ryvor.github.io/hydrogen/)[Hydrogen]
+
 <div align="center">
 
 

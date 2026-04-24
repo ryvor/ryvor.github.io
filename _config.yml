@@ -20,7 +20,7 @@ exclude:
   - Gemfile.lock
   - node_modules
 
-lang:                 en-US
+lang:                 en-GB
 timezone:             Europe/London
 
 keywords:
@@ -137,7 +137,7 @@ hydejack:
   no_theme_color:     false                      # You can set this to `true` if you don't want to set the `theme-color` meta tag
   no_breadcrumbs:     false                      # Disable the breadcrumbs above the title
   use_lsi:            false                      # Set to `true` when building with the `--lsi` option
-  cookies_banner:     true                       # When using Google Analytics, set to `true` to display a cookie notice banner.
+  cookies_banner:     false                       # When using Google Analytics, set to `true` to display a cookie notice banner.
   advertise:          false                      # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   hide_dates:         false
   hide_last_modified: false
@@ -169,27 +169,26 @@ collections:
   projects:
     output:           true
     permalink:        /Projects/:path/
-  posts:
+  games:
     output:           true
+    permalink:        /Games/:path/
+  posts:
+    output:           false
     permalink:        /Posts/:title/
 
 # Plugins
 # ----------------------------------------------------------------------------------------
-plugins:
-  - jekyll-avatar
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-redirect-from
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-titles-from-headings
-  - jekyll-include-cache
-  - jekyll-last-modified-at
-  - jemoji
+plugins: []
+# Plugins disabled - install gems with: bundle install && bundle exec jekyll serve --livereload
+# - jekyll-default-layout
+# - jekyll-feed
+# - jekyll-optional-front-matter
+# - jekyll-paginate
+# - jekyll-redirect-from
+# - jekyll-relative-links
+# - jekyll-seo-tag
+# - jekyll-sitemap
+# - jekyll-titles-from-headings
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
