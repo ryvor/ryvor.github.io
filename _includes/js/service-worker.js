@@ -58,9 +58,9 @@ const STATIC_FILES = [
 
 const PRE_CACHED_ASSETS = [
   '{{ "/assets/icons/favicon.ico" | relative_url }}',
-  /*{% if site.accent_image %}{% unless site.accent_image.background %}*/"{% include_cached smart-url url=site.accent_image %}",/*{% endunless %}{% endif %}*/
-  /*{% if site.logo %}*/"{% include_cached smart-url url=site.logo %}",/*{% endif %}*/
-  /*{% for file in site.hydejack.offline.precache_assets %}*/"{% include_cached smart-url url=file %}",
+  /*{% if site.accent_image %}{% unless site.accent_image.background %}*/"{% include smart-url url=site.accent_image %}",/*{% endunless %}{% endif %}*/
+  /*{% if site.logo %}*/"{% include smart-url url=site.logo %}",/*{% endif %}*/
+  /*{% for file in site.hydejack.offline.precache_assets %}*/"{% include smart-url url=file %}",
   /*{% endfor %}*/
 ];
 
@@ -68,7 +68,7 @@ const PRE_CACHED_ASSETS = [
 const CONTENT_FILES = [
   "{{ '/'             | relative_url }}",
   "{{ '/Offline/' | relative_url }}",
-  /*{% for node in site.legal %}*/"{% assign url = node.url | default: node.href %}{% include_cached smart-url url=url %}",
+  /*{% for node in site.legal %}*/"{% assign url = node.url | default: node.href %}{% include smart-url url=url %}",
   /*{% endfor %}*/
 ];
 

@@ -8,7 +8,7 @@ layout: base
 {% assign minor = version[1] | plus:0 %}
 {% assign patch = version[2] | plus:0 %}
 
-{% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+{% include components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 
 {% include components/dingbat.html %}
 
@@ -19,7 +19,7 @@ layout: base
 {% for addon in addons %}
   {% case addon %}
     {% when 'about' %}
-      {% include_cached components/about.html author=page.author %}
+      {% include components/about.html author=page.author %}
     {% when 'newsletter' %}
       {% include if-non-null try="pro/newsletter.html" %}
     {% when 'related' %}

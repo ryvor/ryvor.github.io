@@ -27,7 +27,7 @@ layout: base
           <a href="{{ page.url | relative_url }}" class="no-hover no-print-link {% unless page.hide_image %}flip-project{% endunless %}" tabindex="-1">
         {% endunless %}
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
-          {% include_cached components/hy-img.html img=page.image alt=page.title width=864 height=486 %}
+          {% include components/hy-img.html img=page.image alt=page.title width=864 height=486 %}
         </div>
         {% unless no_link_title %}
           </a>

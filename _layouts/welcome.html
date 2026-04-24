@@ -28,7 +28,7 @@ layout: about
 		{% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
 		<div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
 			{% if project %}
-			{% include_cached pro/project-card.html project=project featured=featured %}
+			{% include pro/project-card.html project=project featured=featured %}
 			{% else %}
 			Project with path <code>{{ project_path }}</code> not found.
 			{% endif %}
@@ -41,7 +41,7 @@ layout: about
 		{% for project in ordered_projects limit:2 %}
 		{% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
 		<div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
-			{% include_cached pro/project-card.html project=project featured=featured %}
+			{% include pro/project-card.html project=project featured=featured %}
 		</div>
 		{% endfor %}
 	</div>
@@ -83,7 +83,7 @@ layout: about
       {% endif %}
       <div class="column column-1-2">
         {% if post %}
-          {% include_cached pro/post-card.html post=post %}
+          {% include pro/post-card.html post=post %}
         {% else %}
           Post with path <code>{{ post_path }}</code> not found.
         {% endif %}
@@ -94,7 +94,7 @@ layout: about
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
     {% for post in site.posts limit:4 %}
       <div class="column column-1-2">
-        {% include_cached pro/post-card.html post=post %}
+        {% include pro/post-card.html post=post %}
       </div>
     {% endfor %}
   </div>
@@ -134,7 +134,7 @@ layout: about
         {% unless post %}{% assign post = site.posts | where_exp:"post", "post_path == post.url"  | first %}{% endunless %}
       {% endif %}
       {% if post %}
-        {% include_cached components/post-list-item.html post=post %}
+        {% include components/post-list-item.html post=post %}
       {% else %}
         <li>Post with path <code>{{ post_path }}</code> not found.</li>
       {% endif %}
@@ -143,7 +143,7 @@ layout: about
 {% elsif site.posts.size > 1 %}
   <ul class="related-posts mt2">
     {% for post in site.posts limit:5 %}
-      {% include_cached components/post-list-item.html post=post %}
+      {% include components/post-list-item.html post=post %}
     {% endfor %}
   </ul>
 {% endif %}

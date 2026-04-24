@@ -14,6 +14,6 @@ layout: base
   {% assign parent = site.pages | where:"show_collection",license.collection | first %}
 {% endif %}
 
-{% include_cached components/license.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description parent=parent %}
+{% include components/license.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description parent=parent %}
 
 {% include components/dingbat.html %}
