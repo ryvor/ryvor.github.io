@@ -13,7 +13,7 @@ order:            0
 image:
   path:           /assets/img/licenses/agpl-3.0/banner.png
   srcset:
-    1920w:        /assets/img/licenses/agpl-3.0/banner@01x.jpg
+    1920w:        /assets/img/licenses/agpl-3.0/banner@1x.jpg
     960w:         /assets/img/licenses/agpl-3.0/banner@0.5x.jpg
     480w:         /assets/img/licenses/agpl-3.0/banner@0.25x.jpg
 caption:          GNU Affero General Public License

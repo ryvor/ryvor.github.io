@@ -13,7 +13,7 @@ order:            5
 image:
   path:           /assets/img/ventures/vaent/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/vaent/banner@01x.jpg
+    1920w:        /assets/img/ventures/vaent/banner@1x.jpg
     960w:         /assets/img/ventures/vaent/banner@0.5x.jpg
     480w:         /assets/img/ventures/vaent/banner@0.25x.jpg
 caption:          Systems, automation, and internal tooling

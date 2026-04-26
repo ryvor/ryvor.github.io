@@ -14,7 +14,7 @@ order:            6
 image:
   path:           /assets/img/ventures/circle-mail/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/circle-mail/banner@01x.jpg
+    1920w:        /assets/img/ventures/circle-mail/banner@1x.jpg
     960w:         /assets/img/ventures/circle-mail/banner@0.5x.jpg
     480w:         /assets/img/ventures/circle-mail/banner@0.25x.jpg
 caption:          Smarter email workflows and communication tracking

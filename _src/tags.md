@@ -13,7 +13,7 @@ order:            1
 image:
   path:           /assets/img/tags/banner.jpg
   srcset:
-    1920w:        /assets/img/tags/banner@01x.jpg
+    1920w:        /assets/img/tags/banner@1x.jpg
     960w:         /assets/img/tags/banner@0.5x.jpg
     480w:         /assets/img/tags/banner@0.25x.jpg
 

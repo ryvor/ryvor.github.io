@@ -184,7 +184,7 @@ hydejack:
       - /assets/img/swipe.svg
       - /assets/img/sidebar/sidebar-bg.png
       - /assets/img/offline/banner.jpg
-      - /assets/img/offline/banner@01x.jpg
+      - /assets/img/offline/banner@1x.jpg
       - /assets/img/offline/banner@0.5x.jpg
       - /assets/img/offline/banner@0.25x.jpg
 

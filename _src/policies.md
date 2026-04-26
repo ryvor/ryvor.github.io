@@ -13,7 +13,7 @@ order:            0
 image:
   path:           /assets/img/policies/banner.jpg
   srcset:
-    1920w:        /assets/img/policies/banner@01x.jpg
+    1920w:        /assets/img/policies/banner@1x.jpg
     960w:         /assets/img/policies/banner@0.5x.jpg
     480w:         /assets/img/policies/banner@0.25x.jpg
 

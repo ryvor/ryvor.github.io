@@ -13,7 +13,7 @@ order:            0
 image:
   path:           /assets/img/licenses/w3c/banner.jpg
   srcset:
-    1920w:        /assets/img/licenses/w3c/banner@01x.jpg
+    1920w:        /assets/img/licenses/w3c/banner@1x.jpg
     960w:         /assets/img/licenses/w3c/banner@0.5x.jpg
     480w:         /assets/img/licenses/w3c/banner@0.25x.jpg
 caption:          W3C Software Notice and License

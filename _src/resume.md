@@ -13,7 +13,7 @@ order:             5
 image:
   path:            /assets/img/resume/banner.jpg
   srcset:
-    1920w:         /assets/img/resume/banner@01x.jpg
+    1920w:         /assets/img/resume/banner@1x.jpg
     960w:          /assets/img/resume/banner@0.5x.jpg
     480w:          /assets/img/resume/banner@0.25x.jpg
 
