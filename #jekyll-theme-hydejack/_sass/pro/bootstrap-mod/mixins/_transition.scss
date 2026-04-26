@@ -1,0 +1,11 @@
+@use "sass:list";
+
+@mixin transition($transition...) {
+  @if $enable-transitions {
+    @if list.length($transition) == 0 {
+      transition: $transition-base;
+    } @else {
+      transition: $transition;
+    }
+  }
+}

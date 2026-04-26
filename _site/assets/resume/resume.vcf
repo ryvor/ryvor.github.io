@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Robert Smith
+N;CHARSET=UTF-8:Smith;Robert;;Mr;
+GENDER:M
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:RSmith_20@outlook.com
+TEL;TYPE=CELL:07465993448
+LABEL;CHARSET=UTF-8;TYPE=HOME:Home
+ADR;CHARSET=UTF-8;TYPE=HOME:;;20 Northview Road;Dunstable;Bedfordshire;LU5 5AH;United Kingdom
+URL;CHARSET=UTF-8:https://ryvor.github.io/
+X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/_ryvor/
+X-SOCIALPROFILE;TYPE=Github:https://github.com/ryvor/
+REV:2023-05-15T17:54:12.422Z
+END:VCARD
