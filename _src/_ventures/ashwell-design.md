@@ -11,11 +11,11 @@ sidebar:          false
 order:            0
 
 image:
-  path:           /assets/img/ventures/ashwell-design/banner.png
+  path:           /assets/img/ventures/ashwell-design/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/ashwell-design/banner@1x.png
-    960w:         /assets/img/ventures/ashwell-design/banner@0,5x.png
-    480w:         /assets/img/ventures/ashwell-design/banner@0,25x.png
+    1920w:        /assets/img/ventures/ashwell-design/banner@1x.jpg
+    960w:         /assets/img/ventures/ashwell-design/banner@0,5x.jpg
+    480w:         /assets/img/ventures/ashwell-design/banner@0,25x.jpg
 caption:          Web design and software solutions
 
 title:            Ashwell Design

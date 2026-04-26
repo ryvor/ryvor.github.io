@@ -30,10 +30,18 @@ jobs:
       - name: Build with Jekyll
         run: bundle exec jekyll build --destination ./_site
 
-      - name: Check built site
+      - name: Diagnose Jekyll output
         run: |
+          ruby -v
+          bundle -v
+          bundle exec jekyll -v
+          git branch --show-current
+          ls -la
           ls -la ./_site
-          find ./_site -maxdepth 2 -name "index.html"
+          find ./_site -maxdepth 3 -name "*.html" -print
+          test -f ./_site/index.html && echo "✅ index.html exists" || (echo "❌ index.html missing" && exit 1)
+          test -f ./_site/CNAME && cat ./_site/CNAME || echo "No CNAME found"
+          du -sh ./_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

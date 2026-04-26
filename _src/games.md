@@ -8,7 +8,7 @@ hide_title:       false
 layout:           projects
 cover:            false
 sidebar:          true
-order:            3
+order:            2
 
 image:
   path:           /assets/img/games/banner.png

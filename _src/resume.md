@@ -8,7 +8,7 @@ hide_title:        false
 layout:            resume
 cover:             false
 sidebar:           true
-order:             3
+order:             5
 
 image:
   path:            /assets/img/resume/banner.png

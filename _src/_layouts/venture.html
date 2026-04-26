@@ -23,94 +23,131 @@ layout: base
     {% include_cached components/message.html text=page.description hide=page.hide_description %}
   </header>
 
-  <div class="columns contact {% unless no_third_column %}columns-break{% endunless %}">
-    <dl class="column column-3-5">
+  <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
+    <div class="column column-3-5">
+      <div class="venture-content">
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="column column-2-5">
       {% assign location = page.location %}
-      {% if location %}
-        {% if location.address.size > 0 or location.city.size > 0 or location.region.size > 0 %}
-          <dt class="faded">
-            <span class="{{ icons.location | default:'icon-location' }}" title="Location"></span>
-            <span class="sr-only">Location</span>
-          </dt>
-          <dd class="bold">
-            {% if location.address.size > 0 %}{{ location.address }}, {% endif %}
-            {% if location.city.size > 0 %}{{ location.city }}, {% endif %}
-            {% if location.region.size > 0 %}{{ location.region }}{% endif %}
-          </dd>
-        {% endif %}
+      {% assign has_details = false %}
+      {% if page.founded.size > 0 %}{% assign has_details = true %}{% endif %}
+      {% if page.status.size > 0 %}{% assign has_details = true %}{% endif %}
+      {% if location.city.size > 0 or location.region.size > 0 %}{% assign has_details = true %}{% endif %}
+
+      {% if has_details %}
+      <section class="npb">
+        <h2 class="h3 hr-bottom">
+          Business Details
+          <span class="symbol {{ icons.work | default:'icon-briefcase' }}"></span>
+        </h2>
+        <dl>
+          {% if page.founded.size > 0 %}
+            <dt class="faded">
+              <span class="{{ icons.born | default:'icon-quill' }}" title="Founded"></span>
+              <span class="sr-only">Founded</span>
+            </dt>
+            <dd class="bold">{{ page.founded }}</dd>
+          {% endif %}
+
+          {% if page.status.size > 0 %}
+            <dt class="faded">
+              <span class="{{ icons.citizenship | default:'icon-flag' }}" title="Status"></span>
+              <span class="sr-only">Status</span>
+            </dt>
+            <dd class="bold">{{ page.status }}</dd>
+          {% endif %}
+
+          {% if location %}
+            {% if location.city.size > 0 or location.region.size > 0 %}
+              <dt class="faded">
+                <span class="{{ icons.location | default:'icon-location' }}" title="Location"></span>
+                <span class="sr-only">Location</span>
+              </dt>
+              <dd class="bold">
+                {% if location.city.size > 0 %}{{ location.city }}{% if location.region.size > 0 %}, {% endif %}{% endif %}
+                {% if location.region.size > 0 %}{{ location.region }}{% endif %}
+              </dd>
+            {% endif %}
+          {% endif %}
+        </dl>
+      </section>
       {% endif %}
 
-      {% if page.founded.size > 0 %}
-        <dt class="faded">
-          <span class="{{ icons.born | default:'icon-quill' }}" title="Founded"></span>
-          <span class="sr-only">Founded</span>
-        </dt>
-        <dd class="bold">{{ page.founded }}</dd>
+      {% assign has_contact = false %}
+      {% if page.website.size > 0 %}{% assign has_contact = true %}{% endif %}
+      {% if page.email.size > 0 %}{% assign has_contact = true %}{% endif %}
+      {% if page.phone.size > 0 %}{% assign has_contact = true %}{% endif %}
+
+      {% if has_contact %}
+      <section class="npb">
+        <h2 class="h3 hr-bottom">
+          Contact
+          <span class="symbol {{ icons.email | default:'icon-mail2' }}"></span>
+        </h2>
+        <dl>
+          {% if page.website.size > 0 %}
+            <dt class="faded">
+              <span class="{{ icons.website | default:'icon-home3' }}" title="Website"></span>
+              <span class="sr-only">Website</span>
+            </dt>
+            <dd class="bold">
+              <a href="{{ page.website }}" class="external no-print-link">{{ page.website }}</a>
+            </dd>
+          {% endif %}
+
+          {% if page.email.size > 0 %}
+            <dt class="faded">
+              <span class="{{ icons.email | default:'icon-mail2' }}" title="Email"></span>
+              <span class="sr-only">Email</span>
+            </dt>
+            <dd class="bold">
+              <a href="mailto:{{ page.email }}" class="external no-print-link">{{ page.email }}</a>
+            </dd>
+          {% endif %}
+
+          {% if page.phone.size > 0 %}
+            <dt class="faded">
+              <span class="{{ icons.phone | default:'icon-phone' }}" title="Phone"></span>
+              <span class="sr-only">Phone</span>
+            </dt>
+            <dd class="bold">
+              <a href="tel:{{ page.phone | replace:' ','' }}" class="external no-print-link">{{ page.phone }}</a>
+            </dd>
+          {% endif %}
+        </dl>
+      </section>
       {% endif %}
 
-      {% if page.status.size > 0 %}
-        <dt class="faded">
-          <span class="{{ icons.citizenship | default:'icon-flag' }}" title="Status"></span>
-          <span class="sr-only">Status</span>
-        </dt>
-        <dd class="bold">{{ page.status }}</dd>
+      {% if page.profiles.size > 0 %}
+      <section class="npb">
+        <h2 class="h3 hr-bottom">
+          Profiles
+          <span class="symbol {{ icons.profiles | default:'icon-link' }}"></span>
+        </h2>
+        <dl>
+          {% for pro in page.profiles %}
+            {% assign platform = pro.network | downcase %}
+            {% assign data_social = site.data.social[platform] %}
+            {% assign icon = data_social.icon %}
+            {% if data_social.name %}
+              {% assign name = data_social.name %}
+            {% else %}
+              {% assign name = pro.network %}
+            {% endif %}
+            <dt class="faded">
+              <span class="{{ icon | default:icons.fallback | default:'icon-link' }}" title="{{ name }}"></span>
+              <span class="sr-only">{{ name }}</span>
+            </dt>
+            <dd class="bold">
+              {% include_cached components/link.html href=pro.url title=pro.username %}
+            </dd>
+          {% endfor %}
+        </dl>
+      </section>
       {% endif %}
-
-      {% if page.email.size > 0 %}
-        <dt class="faded">
-          <span class="{{ icons.email | default:'icon-mail2' }}" title="Email"></span>
-          <span class="sr-only">Email</span>
-        </dt>
-        <dd class="bold">
-          <a href="mailto:{{ page.email }}" class="external no-print-link">{{ page.email }}</a>
-        </dd>
-      {% endif %}
-
-      {% if page.phone.size > 0 %}
-        <dt class="faded">
-          <span class="{{ icons.phone | default:'icon-phone' }}" title="Phone"></span>
-          <span class="sr-only">Phone</span>
-        </dt>
-        <dd class="bold">
-          <a href="tel:{{ page.phone | replace:' ','' }}" class="external no-print-link">{{ page.phone }}</a>
-        </dd>
-      {% endif %}
-
-      {% if page.website.size > 0 %}
-        <dt class="faded">
-          <span class="{{ icons.website | default:'icon-home3' }}" title="Website"></span>
-          <span class="sr-only">Website</span>
-        </dt>
-        <dd class="bold">
-          <a href="{{ page.website }}" class="external no-print-link">{{ page.website }}</a>
-        </dd>
-      {% endif %}
-    </dl>
-
-    {% if page.profiles.size > 0 %}
-    <dl class="column column-2-5">
-      {% for pro in page.profiles %}
-        {% assign platform = pro.network | downcase %}
-        {% assign data_social = site.data.social[platform] %}
-        {% assign icon = data_social.icon %}
-        {% if data_social.name %}
-          {% assign name = data_social.name %}
-        {% else %}
-          {% assign name = pro.network %}
-        {% endif %}
-        <dt class="faded">
-          <span class="{{ icon | default:icons.fallback | default:'icon-link' }}" title="{{ name }}"></span>
-          <span class="sr-only">{{ name }}</span>
-        </dt>
-        <dd class="bold">
-          {% include_cached components/link.html href=pro.url title=pro.username %}
-        </dd>
-      {% endfor %}
-    </dl>
-    {% endif %}
-  </div>
-
-  <div class="mt2">
-    {{ content }}
+    </div>
   </div>
 </article>

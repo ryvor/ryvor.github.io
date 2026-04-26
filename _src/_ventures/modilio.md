@@ -11,11 +11,11 @@ sidebar:          false
 order:            1
 
 image:
-  path:           /assets/img/ventures/modilio/banner.png
+  path:           /assets/img/ventures/modilio/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/modilio/banner@1x.png
-    960w:         /assets/img/ventures/modilio/banner@0,5x.png
-    480w:         /assets/img/ventures/modilio/banner@0,25x.png
+    1920w:        /assets/img/ventures/modilio/banner@1x.jpg
+    960w:         /assets/img/ventures/modilio/banner@0,5x.jpg
+    480w:         /assets/img/ventures/modilio/banner@0,25x.jpg
 caption:          3D printed products and custom designs
 
 title:            Modilio

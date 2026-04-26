@@ -8,7 +8,7 @@ hide_title:       false
 layout:           projects
 cover:            false
 sidebar:          true
-order:            4
+order:            3
 
 title:            Ventures
 description:      Companies and ventures I've founded.

@@ -8,7 +8,7 @@ hide_title:       false
 layout:           posts
 cover:            false
 sidebar:          true
-order:            2
+order:            4
 
 image:
   path:           /assets/img/posts/banner.png
