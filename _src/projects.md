@@ -14,8 +14,8 @@ image:
   path:           /assets/img/projects/banner.jpg
   srcset:
     1920w:        /assets/img/projects/banner@1x.jpg
-    960w:         /assets/img/projects/banner@0.5x.png
-    480w:         /assets/img/projects/banner@0.25x.png
+    960w:         /assets/img/projects/banner@0.5x.jpg
+    480w:         /assets/img/projects/banner@0.25x.jpg
 
 title:            Projects
 description:      All the projects I've done so far.

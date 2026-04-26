@@ -13,9 +13,9 @@ order:            4
 image:
   path:           /assets/img/posts/banner.jpg
   srcset:
-    1920w:        /assets/img/posts/banner@1x.png
-    960w:         /assets/img/posts/banner@0.5x.png
-    480w:         /assets/img/posts/banner@0.25x.png
+    1920w:        /assets/img/posts/banner@01x.jpg
+    960w:         /assets/img/posts/banner@0.5x.jpg
+    480w:         /assets/img/posts/banner@0.25x.jpg
 
 title:            Posts
 description:      All the posts in blog.

@@ -13,9 +13,9 @@ order:            0
 image:
   path:           /assets/img/projects/AuraOS/banner.jpg
   srcset:
-    1920w:        /assets/img/projects/AuraOS/banner@1x.png
-    960w:         /assets/img/projects/AuraOS/banner@0.5x.png
-    480w:         /assets/img/projects/AuraOS/banner@0.25x.png
+    1920w:        /assets/img/projects/AuraOS/banner@01x.jpg
+    960w:         /assets/img/projects/AuraOS/banner@0.5x.jpg
+    480w:         /assets/img/projects/AuraOS/banner@0.25x.jpg
 caption:          A simple OS aimed to be clean and easy to use
 
 title:            Aura OS

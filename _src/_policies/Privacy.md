@@ -12,9 +12,9 @@ order:            0
 image:
   path:           /assets/img/policies/privacy/banner.jpg
   srcset:
-    1920w:        /assets/img/policies/privacy/banner@1x.png
-    960w:         /assets/img/policies/privacy/banner@0.5x.png
-    480w:         /assets/img/policies/privacy/banner@0.25x.png
+    1920w:        /assets/img/policies/privacy/banner@01x.jpg
+    960w:         /assets/img/policies/privacy/banner@0.5x.jpg
+    480w:         /assets/img/policies/privacy/banner@0.25x.jpg
 caption:          Privacy policy
 title:            Privacy policy
 hide_title:       false

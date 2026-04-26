@@ -13,9 +13,9 @@ order:            0
 image:
   path:           /assets/img/projects/MultiDomainX/banner.jpg
   srcset:
-    1920w:        /assets/img/projects/MultiDomainX/banner@1x.png
-    960w:         /assets/img/projects/MultiDomainX/banner@0.5x.png
-    480w:         /assets/img/projects/MultiDomainX/banner@0.25x.png
+    1920w:        /assets/img/projects/MultiDomainX/banner@01x.jpg
+    960w:         /assets/img/projects/MultiDomainX/banner@0.5x.jpg
+    480w:         /assets/img/projects/MultiDomainX/banner@0.25x.jpg
 caption:          A simple website solution for multiple domains.
 
 title:            Multi Domain X

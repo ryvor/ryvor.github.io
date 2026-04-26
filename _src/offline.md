@@ -13,9 +13,9 @@ order:            0
 image:
   path:           /assets/img/offline/banner.jpg
   srcset:
-    1920w:        /assets/img/offline/banner@1x.png
-    960w:         /assets/img/offline/banner@0.5x.png
-    480w:         /assets/img/offline/banner@0.25x.png
+    1920w:        /assets/img/offline/banner@01x.jpg
+    960w:         /assets/img/offline/banner@0.5x.jpg
+    480w:         /assets/img/offline/banner@0.25x.jpg
 
 title:            Offline
 description:      Offline page
