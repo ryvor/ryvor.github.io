@@ -11,11 +11,11 @@ sidebar:          false
 order:            5
 
 image:
-  path:           /assets/img/ventures/vaent/banner.png
+  path:           /assets/img/ventures/vaent/banner.jpg
   srcset:
     1920w:        /assets/img/ventures/vaent/banner@1x.png
-    960w:         /assets/img/ventures/vaent/banner@0,5x.png
-    480w:         /assets/img/ventures/vaent/banner@0,25x.png
+    960w:         /assets/img/ventures/vaent/banner@0.5x.png
+    480w:         /assets/img/ventures/vaent/banner@0.25x.png
 caption:          Systems, automation, and internal tooling
 
 title:            Vaent

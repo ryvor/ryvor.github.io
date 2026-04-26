@@ -183,10 +183,10 @@ hydejack:
     precache_assets:
       - /assets/img/swipe.svg
       - /assets/img/sidebar/sidebar-bg.png
-      - /assets/img/offline/banner.png
+      - /assets/img/offline/banner.jpg
       - /assets/img/offline/banner@1x.png
-      - /assets/img/offline/banner@0,5x.png
-      - /assets/img/offline/banner@0,25x.png
+      - /assets/img/offline/banner@0.5x.png
+      - /assets/img/offline/banner@0.25x.png
 
 
 # Collections

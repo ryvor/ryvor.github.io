@@ -11,11 +11,11 @@ sidebar:          false
 order:            0
 
 image:
-  path:           /assets/img/licenses/gpl-3.0/banner.png
+  path:           /assets/img/licenses/gpl-3.0/banner.jpg
   srcset:
     1920w:        /assets/img/licenses/gpl-3.0/banner@1x.png
-    960w:         /assets/img/licenses/gpl-3.0/banner@0,5x.png
-    480w:         /assets/img/licenses/gpl-3.0/banner@0,25x.png
+    960w:         /assets/img/licenses/gpl-3.0/banner@0.5x.png
+    480w:         /assets/img/licenses/gpl-3.0/banner@0.25x.png
 caption:          GNU General Public License
 title:            GNU General Public License
 date:             2007-06-29

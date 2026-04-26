@@ -11,11 +11,11 @@ sidebar:          false
 order:            0
 
 image:
-  path:           /assets/img/licenses/w3c/banner.png
+  path:           /assets/img/licenses/w3c/banner.jpg
   srcset:
     1920w:        /assets/img/licenses/w3c/banner@1x.png
-    960w:         /assets/img/licenses/w3c/banner@0,5x.png
-    480w:         /assets/img/licenses/w3c/banner@0,25x.png
+    960w:         /assets/img/licenses/w3c/banner@0.5x.png
+    480w:         /assets/img/licenses/w3c/banner@0.25x.png
 caption:          W3C Software Notice and License
 title:            W3C Software Notice and License
 date:             2023-01-01

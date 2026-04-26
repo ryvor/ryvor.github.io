@@ -14,8 +14,8 @@ image:
   path:           /assets/img/licenses/agpl-3.0/banner.png
   srcset:
     1920w:        /assets/img/licenses/agpl-3.0/banner@1x.png
-    960w:         /assets/img/licenses/agpl-3.0/banner@0,5x.png
-    480w:         /assets/img/licenses/agpl-3.0/banner@0,25x.png
+    960w:         /assets/img/licenses/agpl-3.0/banner@0.5x.png
+    480w:         /assets/img/licenses/agpl-3.0/banner@0.25x.png
 caption:          GNU Affero General Public License
 title:            GNU Affero General Public License
 date:             2007-11-19

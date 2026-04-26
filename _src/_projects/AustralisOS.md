@@ -11,11 +11,11 @@ sidebar:          false
 order:            0
 
 image:
-  path:           /assets/img/projects/AustralisOS/banner.png
+  path:           /assets/img/projects/AustralisOS/banner.jpg
   srcset:
     1920w:        /assets/img/projects/AustralisOS/banner@1x.png
-    960w:         /assets/img/projects/AustralisOS/banner@0,5x.png
-    480w:         /assets/img/projects/AustralisOS/banner@0,25x.png
+    960w:         /assets/img/projects/AustralisOS/banner@0.5x.png
+    480w:         /assets/img/projects/AustralisOS/banner@0.25x.png
 caption:          A modern OS built with Hydrogen, designed from the ground up
 
 title:            Australis OS

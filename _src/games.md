@@ -11,11 +11,11 @@ sidebar:          true
 order:            2
 
 image:
-  path:           /assets/img/games/banner.png
+  path:           /assets/img/games/banner.jpg
   srcset:
     1920w:        /assets/img/games/banner@1x.png
-    960w:         /assets/img/games/banner@0,5x.png
-    480w:         /assets/img/games/banner@0,25x.png
+    960w:         /assets/img/games/banner@0.5x.png
+    480w:         /assets/img/games/banner@0.25x.png
 
 title:            Games
 description:      All the games I've made so far.

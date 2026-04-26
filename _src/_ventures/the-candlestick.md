@@ -11,11 +11,11 @@ sidebar:          false
 order:            4
 
 image:
-  path:           /assets/img/ventures/the-candlestick/banner.png
+  path:           /assets/img/ventures/the-candlestick/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/the-candlestick/banner@1x.png
-    960w:         /assets/img/ventures/the-candlestick/banner@0,5x.png
-    480w:         /assets/img/ventures/the-candlestick/banner@0,25x.png
+    1920w:        /assets/img/ventures/the-candlestick/banner@1.jpg
+    960w:         /assets/img/ventures/the-candlestick/banner@0.5.jpg
+    480w:         /assets/img/ventures/the-candlestick/banner@0.25.jpg
 caption:          Creative product-based venture
 
 title:            The Candlestick

@@ -11,11 +11,11 @@ sidebar:          false
 order:            0
 
 image:
-  path:           /assets/img/projects/Hydrogen/banner.png
+  path:           /assets/img/projects/Hydrogen/banner.jpg
   srcset:
     1920w:        /assets/img/projects/Hydrogen/banner@1x.png
-    960w:         /assets/img/projects/Hydrogen/banner@0,5x.png
-    480w:         /assets/img/projects/Hydrogen/banner@0,25x.png
+    960w:         /assets/img/projects/Hydrogen/banner@0.5x.png
+    480w:         /assets/img/projects/Hydrogen/banner@0.25x.png
 caption:          A modern programming language for system development
 
 title:            Hydrogen

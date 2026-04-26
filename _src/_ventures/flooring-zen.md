@@ -11,11 +11,11 @@ sidebar:          false
 order:            5
 
 image:
-  path:           /assets/img/ventures/flooring-zen/banner.png
+  path:           /assets/img/ventures/flooring-zen/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/flooring-zen/banner@1x.png
-    960w:         /assets/img/ventures/flooring-zen/banner@0,5x.png
-    480w:         /assets/img/ventures/flooring-zen/banner@0,25x.png
+    1920w:        /assets/img/ventures/flooring-zen/banner@1.jpg
+    960w:         /assets/img/ventures/flooring-zen/banner@0.5.jpg
+    480w:         /assets/img/ventures/flooring-zen/banner@0.25.jpg
 caption:          Modern flooring solutions, simplified
 
 title:            Flooring Zen
