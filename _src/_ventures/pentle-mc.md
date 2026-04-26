@@ -45,7 +45,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Pentle MC is a custom Minecraft server built to provide a smooth, engaging multiplayer experience with a strong focus on community and stability.
 
@@ -53,7 +53,7 @@ It combines gameplay design with backend infrastructure, requiring ongoing devel
 
 ---
 
-## 🎯 Focus
+## Focus
 
 - Deliver a reliable multiplayer experience  
 - Build and maintain an active community  
@@ -62,7 +62,7 @@ It combines gameplay design with backend infrastructure, requiring ongoing devel
 
 ---
 
-## 🛠️ What I Built
+## What I Built
 
 - Custom server configuration and setup  
 - Plugin integration and management  
@@ -72,7 +72,7 @@ It combines gameplay design with backend infrastructure, requiring ongoing devel
 
 ---
 
-## 🧱 Technology
+## Technology
 
 - **Platform:** :contentReference[oaicite:0]{index=0}  
 - **Server Software:** Spigot / Paper  
@@ -81,7 +81,7 @@ It combines gameplay design with backend infrastructure, requiring ongoing devel
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Active  
 - **Focus:** Stability and incremental improvements  
@@ -95,7 +95,7 @@ It combines gameplay design with backend infrastructure, requiring ongoing devel
 
 ---
 
-## 🧠 What This Demonstrates
+## What This Demonstrates
 
 This venture highlights:
 
@@ -106,7 +106,7 @@ This venture highlights:
 
 ---
 
-## 📈 Future Direction
+## Future Direction
 
 - Expand gameplay features  
 - Improve onboarding for new players  
@@ -115,12 +115,12 @@ This venture highlights:
 
 ---
 
-## 🔗 Links
+## Links
 
 - Website: [https://pentlemc.co.uk/](https://pentlemc.co.uk/)  
 
 ---
 
-## 📌 Notes
+## Notes
 
 Pentle MC serves as both a live project and a testing ground for backend systems, infrastructure, and real-time user interaction.

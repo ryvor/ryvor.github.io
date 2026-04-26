@@ -45,7 +45,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Modilio is a 3D printing venture focused on creating and selling custom-designed products.
 
@@ -53,7 +53,7 @@ It combines product design, rapid prototyping, and e-commerce — enabling ideas
 
 ---
 
-## 🎯 Focus
+## Focus
 
 - Design and produce unique 3D printed products  
 - Maintain high-quality prints and finishes  
@@ -62,7 +62,7 @@ It combines product design, rapid prototyping, and e-commerce — enabling ideas
 
 ---
 
-## 🛠️ What I Do
+## What I Do
 
 - 3D modelling and product design  
 - Rapid prototyping and iteration  
@@ -72,7 +72,7 @@ It combines product design, rapid prototyping, and e-commerce — enabling ideas
 
 ---
 
-## 🧱 Technology
+## Technology
 
 - **Design:** CAD / 3D modelling tools  
 - **Hardware:** Bambu Lab P1S  
@@ -81,7 +81,7 @@ It combines product design, rapid prototyping, and e-commerce — enabling ideas
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Active  
 - **Focus:** Product development and expansion  
@@ -94,7 +94,7 @@ It combines product design, rapid prototyping, and e-commerce — enabling ideas
 
 ---
 
-## 🧠 What This Demonstrates
+## What This Demonstrates
 
 - Product development from idea to physical item  
 - Rapid iteration and prototyping  
@@ -103,7 +103,7 @@ It combines product design, rapid prototyping, and e-commerce — enabling ideas
 
 ---
 
-## 📈 Future Direction
+## Future Direction
 
 - Expand into more specialised product niches  
 - Develop a recognisable brand identity  
@@ -112,12 +112,12 @@ It combines product design, rapid prototyping, and e-commerce — enabling ideas
 
 ---
 
-## 🔗 Links
+## Links
 
 - Website: [https://modilio.co.uk/](https://modilio.co.uk/)
 
 ---
 
-## 📌 Notes
+## Notes
 
 Modilio acts as both a product business and a practical testing ground for design, production, and e-commerce strategies.

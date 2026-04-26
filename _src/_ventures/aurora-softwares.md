@@ -45,7 +45,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Aurora Softwares is a long-term software venture centred around low-level systems, programming languages, and operating environments.
 
@@ -53,7 +53,7 @@ It focuses on building technology from the ground up — creating independent sy
 
 ---
 
-## 🧱 Core Projects
+## Core Projects
 
 ### Australis OS
 
@@ -86,7 +86,7 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 🎯 Vision
+## Vision
 
 - Build a fully independent software ecosystem  
 - Reduce reliance on existing language/runtime stacks  
@@ -95,7 +95,7 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 🛠️ What I’m Working On
+## What I’m Working On
 
 - Expanding the Hydrogen language features  
 - Developing the compiler pipeline  
@@ -104,7 +104,7 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 🧱 Technology & Concepts
+## Technology & Concepts
 
 - Low-level systems programming  
 - Compiler design and language parsing  
@@ -114,7 +114,7 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Active / Research & Development  
 - **Focus:** Core systems and foundational tooling  
@@ -127,7 +127,7 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 🧠 What This Demonstrates
+## What This Demonstrates
 
 - Deep understanding of software systems  
 - Ability to design languages and compilers  
@@ -136,7 +136,7 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 📈 Future Direction
+## Future Direction
 
 - Fully working Hydrogen toolchain  
 - Bootable Australis OS environment  
@@ -146,7 +146,7 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 🔗 Links
+## Links
 
 - Documentation: https://aurora-softwares.github.io/
 - Australis Docs: https://aurora-softwares.github.io/Australis-Docs/
@@ -154,6 +154,6 @@ A custom compiler built to support the Hydrogen language and its ecosystem.
 
 ---
 
-## 📌 Notes
+## Notes
 
 Aurora Softwares represents the most technical and long-term venture — focused on building foundational systems rather than short-term products.

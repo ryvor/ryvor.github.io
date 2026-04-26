@@ -46,7 +46,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Circle Mail is an email-focused system aimed at improving visibility, tracking, and organisation of communication.
 
@@ -54,7 +54,7 @@ It focuses on bridging the gap between sending emails and understanding what hap
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 - Track email interactions and engagement  
 - Improve visibility across communication workflows  
@@ -63,7 +63,7 @@ It focuses on bridging the gap between sending emails and understanding what hap
 
 ---
 
-## 🛠️ What I’m Building
+## What I’m Building
 
 - Email routing and logging systems  
 - Identifier-based email tracking (e.g. tagged addresses)  
@@ -72,7 +72,7 @@ It focuses on bridging the gap between sending emails and understanding what hap
 
 ---
 
-## 🧱 Technology
+## Technology
 
 - **Email Infrastructure:** :contentReference[oaicite:0]{index=0} Email Routing, :contentReference[oaicite:1]{index=1} Mail  
 - **Sending:** :contentReference[oaicite:2]{index=2}  
@@ -81,7 +81,7 @@ It focuses on bridging the gap between sending emails and understanding what hap
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Building  
 - **Focus:** Reliability and data capture  
@@ -94,7 +94,7 @@ It focuses on bridging the gap between sending emails and understanding what hap
 
 ---
 
-## 🧠 What This Demonstrates
+## What This Demonstrates
 
 - Understanding of email infrastructure and flow  
 - Ability to design tracking and analytics systems  
@@ -103,7 +103,7 @@ It focuses on bridging the gap between sending emails and understanding what hap
 
 ---
 
-## 📈 Future Direction
+## Future Direction
 
 - Expand tracking capabilities (clicks, engagement signals)  
 - Build a dashboard for visualising communication data  
@@ -112,12 +112,12 @@ It focuses on bridging the gap between sending emails and understanding what hap
 
 ---
 
-## 🔗 Links
+## Links
 
 <!-- Add links when available -->
 
 ---
 
-## 📌 Notes
+## Notes
 
 Circle Mail is designed to solve a practical problem: understanding communication beyond the inbox, and turning email into a measurable, trackable system.

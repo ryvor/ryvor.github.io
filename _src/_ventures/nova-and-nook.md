@@ -45,7 +45,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Nova and Nook is a print-on-demand brand built around strong visual identity, character design, and cohesive product aesthetics.
 
@@ -53,7 +53,7 @@ The brand blends playful design with a premium feel, aiming to create products t
 
 ---
 
-## 🎯 Focus
+## Focus
 
 - Build a recognisable, character-driven brand  
 - Create visually consistent product lines  
@@ -71,7 +71,7 @@ Together, they create a balanced identity that can flex across different styles,
 
 ---
 
-## 🛠️ What I’m Building
+## What I’m Building
 
 - Print-on-demand product catalogue  
 - Character-based designs and artwork  
@@ -80,7 +80,7 @@ Together, they create a balanced identity that can flex across different styles,
 
 ---
 
-## 🧱 Technology
+## Technology
 
 - **Platforms:** Etsy, Shopify (planned/active)  
 - **Design:** Digital illustration and branding tools  
@@ -89,7 +89,7 @@ Together, they create a balanced identity that can flex across different styles,
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Building  
 - **Focus:** Brand development and product creation  
@@ -103,7 +103,7 @@ Together, they create a balanced identity that can flex across different styles,
 
 ---
 
-## 🧠 What This Demonstrates
+## What This Demonstrates
 
 - Brand creation from concept to execution  
 - Visual consistency across multiple products  
@@ -112,7 +112,7 @@ Together, they create a balanced identity that can flex across different styles,
 
 ---
 
-## 📈 Future Direction
+## Future Direction
 
 - Expand product range (apparel, accessories, home items)  
 - Strengthen brand identity and recognition  
@@ -121,12 +121,12 @@ Together, they create a balanced identity that can flex across different styles,
 
 ---
 
-## 🔗 Links
+## Links
 
 <!-- Add links when live -->
 
 ---
 
-## 📌 Notes
+## Notes
 
 Nova and Nook focuses on building a brand that feels cohesive, expressive, and scalable — rather than just a collection of individual products.

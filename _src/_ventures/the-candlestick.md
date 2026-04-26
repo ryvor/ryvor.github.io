@@ -45,7 +45,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 The Candlestick is a product-based venture centred around the creation, branding, and presentation of physical items.
 
@@ -53,7 +53,7 @@ It serves as a space to experiment with ideas in product design, materials, and 
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 - Explore physical product creation  
 - Develop branding and product identity  
@@ -62,7 +62,7 @@ It serves as a space to experiment with ideas in product design, materials, and 
 
 ---
 
-## 🛠️ What It Involves
+## What It Involves
 
 - Concept design and prototyping  
 - Material experimentation  
@@ -84,7 +84,7 @@ It serves as a space to experiment with ideas in product design, materials, and 
 
 ---
 
-## 🧠 What This Venture Is For
+## What This Venture Is For
 
 The Candlestick acts as a creative sandbox — a place to:
 
@@ -94,7 +94,7 @@ The Candlestick acts as a creative sandbox — a place to:
 
 ---
 
-## 📈 Future Potential
+## Future Potential
 
 Depending on direction, this venture may evolve into:
 
@@ -104,6 +104,6 @@ Depending on direction, this venture may evolve into:
 
 ---
 
-## 📌 Notes
+## Notes
 
 This venture is intentionally flexible. Its purpose is to explore and refine ideas rather than commit to a fixed outcome too early.

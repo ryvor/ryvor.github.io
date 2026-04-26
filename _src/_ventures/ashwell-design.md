@@ -48,7 +48,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Ashwell Design is a freelance web design and hosting service focused on delivering high-quality, performance-driven websites for small businesses.
 
@@ -56,7 +56,7 @@ The goal is simple: bridge the gap between low-cost template websites and expens
 
 ---
 
-## 🎯 Focus
+## Focus
 
 - Clean, modern website design  
 - Performance and SEO optimisation  
@@ -65,7 +65,7 @@ The goal is simple: bridge the gap between low-cost template websites and expens
 
 ---
 
-## 🛠️ Services
+## Services
 
 - Custom WordPress websites  
 - Vue.js web applications  
@@ -75,7 +75,7 @@ The goal is simple: bridge the gap between low-cost template websites and expens
 
 ---
 
-## 🧱 Technology
+## Technology
 
 - **Frontend:** Vue.js, Tailwind CSS  
 - **Backend:** Node.js, Supabase  
@@ -84,7 +84,7 @@ The goal is simple: bridge the gap between low-cost template websites and expens
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Active  
 - **Focus:** Client acquisition and system refinement  
@@ -98,7 +98,7 @@ The goal is simple: bridge the gap between low-cost template websites and expens
 
 ---
 
-## 🧠 Approach
+## Approach
 
 Ashwell Design is built around a few key principles:
 
@@ -109,7 +109,7 @@ Ashwell Design is built around a few key principles:
 
 ---
 
-## 📈 Direction
+## Direction
 
 The long-term goal is to grow Ashwell Design into a recognised, trusted web design provider with:
 
@@ -120,13 +120,13 @@ The long-term goal is to grow Ashwell Design into a recognised, trusted web desi
 
 ---
 
-## 🔗 Links
+## Links
 
 - Website: [https://ashwell-design.co.uk](https://ashwell-design.co.uk)
 - GitHub: [https://github.com/Ashwell-Design](https://github.com/Ashwell-Design)
 
 ---
 
-## 📌 Notes
+## Notes
 
 Ashwell Design is the primary business venture and serves as the foundation for ongoing client work, experimentation, and long-term growth.

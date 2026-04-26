@@ -45,7 +45,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Flooring Zen is an e-commerce project centred around selling flooring products in a clean, accessible, and user-friendly way.
 
@@ -53,7 +53,7 @@ The goal is to remove the confusion often associated with flooring purchases by 
 
 ---
 
-## 🎯 Focus
+## Focus
 
 - Simplify flooring product selection  
 - Improve clarity in product descriptions  
@@ -62,7 +62,7 @@ The goal is to remove the confusion often associated with flooring purchases by 
 
 ---
 
-## 🛠️ What I’m Building
+## What I’m Building
 
 - Structured product catalogue (ranges, categories, variants)  
 - Clear and informative product pages  
@@ -71,7 +71,7 @@ The goal is to remove the confusion often associated with flooring purchases by 
 
 ---
 
-## 🧱 Technology
+## Technology
 
 - **Platform:** WordPress (WooCommerce)  
 - **Frontend Enhancements:** Custom UI and styling  
@@ -80,7 +80,7 @@ The goal is to remove the confusion often associated with flooring purchases by 
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Building  
 - **Focus:** Structure, content, and usability  
@@ -94,7 +94,7 @@ The goal is to remove the confusion often associated with flooring purchases by 
 
 ---
 
-## 🧠 What This Demonstrates
+## What This Demonstrates
 
 - Real-world e-commerce structure and management  
 - Handling complex product data and variations  
@@ -103,7 +103,7 @@ The goal is to remove the confusion often associated with flooring purchases by 
 
 ---
 
-## 📈 Future Direction
+## Future Direction
 
 - Expand product catalogue  
 - Improve SEO and organic reach  
@@ -112,12 +112,12 @@ The goal is to remove the confusion often associated with flooring purchases by 
 
 ---
 
-## 🔗 Links
+## Links
 
 - Website: [https://flooringzen.co.uk/](https://flooringzen.co.uk/)
 
 ---
 
-## 📌 Notes
+## Notes
 
 Flooring Zen focuses on clarity and usability in a space that is often overly complex, aiming to make the buying process as straightforward as possible.

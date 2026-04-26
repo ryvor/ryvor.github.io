@@ -45,7 +45,7 @@ profiles:
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Vaent is a systems-focused venture centred around creating internal tools, automation workflows, and backend platforms.
 
@@ -53,7 +53,7 @@ It acts as a foundation for improving efficiency across multiple projects, reduc
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 - Build reusable internal tools  
 - Automate repetitive workflows  
@@ -62,7 +62,7 @@ It acts as a foundation for improving efficiency across multiple projects, reduc
 
 ---
 
-## 🛠️ What It Involves
+## What It Involves
 
 - Custom backend development  
 - Workflow automation (e.g. data handling, outreach systems)  
@@ -71,7 +71,7 @@ It acts as a foundation for improving efficiency across multiple projects, reduc
 
 ---
 
-## 🧱 Technology
+## Technology
 
 - **Backend:** Node.js, Express  
 - **Frontend:** Vue.js (where applicable)  
@@ -80,7 +80,7 @@ It acts as a foundation for improving efficiency across multiple projects, reduc
 
 ---
 
-## 🚀 Current Status
+## Current Status
 
 - **Stage:** Experimental  
 - **Focus:** Tooling and system development  
@@ -92,7 +92,7 @@ It acts as a foundation for improving efficiency across multiple projects, reduc
 
 ---
 
-## 🧠 What This Demonstrates
+## What This Demonstrates
 
 - Ability to design and build internal systems  
 - Understanding of automation and efficiency  
@@ -101,7 +101,7 @@ It acts as a foundation for improving efficiency across multiple projects, reduc
 
 ---
 
-## 📈 Future Direction
+## Future Direction
 
 - Expand into a reusable platform or toolkit  
 - Standardise systems across all ventures  
@@ -110,12 +110,12 @@ It acts as a foundation for improving efficiency across multiple projects, reduc
 
 ---
 
-## 🔗 Links
+## Links
 
 <!-- Add links when available -->
 
 ---
 
-## 📌 Notes
+## Notes
 
 Vaent serves as the backbone for experimentation and system design, supporting multiple ventures through improved workflows and automation.
