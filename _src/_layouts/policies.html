@@ -32,6 +32,20 @@ layout: page
     {% if project.caption %}
       <meta property="disambiguatingDescription" content="{{ page.caption }}"/>
     {% endif %}
+    {% unless page.hide_image %}
+      {% if page.image %}
+        <div class="img-wrapper lead aspect-ratio sixteen-nine">
+          {% include_cached components/hy-img.html
+            img=page.image
+            sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
+            alt=page.title
+            property="image"
+            width=864
+            height=486
+          %}
+        </div>
+      {% endif %}
+    {% endunless %}
   </header>
 
   {{ content }}

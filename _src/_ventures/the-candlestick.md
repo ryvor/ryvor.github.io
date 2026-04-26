@@ -13,7 +13,7 @@ order:            4
 image:
   path:           /assets/img/ventures/the-candlestick/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/the-candlestick/banner@1.jpg
+    1920w:        /assets/img/ventures/the-candlestick/banner@1x.jpg
     960w:         /assets/img/ventures/the-candlestick/banner@0.5.jpg
     480w:         /assets/img/ventures/the-candlestick/banner@0.25.jpg
 caption:          Creative product-based venture

@@ -13,7 +13,7 @@ order:            2
 image:
   path:           /assets/img/ventures/pentle-mc/banner.jpg
   srcset:
-    1920w:        /assets/img/ventures/pentle-mc/banner@1.jpg
+    1920w:        /assets/img/ventures/pentle-mc/banner@1x.jpg
     960w:         /assets/img/ventures/pentle-mc/banner@0.5.jpg
     480w:         /assets/img/ventures/pentle-mc/banner@0.25.jpg
 caption:          Community-driven Minecraft server
