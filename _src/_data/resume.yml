@@ -30,6 +30,20 @@ basics:
       username: "RSmith_20@outlook.com"
       url: "mailto:RSmith_20@outlook.com"
 work:
+  - company:     "Sub-CNC Precision, Dunstable"
+    position:    "Maintenance and trainee CNC Operator"
+    website:     "https://sub-cncprecision.co.uk/"
+    startDate:   "2025-05-01"
+    endDate:     ""
+    summary:     ""
+    highlights:
+  - company:     "Tapi carpets and floors, Luton"
+    position:    "Salesperson"
+    website:     "https://www.tapi.co.uk/stores/luton/"
+    startDate:   "2024-08-14"
+    endDate:     "2025-07-11"
+    summary:     ""
+    highlights:
   - company:     "Carpetright, St Neots"
     position:    "Store Manager"
     website:     "https://www.carpetright.co.uk/store/st-neots/"
@@ -41,7 +55,7 @@ work:
     position:    "Store Deputy Manager"
     website:     "https://www.carpetright.co.uk/store/dunstable/"
     startDate:   "2021-12-27"
-    endDate:     ""
+    endDate:     "2024-07-11"
     summary:     ""
     highlights:
   - company:     "The Fountain, Tuxford"
@@ -118,4 +132,3 @@ references:
     reference: >
       It is my pleasure to recommend Robert, his performance working as a Deputy/Manager Cnder carpetright
       proved that he will be a valuable addition to any company. He has been able to handle anything thrown at him.
-# <https://jsonresume.org/>

@@ -1,0 +1,4 @@
+// Venture pages reuse resume contact card styles under the layout-venture class.
+.layout-venture {
+  @extend .layout-resume;
+}

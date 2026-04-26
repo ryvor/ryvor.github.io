@@ -24,7 +24,23 @@ lang:                 en-GB
 timezone:             Europe/London
 
 keywords:
-  - MultiDomainX
+  - ryvor
+  - robert smith
+  - software developer
+  - web developer
+  - programmer
+  - software engineer
+  - developer
+  - resume
+  - curriculum vitae
+  - cv
+  - portfolio
+  - Ashwell Design
+  - Modilio
+  - Pentle MC
+  - MILG0IR
+  - The Candlestick
+  - Flooring Zen
 
 author:               # This should be the same author as first entry in `_data/authors.yml`.
   name:               Robert Smith
@@ -90,6 +106,13 @@ defaults:
   - scope:              # You can use the following to enable comments on all projects.
       path:             ""
       type:             games
+    values:
+      comments:         false
+      applause_button:  true
+      sitemap:          true
+  - scope:              # You can use the following to enable comments on all projects.
+      path:             ""
+      type:             ventures
     values:
       comments:         false
       applause_button:  true
@@ -184,6 +207,9 @@ collections:
   posts:
     output:           false
     permalink:        /Posts/:title/
+  ventures:
+    output:           true
+    permalink:        /Ventures/:path/
 
 # Plugins
 # ----------------------------------------------------------------------------------------

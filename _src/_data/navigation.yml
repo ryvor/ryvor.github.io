@@ -1,10 +1,17 @@
 - name: Home
   link: /
+
 - name: About
   link: /About/
+
 - name: Projects
   link: /Projects/
+
 - name: Games
   link: /Games/
+
+- name: Ventures
+  link: /Ventures/
+
 - name: Resume
   link: /Resume/
