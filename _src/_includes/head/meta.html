@@ -4,9 +4,9 @@
 
 {% unless page.redirect %}
   {% if plugins contains 'jekyll-seo-tag' %}
-    {% include_cached head/seo-tag.html %}
+    {% include head/seo-tag.html %}
   {% else %}
-    {% include_cached head/seo-fallback.html %}
+    {% include head/seo-fallback.html %}
   {% endif %}
 
   {% if site.keywords.size > 0 or page.keywords.size > 0 %}
