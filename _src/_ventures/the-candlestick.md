@@ -10,9 +10,17 @@ cover:            false
 sidebar:          false
 order:            4
 
+image:
+  path:           /assets/img/ventures/the-candlestick/banner.png
+  srcset:
+    1920w:        /assets/img/ventures/the-candlestick/banner@1x.png
+    960w:         /assets/img/ventures/the-candlestick/banner@0,5x.png
+    480w:         /assets/img/ventures/the-candlestick/banner@0,25x.png
+caption:          Creative product-based venture
+
 title:            The Candlestick
 date:             2020-01-01
-description:      Information about The Candlestick
+description:      The Candlestick is a product-based venture centred around the creation, branding, and presentation of physical items.
 hide_description: true
 featured:         false
 
@@ -22,9 +30,9 @@ email:            ""
 phone:            ""
 
 # Details
-tagline:          ""
+tagline:          Creative product-based venture
 founded:          "2020"
-status:           ""
+status:           Experimental
 
 location:
   city:           ""
@@ -33,4 +41,69 @@ location:
 profiles:
 ---
 
-<!-- Add information about The Candlestick here -->
+> A product-focused venture exploring physical goods, branding, and creative direction.
+
+---
+
+## 🧭 Overview
+
+The Candlestick is a product-based venture centred around the creation, branding, and presentation of physical items.
+
+It serves as a space to experiment with ideas in product design, materials, and how physical goods can be positioned and sold effectively.
+
+---
+
+## 🎯 Purpose
+
+- Explore physical product creation  
+- Develop branding and product identity  
+- Experiment with small-scale production and distribution  
+- Test ideas that may evolve into larger ventures  
+
+---
+
+## 🛠️ What It Involves
+
+- Concept design and prototyping  
+- Material experimentation  
+- Branding and packaging ideas  
+- Product presentation and positioning  
+
+---
+
+## 🧪 Current Status
+
+- **Stage:** Experimental  
+- **Focus:** Exploration and idea validation  
+
+### Current Direction
+
+- Testing different product concepts  
+- Exploring design styles and materials  
+- Evaluating potential market fit  
+
+---
+
+## 🧠 What This Venture Is For
+
+The Candlestick acts as a creative sandbox — a place to:
+
+- Try ideas without pressure  
+- Learn from real-world product development  
+- Understand what makes a product appealing and sellable  
+
+---
+
+## 📈 Future Potential
+
+Depending on direction, this venture may evolve into:
+
+- A standalone product brand  
+- A niche-focused e-commerce store  
+- A supporting branch of another business  
+
+---
+
+## 📌 Notes
+
+This venture is intentionally flexible. Its purpose is to explore and refine ideas rather than commit to a fixed outcome too early.

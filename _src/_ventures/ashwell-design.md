@@ -20,7 +20,7 @@ caption:          Web design and software solutions
 
 title:            Ashwell Design
 date:             2023-01-01
-description:      Information about Ashwell Design
+description:      Ashwell Design is a freelance web design and hosting service focused on delivering high-quality, performance-driven websites for small businesses.
 hide_description: true
 featured:         true
 
@@ -52,7 +52,7 @@ profiles:
 
 Ashwell Design is a freelance web design and hosting service focused on delivering high-quality, performance-driven websites for small businesses.
 
-The goal is simple: bridge the gap between low-cost template websites and expensive agency builds — providing a professional, modern solution without unnecessary complexity or inflated pricing.
+The goal is simple: bridge the gap between low-cost template websites and expensive agency builds - providing a professional, modern solution without unnecessary complexity or inflated pricing.
 
 ---
 
@@ -90,6 +90,7 @@ The goal is simple: bridge the gap between low-cost template websites and expens
 - **Focus:** Client acquisition and system refinement  
 
 ### Current Work
+
 - Expanding outreach campaigns  
 - Improving analytics and tracking systems  
 - Building internal tools (e.g. Ignii backend)  
@@ -101,10 +102,10 @@ The goal is simple: bridge the gap between low-cost template websites and expens
 
 Ashwell Design is built around a few key principles:
 
-- **Clarity over complexity** — no unnecessary features or bloated builds  
-- **Performance-first** — fast, responsive, and optimised websites  
-- **Real-world results** — websites designed to convert, not just look good  
-- **Scalable foundations** — built to grow alongside the business  
+- **Clarity over complexity** - no unnecessary features or bloated builds  
+- **Performance-first** - fast, responsive, and optimised websites  
+- **Real-world results** - websites designed to convert, not just look good  
+- **Scalable foundations** - built to grow alongside the business  
 
 ---
 
@@ -121,8 +122,8 @@ The long-term goal is to grow Ashwell Design into a recognised, trusted web desi
 
 ## 🔗 Links
 
-- Website: https://ashwell-design.co.uk  
-- GitHub: https://github.com/Ashwell-Design  
+- Website: [https://ashwell-design.co.uk](https://ashwell-design.co.uk)
+- GitHub: [https://github.com/Ashwell-Design](https://github.com/Ashwell-Design)
 
 ---
 
