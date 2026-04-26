@@ -5,7 +5,7 @@
 # General settings
 # ---------------------------------------------------------------------------------------
 url:                  https://ryvor.github.io/
-source:               .
+source:               ./_src
 destination:          ./_site
 include:
   - .well-known
